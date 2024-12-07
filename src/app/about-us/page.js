@@ -51,11 +51,14 @@ const page = () => {
 
   {/* Right Content: Image */}
   <div className="w-full md:w-[45%] mt-8 md:mt-0">
-    <img
-      src="/assets/aboutus.png" 
-      alt="Educational Graphics" 
-      className="w-[50%] " 
-    />
+  <Image
+  src="/assets/aboutus.png"
+  alt="Educational Graphics"
+  width={500}
+  height={500}
+  className="w-[50%]"
+/>
+
   </div>
 </div>
 
