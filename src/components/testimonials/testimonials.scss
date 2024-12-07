@@ -1,0 +1,60 @@
+.testimonial-wrapper {
+    h2 {
+        color: rgb(41, 41, 45);
+    }
+
+    img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    svg {
+        color: #FFCC01;
+        fill: #FFCC01;
+    }
+
+    .slick-track {
+        display: flex !important;
+    }
+
+    .slick-slide {
+        height: inherit !important;
+    }
+
+    .slick-arrow {
+        top: -40px;
+
+        &.slick-prev {
+            left: unset;
+            right: 50px;
+        }
+
+        &.slick-next {
+            right: 0px;
+        }
+
+        &.slick-disabled svg {
+            color: grey;
+        }
+
+        svg {
+            color: white;
+        }
+
+        &::before {
+            content: none;
+        }
+    }
+    .testimonial-card{
+        min-height: 450px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        
+        .testimonial-description{
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    }
+    
+}

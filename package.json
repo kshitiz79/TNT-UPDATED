@@ -1,0 +1,35 @@
+{
+  "name": "online-education-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "axios": "^1.7.7",
+    "flowbite": "^2.2.1",
+    "flowbite-react": "^0.7.2",
+    "html-react-parser": "^5.1.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-awesome-reveal": "^4.2.7",
+    "react-dom": "^18",
+    "react-phone-number-input": "^3.4.5",
+    "react-slick": "^0.29.0",
+    "react-slugify": "^3.0.3",
+    "react-toastify": "^10.0.6",
+    "sass": "^1.69.5",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}

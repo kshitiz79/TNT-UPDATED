@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+nav.page-navigation{
+    top:0px;
+    z-index:9999;
+    color-scheme: light only;
+    color: black;
+}
+.logo-image{
+    height:10rem;
+}
+#navbar-multi-level{
+    li {
+        position: relative;
+        a{
+            color: black;
+            font-weight: 600;
+        }
+        a.active{
+            font-weight: 700;
+            color: $primary-color;
+            @media screen and (max-width:992px) {
+                display: inline-block;
+                position: relative;
+            }
+    
+            &::after {
+                content: "";
+                width: 70%;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: 0;
+            }
+        }
+    }
+}

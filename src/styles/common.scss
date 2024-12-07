@@ -1,0 +1,217 @@
+:root{
+    color-scheme: light only !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'ubuntu';
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #000000;
+
+    @media screen and (max-width:567px) {
+        font-size: 2.5rem;
+    }
+}
+
+h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom:2rem;
+    color: #000000;
+
+    @media screen and (max-width:567px) {
+        font-size: 2rem;
+    }
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    color: #000000;
+
+    @media screen and (max-width:567px) {
+        font-size: 1.2rem;
+    }
+}
+
+.container{
+    padding-left: 3rem;
+    padding-right:3rem;
+}
+
+.light-green-bg{
+    background-color: $light-bg-color;
+}   
+.light-purple-bg{
+    background-color: $light-purple-color;
+}
+.light-blue-bg{
+    background-color: $light-blue-color;
+}
+.dark-bg {
+    background-color: #1f489c;
+}
+
+.hero-bg-image{
+    background-image: url('../../public/assets/home-hero-image.png');
+    height:200px;
+    width:100%;
+    background-size: cover;
+
+    &.homepage-hero{
+        min-height: 800px;
+        height: auto;
+    }
+}
+
+.btn{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid;
+    
+    &.btn-primary{
+        background-color: $primary-color;
+        color: white;
+        border-color:$primary-color;
+
+        &:hover{
+            background-color: white;
+            color:$primary-color;
+        }
+    }
+}
+
+.data-display-banner{
+    background-color:white ;
+}
+
+.get-started-banner{
+    color:white !important;
+    padding: 50px 0px;
+
+    h2{
+        margin-bottom: 0px;
+        color:white !important;
+    }
+    a{
+        display: inline-block;
+    }
+}
+
+div.eapps-widget{
+    position:fixed !important;
+}
+
+div.lbvXTF{
+    right:100px !important;
+}
+
+div#__EAAPS_PORTAL .lbvXTF {
+    right: 0 !important;
+}
+
+.anchor-link{
+    font-size:1.2rem;
+    color:$secondary-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: transform 500ms;
+
+    &:hover{
+        transform: translateX(20px);
+        
+    }
+}
+
+footer{
+    color-scheme: light only;
+    color: black;
+}
+
+.course-loader-wrapper{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    color: $secondary-color;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    animation: mulShdSpin 1.3s infinite linear;
+    transform: translateZ(0);
+  }
+  
+  @keyframes mulShdSpin {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 
+      2em -2em 0 0em, 3em 0 0 -1em, 
+      2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 
+      3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 
+      2em -2em 0 0, 3em 0 0 0.2em, 
+      2em 2em 0 0, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, 
+       -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, 
+       -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, 
+       -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 
+      3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+    
+  .footer-logo-image{
+    height:8rem;
+  }
+
+.data-table {
+    thead{
+        background-color: $secondary-color;
+        color:white;
+    }
+    .table-row-item:nth-child(even) {
+        background: $light-blue-color;
+    }
+}

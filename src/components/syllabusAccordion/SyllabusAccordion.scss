@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+.accordion-career-wrapper{
+    h2{
+        font-size: unset;
+        color: unset;
+        margin-bottom: 0px;
+    }
+    svg{
+        height:2rem;
+    }
+    .accordion-title {
+        border-left: 3px solid $secondary-color !important;
+    }
+    .accordion-body {
+        border-left: 3px solid $yellow-color !important;
+
+        ul{
+            list-style-type: square;
+        }
+    }
+}

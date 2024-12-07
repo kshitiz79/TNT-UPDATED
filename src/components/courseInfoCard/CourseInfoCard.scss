@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.course-info-card{
+    background-color: $light-bg-color;
+    border-left: 4px solid $red-color;
+    border-radius:10px;
+    
+    &__item{
+        .title{
+            font-size:1.2rem;
+            font-weight: 500;
+        }
+        .subText{
+            color:$grey-bg-color;
+        }
+
+        &.active-item{
+            color:$secondary-color;
+
+            .subText{
+                color:$secondary-color;
+            }
+        }
+    }
+}

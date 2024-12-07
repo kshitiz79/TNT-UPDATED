@@ -1,0 +1,752 @@
+{
+    "trainings": [
+      {
+        "id":"unlock-the-power-of-aws-training",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://videorecordsado.blob.core.windows.net/tnttechies/course-1.png",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "AWS Web Architect One",
+          "isTrending":true
+        },
+        "mainTitle": "Unlock the power of AWS training",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam. Vestibulum nec elit vitae justo convallis vestibulum. Donec venenatis, tortor ut vestibulum feugiat, velit metus laoreet nunc, vitae mattis augue velit sit amet dolor. Duis volutpat tortor sit amet volutpat ultricies. Mauris velit est, suscipit in ipsum quis, iaculis blandit tortor. Vestibulum lorem eros, porttitor nec condimentum at, aliquam eu orci. Nunc dapibus velit ipsum, a pharetra purus faucibus at. Nunc a turpis et ex consectetur finibus. Nulla in magna non massa suscipit bibendum sit amet non erat. Vivamus quam erat, tempus sit amet nulla nec, pellentesque accumsan risus. In ut quam ornare, molestie nisl at, pretium velit. Donec gravida venenatis enim. Donec ut porttitor eros. Sed maximus egestas urna sed elementum.Vivamus bibendum est enim, eget vulputate ante luctus ac. Aenean in finibus risus. Nulla ornare ut enim pulvinar laoreet. In a rutrum ligula. Quisque malesuada ex ac elit rhoncus, quis venenatis dolor vestibulum. Pellentesque ac dapibus ligula. Quisque et magna dignissim enim ullamcorper maximus. Vivamus eleifend, eros in aliquet semper, nisi nisi malesuada lacus, a varius mauris eros finibus urna. Donec faucibus erat eros, eu commodo urna dignissim id.",
+        "normalCost": "10,000",
+        "discountedCost": "8,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Learn AWS training course along with live projects with 100% career guidance. We designed our course to help you become a AWS expert",
+          "date": "23 Jan 2024",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "Azure Networking",
+            "content": "<ul style=\"list-style-type:disc\"><li>Azure Virtual Networks</li><li>Azure Subnets</li><li>Launching the VM in the subnet</li><li>Launching DB in the Subnet</li><li>Connecting to the Public DB</li><li>Importance of Jump host</li><li>Connecting the Private DB using Jump host</li><li>IP Address Public &amp; Private IPs</li><li>Azure Vnet Subnets</li><li>Azure Network Interface Cards (NIC)</li><li>Network Security Group (NSG)</li><li>Service Tags</li><li>Azure DNS</li><li>Private DNS</li></ul>"
+          },
+          {
+            "name": "accordion two title",
+            "content": "<ul style=\"list-style-type:disc\"><li style=\"text-align: justify;\">Ansible Intro &amp; Importance</li><li style=\"text-align: justify;\">Ansible &amp; Terraform Integration</li><li style=\"text-align: justify;\">Terraform &amp; Ansible Adhoc Commands&nbsp;</li><li style=\"text-align: justify;\">Ansible Playbook Usecases with Custom Roles</li></ul>"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to",
+        "careerPaths": [
+          {
+            "name": "Software Engineer"
+          },
+          {
+            "name": "Software Programmer"
+          },
+          {
+            "name": "Developer Programmer"
+          },
+          {
+            "name": "Web Programmer"
+          },
+          {
+            "name": "Web Designer"
+          },
+          {
+            "name": "Web Developer"
+          },
+          {
+            "name": "Project Manager"
+          },
+          {
+            "name": "Business Analyst"
+          }
+        ],
+        "programHighlights": [
+          {
+            "subText": "Level",
+            "mainText": "Beginner / Intermediate",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Length",
+            "mainText": "24 Weekends",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Projects",
+            "mainText": "2 Fully Functional",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Pre-requisites",
+            "mainText": "None",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Batch Size",
+            "mainText": "10-15 participants per team",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Job Preparation",
+            "mainText": "Yes",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Certificate",
+            "mainText": "Yes",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Start Date",
+            "mainText": "24 Jan, 2024",
+            "isHighLighted": false
+          }
+        ],
+        "programImages": [
+          {
+            "heading": "Full Stack Development High Job Demands",
+            "subHeading": "at these companies",
+            "imgUrl": "https://assets.testleaf.com/assets/img/courses/i-salary.svg",
+            "cssClass": "light-purple-bg col-auto"
+          },
+          {
+            "heading": "Full Stack Development High Job Demands",
+            "subHeading": "at these companies",
+            "imgUrl": "https://assets.testleaf.com/assets/img/courses/i-salary.svg",
+            "cssClass": "light-blue-bg col-auto"
+          },
+          {
+            "heading": "Full Stack Development High Job Demands",
+            "subHeading": "at these companies",
+            "imgUrl": "https://assets.testleaf.com/assets/img/courses/fs-companies.png",
+            "cssClass": "col-auto md:col-span-2 light-green-bg"
+          }
+        ],
+        "projectDetails": {
+          "title": "Capstone Projects",
+          "description": "By the time you complete from our Full Stack Developer Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+          "projectInfoList": [
+            {
+              "icon": "Phone",
+              "title": "Plato One",
+              "subTitle": "Bookkeeping Platform",
+              "description": "Design an end-to-end automated bookkeeping platform to help businesses manage their finances in an automated way. Develop functionalities like managing paying your vendors & collecting customer payments in a single platform. Build design patterns to manage transaction level accounting."
+            },
+            {
+              "icon": "Phone",
+              "title": "Plato Two",
+              "subTitle": "Bookkeeping Platform",
+              "description": "Design an end-to-end automated bookkeeping platform to help businesses manage their finances in an automated way. Develop functionalities like managing paying your vendors & collecting customer payments in a single platform. Build design patterns to manage transaction level accounting."
+            },
+            {
+              "icon": "Phone",
+              "title": "Plato Three",
+              "subTitle": "Bookkeeping Platform",
+              "description": "Design an end-to-end automated bookkeeping platform to help businesses manage their finances in an automated way. Develop functionalities like managing paying your vendors & collecting customer payments in a single platform. Build design patterns to manage transaction level accounting."
+            },
+            {
+              "icon": "Phone",
+              "title": "Plato Four",
+              "subTitle": "Bookkeeping Platform",
+              "description": "Design an end-to-end automated bookkeeping platform to help businesses manage their finances in an automated way. Develop functionalities like managing paying your vendors & collecting customer payments in a single platform. Build design patterns to manage transaction level accounting."
+            }
+          ]
+        },
+        "upcomingClasses": [
+          {
+            "programHighlights": [
+              {
+                "subText": "Level",
+                "mainText": "Beginner / Intermediate",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Length",
+                "mainText": "24 Weekends",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Projects",
+                "mainText": "2 Fully Functional",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Pre-requisites",
+                "mainText": "None",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Batch Size",
+                "mainText": "10-15 participants per team",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Job Preparation",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Certificate",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Start Date",
+                "mainText": "24 Jan, 2024",
+                "isHighLighted": false
+              }
+            ]
+          },
+          {
+            "programHighlights": [
+              {
+                "subText": "Level",
+                "mainText": "Senior",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Length",
+                "mainText": "24 Weekends",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Projects",
+                "mainText": "2 Fully Functional",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Pre-requisites",
+                "mainText": "None",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Batch Size",
+                "mainText": "10-15 participants per team",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Job Preparation",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Certificate",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "using below link",
+                "mainText": "Enroll Now!",
+                "isHighLighted": true
+              }
+            ]
+          }
+        ],
+        "mainBannerText":"800+ Students Trained In Full Stack Since 2019!",
+        "trainerDetails": {
+          "imgUrl": "https://www.w3schools.com/howto/img_forest.jpg",
+          "name": "Dinesh Reddy",
+          "designation": "Cloud Architect",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam.",
+          "youtubeVideoId":"EYexnGA9lE0"
+        }
+      },
+      {
+        "id":"unlock-the-power-of-Automation-Engineer-training",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://videorecordsado.blob.core.windows.net/tnttechies/image-1.png",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated",
+          "ratingDesc":"Earn Upto 50 lakhs"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "Automation Engineer One",
+          "isTrending":true
+        },
+        "mainTitle": "Unlock the power of Automation Engineer Training",
+        "description": "Terraform, Ansible, and Python complement each other in the automation engineer's toolkit. Terraform handles infrastructure provisioning, Ansible manages configuration and automation workflows, and Python provides a powerful scripting and programming language for custom automation tasks and integrations. Proficiency in these tools empowers automation engineers to create robust, scalable, and maintainable automation solutions across diverse IT environments \n Terraform : Overview: Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It enables users to define and provision infrastructure using a declarative configuration language. Terraform supports various cloud providers (AWS, Azure, Google Cloud, etc.) and on-premises environments. \n Ansible : Ansible is an open-source automation tool developed by Red Hat. It is designed for configuration management, application deployment, task automation, and orchestration. Ansible uses a simple, human-readable language (YAML) for defining automation tasks, making it easy to understand and write. \n Pyhton: Python is a high-level, interpreted programming language known for its simplicity and readability. It has a vast standard library and a large ecosystem of third-party packages, making it suitable for various applications, including web development, automation, data science, and more.",
+        "normalCost": "20,000",
+        "discountedCost": "18,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Terraform, Ansible, and Python complement each other in the automation engineer's toolkit. Terraform handles infrastructure provisioning, Ansible manages configuration and automation workflows, and Python provides a powerful scripting and programming language for custom automation tasks and integrations. Proficiency in these tools empowers automation engineers to create robust, scalable, and maintainable automation solutions across diverse IT environments",
+          "date": "27 Feb 2024",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "Terraform",
+            "content": "<ul><li style=\"text-align:justify\">Terraform Course Introduction &amp; Basics&nbsp;</li><li style=\"text-align:justify\">Terraform Importance in Realtime</li><li style=\"text-align:justify\">Terraform Setup with Azure Cloud</li><li style=\"text-align:justify\">VM Provisioning &amp; Attaching a Disk for an existing VM</li><li style=\"text-align:justify\">Module Importance in Realtime with Azure Flexi DB Server</li><li style=\"text-align:justify\">Framework &amp; Pipeline Discussion</li><li style=\"text-align:justify\">Module Framework Discussion</li><li style=\"text-align:justify\">Module Dependency Framework Implementation &amp; Variables Deepdive</li><li style=\"text-align:justify\">Terraform Pipeline Implementation</li><li style=\"text-align:justify\">Terraform Pipeline Advantages &amp; Planning</li><li style=\"text-align:justify\">Dynamic Block &amp; Saperate Repo Usecases</li><li style=\"text-align:justify\">Dynamic Block - List(Objects)</li><li style=\"text-align:justify\">Dynamic Block - Map(Objects)</li><li style=\"text-align:justify\">Azure-Modules in a Saperate Repo</li><li style=\"text-align:justify\">Reactjs Deployment - Count, Custom Data, Provisioners</li><li style=\"text-align:justify\">Deep hands-on for Count Parameter</li><li style=\"text-align:justify\">Invoking Bash Script via&nbsp; terraform Using template_file &amp; Custom Data</li><li style=\"text-align:justify\">Provisioners - local-exec , File, remote-exec with examples</li><li style=\"text-align:justify\">ReactJs Docker Project deployment to multiple VMs Using Remote-Exec</li><li style=\"text-align:justify\">Additional Concepts - null resource, for_each</li><li style=\"text-align:justify\">Importance of Null Resource and with hands-on examples</li><li style=\"text-align:justify\">&nbsp;Importance of&nbsp; for_each and with hands-on example</li></ul>"
+
+          },
+          {
+            "name": "Ansible",
+            "content": "<ul><li style=\"text-align: justify;\">Ansible Intro &amp; Importance</li><li style=\"text-align: justify;\">Ansible &amp; Terraform Integration</li><li style=\"text-align: justify;\">Terraform &amp; Ansible Adhoc Commands&nbsp;</li><li style=\"text-align: justify;\">Ansible Playbook Usecases with Custom Roles</li><li style=\"text-align: justify;\">Ansible Multihost - Conditional &amp; Import Playbook</li><li style=\"text-align: justify;\">Cost Optimization using Ansible Playbook</li><li style=\"text-align: justify;\">Ansible Framework &amp; Pipeline Discussion</li><li style=\"text-align: justify;\">Ansible Framework &amp; Pipeline Implementation</li><li style=\"text-align: justify;\">Docker Agent Example Using Ansible Pull</li><li style=\"text-align: justify;\">Helmcharts &amp; FluxCD Framework Discussion Using Ansible</li><li style=\"text-align: justify;\">Helmcharts &amp; FluxCD Framework Implementation Using Ansible&nbsp;</li></ul>"
+          },
+          {
+            "name": "Python",
+            "content": "<ul><li style=\"text-align: justify;\">Why python so popular&nbsp;</li><li style=\"text-align: justify;\">Python installation on Windows, Linux &amp; Mac&nbsp;</li><li style=\"text-align: justify;\">Variables , Numbers , Strings, Lists&nbsp;</li><li style=\"text-align: justify;\">If condition , Forloop, Functions</li><li style=\"text-align: justify;\">Dictionaries &amp; tuples&nbsp;</li><li style=\"text-align: justify;\">Modules &amp; Pip&nbsp;</li><li style=\"text-align: justify;\">File handling&nbsp;</li><li style=\"text-align: justify;\">Classes and Objects&nbsp;</li><li style=\"text-align: justify;\">Inheritance&nbsp;</li><li style=\"text-align: justify;\">Exception handling&nbsp;</li><li style=\"text-align: justify;\">Pandas&nbsp;</li><li style=\"text-align: justify;\">Dataframe basics&nbsp;</li><li style=\"text-align: justify;\">Read , Write Excel and CSV files&nbsp;</li><li style=\"text-align: justify;\">Handling NA values ,GroupBy ,Concat ,Merge&nbsp;</li><li style=\"text-align: justify;\">Data Exploration, Data Cleaning, Data Transformation &amp; Insights generation&nbsp;</li></ul>"
+          },
+          {
+            "name": "Python Project Based UseCases",
+            "content": "<ul><li style=\"text-align: justify;\">Building up an ETL to load data into DB and deploy into K8s using cron job&nbsp;</li><li style=\"text-align: justify;\">Building up an ETL to copy data from one table to other table and deploy into K8s using cron job&nbsp;</li><li style=\"text-align: justify;\">Realtime Framework for Python ETL Developers&nbsp;&nbsp;</li><li style=\"text-align: justify;\">CI/CD deployment into K8s for Python ETL jobs&nbsp;</li></ul>"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to",
+        "careerPaths": [
+          {
+            "name": "Software Engineer"
+          },
+          {
+            "name": "Software Programmer"
+          },
+          {
+            "name": "Developer Programmer"
+          },
+          {
+            "name": "Web Programmer"
+          },
+          {
+            "name": "Web Designer"
+          },
+          {
+            "name": "Web Developer"
+          },
+          {
+            "name": "Project Manager"
+          },
+          {
+            "name": "Business Analyst"
+          }
+        ],
+        "programHighlights": [
+          {
+            "subText": "Level",
+            "mainText": "Beginner / Intermediate / Advanced",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Length",
+            "mainText": "40 Sessions",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Projects",
+            "mainText": "3 Fully Functional",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Pre-requisites",
+            "mainText": "None",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Batch Size",
+            "mainText": "10-15 participants per team",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Job Preparation",
+            "mainText": "Yes",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Certificate",
+            "mainText": "Yes",
+            "isHighLighted": false
+          },
+          {
+            "subText": "Start Date",
+            "mainText": "27 Feb, 2024",
+            "isHighLighted": false
+          }
+        ],
+        "programImages": [
+          {
+            "heading": "Automation Engineer High Job Demands",
+            "subHeading": "at these companies",
+            "imgUrl": "https://assets.testleaf.com/assets/img/courses/i-salary.svg",
+            "cssClass": "light-purple-bg"
+          },
+          {
+            "heading": "Test Heading",
+            "subHeading": "at these companies",
+            "imgUrl": "https://videorecordsado.blob.core.windows.net/tnttechies/i-salary.svg",
+            "cssClass": "light-blue-bg"
+          },
+          {
+            "heading": "Automation Engineer High Job Demands",
+            "subHeading": "at these companies",
+            "imgUrl": "https://assets.testleaf.com/assets/img/courses/fs-companies.png",
+            "cssClass": "col-span-2 light-green-bg"
+          }
+        ],
+        "projectDetails": {
+          "title": "Capstone Projects",
+          "description": "By the time you complete from our Full Stack Developer Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+          "projectInfoList": [
+            {
+              "icon": "Phone",
+              "title": "Terraform Realtime Framework & Pipelines",
+              "subTitle": "Realtime Framework",
+              "description": "the integration of Terraform with real-time frameworks and CI/CD pipelines can contribute to the creation of dynamic, responsive, and well-managed infrastructure and applications. This integration ensures that changes in infrastructure and code are efficiently and reliably deployed across different environments"
+            },
+            {
+              "icon": "Phone",
+              "title": "Ansible Realtime Framework & Pipelines",
+              "subTitle": "Realtime Framework",
+              "description": "The combination of Ansible with real-time frameworks and CI/CD pipelines can enhance the automation and deployment of infrastructure and applications, providing more agility, reliability, and scalability to the overall development and operations processes."
+            },
+            {
+              "icon": "Phone",
+              "title": "Python ETL Projects with K8s & Apache Airflow",
+              "subTitle": "Python ETL Projects",
+              "description": "using Python, Kubernetes, and Apache Airflow in conjunction can provide a robust and scalable infrastructure for ETL projects. This combination offers flexibility, scalability, and automation, making it easier to manage and orchestrate complex data workflows in a reliable and efficient manner"
+            }
+          ]
+        },
+        "upcomingClasses": [
+          {
+            "programHighlights": [
+              {
+                "subText": "Level",
+                "mainText": "Beginner / Intermediate / Advanced",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Length",
+                "mainText": "40 Sessions",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Projects",
+                "mainText": "3 Fully Functional",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Pre-requisites",
+                "mainText": "None",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Batch Size",
+                "mainText": "10-15 participants per team",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Job Preparation",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Certificate",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Start Date",
+                "mainText": "27 March, 2024",
+                "isHighLighted": false
+              }
+            ]
+          },
+          {
+            "programHighlights": [
+              {
+                "subText": "Level",
+                "mainText": "Beginner / Intermediate / Advanced",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Length",
+                "mainText": "40 Sessions",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Projects",
+                "mainText": "3 Fully Functional",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Pre-requisites",
+                "mainText": "None",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Batch Size",
+                "mainText": "10-15 participants per team",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Job Preparation",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Certificate",
+                "mainText": "Yes",
+                "isHighLighted": false
+              },
+              {
+                "subText": "Start Date",
+                "mainText": "27 April, 2024",
+                "isHighLighted": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id":"unlock-the-power-of-aws-training-for-testing",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://www.w3schools.com/howto/img_forest.jpg",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "AWS Web Architect Two",
+          "isTrending":true
+        },
+        "mainTitle": "Unlock the power of AWS training",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam. Vestibulum nec elit vitae justo convallis vestibulum. Donec venenatis, tortor ut vestibulum feugiat, velit metus laoreet nunc, vitae mattis augue velit sit amet dolor. Duis volutpat tortor sit amet volutpat ultricies. Mauris velit est, suscipit in ipsum quis, iaculis blandit tortor. Vestibulum lorem eros, porttitor nec condimentum at, aliquam eu orci. Nunc dapibus velit ipsum, a pharetra purus faucibus at. Nunc a turpis et ex consectetur finibus. Nulla in magna non massa suscipit bibendum sit amet non erat. Vivamus quam erat, tempus sit amet nulla nec, pellentesque accumsan risus. In ut quam ornare, molestie nisl at, pretium velit. Donec gravida venenatis enim. Donec ut porttitor eros. Sed maximus egestas urna sed elementum.Vivamus bibendum est enim, eget vulputate ante luctus ac. Aenean in finibus risus. Nulla ornare ut enim pulvinar laoreet. In a rutrum ligula. Quisque malesuada ex ac elit rhoncus, quis venenatis dolor vestibulum. Pellentesque ac dapibus ligula. Quisque et magna dignissim enim ullamcorper maximus. Vivamus eleifend, eros in aliquet semper, nisi nisi malesuada lacus, a varius mauris eros finibus urna. Donec faucibus erat eros, eu commodo urna dignissim id.",
+        "normalCost": "10,000",
+        "discountedCost": "8,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Learn AWS training course along with live projects with 100% career guidance. We designed our course to help you become a AWS expert",
+          "date": "23 Dec 2023",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "accordion one title",
+            "content": "accordion one description"
+          },
+          {
+            "name": "accordion two title",
+            "content": "accordion two description"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to"
+      },
+      {
+        "id":"unlock-the-power-of-aws-training-for-testing-three",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://www.w3schools.com/howto/img_forest.jpg",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "AWS Web Architect Three",
+          "isTrending":true
+        },
+        "mainTitle": "Unlock the power of AWS training",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam. Vestibulum nec elit vitae justo convallis vestibulum. Donec venenatis, tortor ut vestibulum feugiat, velit metus laoreet nunc, vitae mattis augue velit sit amet dolor. Duis volutpat tortor sit amet volutpat ultricies. Mauris velit est, suscipit in ipsum quis, iaculis blandit tortor. Vestibulum lorem eros, porttitor nec condimentum at, aliquam eu orci. Nunc dapibus velit ipsum, a pharetra purus faucibus at. Nunc a turpis et ex consectetur finibus. Nulla in magna non massa suscipit bibendum sit amet non erat. Vivamus quam erat, tempus sit amet nulla nec, pellentesque accumsan risus. In ut quam ornare, molestie nisl at, pretium velit. Donec gravida venenatis enim. Donec ut porttitor eros. Sed maximus egestas urna sed elementum.Vivamus bibendum est enim, eget vulputate ante luctus ac. Aenean in finibus risus. Nulla ornare ut enim pulvinar laoreet. In a rutrum ligula. Quisque malesuada ex ac elit rhoncus, quis venenatis dolor vestibulum. Pellentesque ac dapibus ligula. Quisque et magna dignissim enim ullamcorper maximus. Vivamus eleifend, eros in aliquet semper, nisi nisi malesuada lacus, a varius mauris eros finibus urna. Donec faucibus erat eros, eu commodo urna dignissim id.",
+        "normalCost": "10,000",
+        "discountedCost": "8,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Learn AWS training course along with live projects with 100% career guidance. We designed our course to help you become a AWS expert",
+          "date": "23 Dec 2023",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "accordion one title",
+            "content": "accordion one description"
+          },
+          {
+            "name": "accordion two title",
+            "content": "accordion two description"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to"
+      },
+      {
+        "id":"unlock-the-power-of-aws-training-for-testing-four",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://www.w3schools.com/howto/img_forest.jpg",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "AWS Web Architect Four",
+          "isTrending":true
+        },
+        "mainTitle": "Unlock the power of AWS training",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat consequat enim ac ullamcorper. Maecenas iaculis finibus tempus. Vivamus gravida facilisis aliquam. Vestibulum nec elit vitae justo convallis vestibulum. Donec venenatis, tortor ut vestibulum feugiat, velit metus laoreet nunc, vitae mattis augue velit sit amet dolor. Duis volutpat tortor sit amet volutpat ultricies. Mauris velit est, suscipit in ipsum quis, iaculis blandit tortor. Vestibulum lorem eros, porttitor nec condimentum at, aliquam eu orci. Nunc dapibus velit ipsum, a pharetra purus faucibus at. Nunc a turpis et ex consectetur finibus. Nulla in magna non massa suscipit bibendum sit amet non erat. Vivamus quam erat, tempus sit amet nulla nec, pellentesque accumsan risus. In ut quam ornare, molestie nisl at, pretium velit. Donec gravida venenatis enim. Donec ut porttitor eros. Sed maximus egestas urna sed elementum.Vivamus bibendum est enim, eget vulputate ante luctus ac. Aenean in finibus risus. Nulla ornare ut enim pulvinar laoreet. In a rutrum ligula. Quisque malesuada ex ac elit rhoncus, quis venenatis dolor vestibulum. Pellentesque ac dapibus ligula. Quisque et magna dignissim enim ullamcorper maximus. Vivamus eleifend, eros in aliquet semper, nisi nisi malesuada lacus, a varius mauris eros finibus urna. Donec faucibus erat eros, eu commodo urna dignissim id.",
+        "normalCost": "10,000",
+        "discountedCost": "8,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Learn AWS training course along with live projects with 100% career guidance. We designed our course to help you become a AWS expert",
+          "date": "23 Dec 2023",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "accordion one title",
+            "content": "accordion one description"
+          },
+          {
+            "name": "accordion two title",
+            "content": "accordion two description"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to"
+      },
+      {
+        "id":"unlock-the-power-of-aws-training-new-for-new",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://www.w3schools.com/howto/img_forest.jpg",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "AWS Web Architect Five",
+          "isTrending":"false"
+        },
+        "mainTitle": "Unlock the power of AWS training New",
+        "description": "This is a test paragragraph to be used as the descrription",
+        "normalCost": "10,000",
+        "discountedCost": "8000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Learn AWS training course along with live projects with 100% career guidance. We designed our course to help you become a AWS expert",
+          "date": "23 Dec 2023",
+          "duration": "2 months",
+          "modeOfTraining": "Online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+        "syllabus": [
+          {
+            "name": "accordion one title",
+            "content": "accordion one description"
+          },
+          {
+            "name": "accordion two title",
+            "content": "accordion two description"
+          }
+        ],
+        "enrollBanner": {
+          "text": "Enroll now to our class",
+          "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+        },
+        "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to"
+      }
+    ],
+    "classes": [
+      {
+        "courseName": "Golang Programming Online (Demo)",
+        "instructor": "Dinesh Kumar",
+        "dateTime": "2023-12-30 5:30pm",
+        "duration": "2 months",
+        "demoSessionLink": "https://meet.goto.com/493870613"
+      },
+      {
+        "courseName": "Python Programming Online (Demo)",
+        "instructor": "Dinesh Kumar one",
+        "dateTime": "2024-01-30 5:30pm",
+        "duration": "2 months",
+        "demoSessionLink": "https://meet.goto.com/493870613"
+      },
+      {
+        "courseName": "Javascript Programming Online (Demo)",
+        "instructor": "Dinesh Kumar two",
+        "dateTime": "2024-03-01 5:30pm",
+        "duration": "2 months",
+        "demoSessionLink": "https://meet.goto.com/493870613"
+      },
+      {
+        "courseName": "HTML Programming Online (Demo)",
+        "instructor": "Dinesh Kumar three",
+        "dateTime": "2024-03-30 5:30pm",
+        "duration": "2 months",
+        "demoSessionLink": "https://meet.goto.com/493870613"
+      },
+      {
+        "courseName": "CSS Programming Online (Demo)",
+        "instructor": "Dinesh Kumar four",
+        "dateTime": "2024-04-30 5:30pm",
+        "duration": "2 months",
+        "demoSessionLink": "https://meet.goto.com/493870613"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Chaithika",
+        "rating": 5,
+        "designation": "Software Engineer",
+        "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Dinesh",
+        "rating": 4,
+        "designation": "Content Creator",
+        "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "John Simon",
+        "rating": 3,
+        "designation": "Online Lecturer",
+        "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "John Doe",
+        "rating": 2,
+        "designation": "Mechanical Engineer",
+        "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Dinesh Reddy",
+        "rating": 2,
+        "designation": "Mechanical Engineer",
+        "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
+}

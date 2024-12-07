@@ -1,0 +1,2671 @@
+{
+  "trainings": [
+    {
+      "id": "unlock-the-power-of-Automation-Engineer-training",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Automation_Engineer_Mastery.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 50 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Automation Engineer One",
+        "isTrending": true
+      },
+      "mainTitle": "Harness the capabilities of Automation Engineer Training.",
+      "description": "<p>Terraform is an Infrastructure as Code (IaC) tool that enables users to define and provision infrastructure in a declarative manner, allowing for the automated creation and management of resources across various cloud providers.</p><p>Ansible is a powerful automation tool for configuration management, application deployment, and task automation. It uses a simple, human-readable language (YAML) to define automation tasks, making it easy to learn and use without requiring agents on remote systems.</p><p>Python is a high-level, general-purpose programming language known for its readability and versatility. Widely used in various domains, Python is favored for its simplicity and extensive libraries, making it suitable for web development, data science, automation, and more.</p>",
+      "normalCost": "20,000",
+      "discountedCost": "18,000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "Terraform, Ansible, and Python complement each other in the automation engineer's toolkit. Terraform handles infrastructure provisioning, Ansible manages configuration and automation workflows, and Python provides a powerful scripting and programming language for custom automation tasks and integrations. Proficiency in these tools empowers automation engineers to create robust, scalable, and maintainable automation solutions across diverse IT environments",
+        "date": "27 Feb 2024",
+        "duration": "2 months",
+        "modeOfTraining": "online",
+        "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+      },
+      "syllabus": [
+        {
+          "name": "Terraform",
+          "content": "<ul><li style=\"text-align:justify\">Terraform Course Introduction &amp; Basics&nbsp;</li><li style=\"text-align:justify\">Terraform Importance in Realtime</li><li style=\"text-align:justify\">Terraform Setup with Azure Cloud</li><li style=\"text-align:justify\">VM Provisioning &amp; Attaching a Disk for an existing VM</li><li style=\"text-align:justify\">Module Importance in Realtime with Azure Flexi DB Server</li><li style=\"text-align:justify\">Framework &amp; Pipeline Discussion</li><li style=\"text-align:justify\">Module Framework Discussion</li><li style=\"text-align:justify\">Module Dependency Framework Implementation &amp; Variables Deepdive</li><li style=\"text-align:justify\">Terraform Pipeline Implementation</li><li style=\"text-align:justify\">Terraform Pipeline Advantages &amp; Planning</li><li style=\"text-align:justify\">Dynamic Block &amp; Saperate Repo Usecases</li><li style=\"text-align:justify\">Dynamic Block - List(Objects)</li><li style=\"text-align:justify\">Dynamic Block - Map(Objects)</li><li style=\"text-align:justify\">Azure-Modules in a Saperate Repo</li><li style=\"text-align:justify\">Reactjs Deployment - Count, Custom Data, Provisioners</li><li style=\"text-align:justify\">Deep hands-on for Count Parameter</li><li style=\"text-align:justify\">Invoking Bash Script via&nbsp; terraform Using template_file &amp; Custom Data</li><li style=\"text-align:justify\">Provisioners - local-exec , File, remote-exec with examples</li><li style=\"text-align:justify\">ReactJs Docker Project deployment to multiple VMs Using Remote-Exec</li><li style=\"text-align:justify\">Additional Concepts - null resource, for_each</li><li style=\"text-align:justify\">Importance of Null Resource and with hands-on examples</li><li style=\"text-align:justify\">&nbsp;Importance of&nbsp; for_each and with hands-on example</li></ul>"
+        },
+        {
+          "name": "Ansible",
+          "content": "<ul><li style=\"text-align: justify;\">Ansible Intro &amp; Importance</li><li style=\"text-align: justify;\">Ansible &amp; Terraform Integration</li><li style=\"text-align: justify;\">Terraform &amp; Ansible Adhoc Commands&nbsp;</li><li style=\"text-align: justify;\">Ansible Playbook Usecases with Custom Roles</li><li style=\"text-align: justify;\">Ansible Multihost - Conditional &amp; Import Playbook</li><li style=\"text-align: justify;\">Cost Optimization using Ansible Playbook</li><li style=\"text-align: justify;\">Ansible Framework &amp; Pipeline Discussion</li><li style=\"text-align: justify;\">Ansible Framework &amp; Pipeline Implementation</li><li style=\"text-align: justify;\">Docker Agent Example Using Ansible Pull</li><li style=\"text-align: justify;\">Helmcharts &amp; FluxCD Framework Discussion Using Ansible</li><li style=\"text-align: justify;\">Helmcharts &amp; FluxCD Framework Implementation Using Ansible&nbsp;</li></ul>"
+        },
+        {
+          "name": "Python",
+          "content": "<ul><li style=\"text-align: justify;\">Why python so popular&nbsp;</li><li style=\"text-align: justify;\">Python installation on Windows, Linux &amp; Mac&nbsp;</li><li style=\"text-align: justify;\">Variables , Numbers , Strings, Lists&nbsp;</li><li style=\"text-align: justify;\">If condition , Forloop, Functions</li><li style=\"text-align: justify;\">Dictionaries &amp; tuples&nbsp;</li><li style=\"text-align: justify;\">Modules &amp; Pip&nbsp;</li><li style=\"text-align: justify;\">File handling&nbsp;</li><li style=\"text-align: justify;\">Classes and Objects&nbsp;</li><li style=\"text-align: justify;\">Inheritance&nbsp;</li><li style=\"text-align: justify;\">Exception handling&nbsp;</li><li style=\"text-align: justify;\">Pandas&nbsp;</li><li style=\"text-align: justify;\">Dataframe basics&nbsp;</li><li style=\"text-align: justify;\">Read , Write Excel and CSV files&nbsp;</li><li style=\"text-align: justify;\">Handling NA values ,GroupBy ,Concat ,Merge&nbsp;</li><li style=\"text-align: justify;\">Data Exploration, Data Cleaning, Data Transformation &amp; Insights generation&nbsp;</li></ul>"
+        },
+        {
+          "name": "Python Project Based UseCases",
+          "content": "<ul><li style=\"text-align: justify;\">Building up an ETL to load data into DB and deploy into K8s using cron job&nbsp;</li><li style=\"text-align: justify;\">Building up an ETL to copy data from one table to other table and deploy into K8s using cron job&nbsp;</li><li style=\"text-align: justify;\">Realtime Framework for Python ETL Developers&nbsp;&nbsp;</li><li style=\"text-align: justify;\">CI/CD deployment into K8s for Python ETL jobs&nbsp;</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqnfzomWc6M_fqXKnyUwT3m"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqnfzomWc6M_fqXKnyUwT3m",
+      "careerPaths": [
+        {
+          "name": "Automation Engineer"
+        },
+        {
+          "name": "DevOps Engineer"
+        },
+        {
+          "name": "DevSecOps Engineer"
+        },
+        {
+          "name": "Site Reliability Engineer (SRE)"
+        },
+        {
+          "name": "Infrastructure Engineer"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+           "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Automation Engineer High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Automation Engineer High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our Automation Engineer Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Terraform Realtime Framework & Pipelines",
+            "subTitle": "Realtime Framework",
+            "description": "the integration of Terraform with real-time frameworks and CI/CD pipelines can contribute to the creation of dynamic, responsive, and well-managed infrastructure and applications. This integration ensures that changes in infrastructure and code are efficiently and reliably deployed across different environments"
+          },
+          {
+            "icon": "Phone",
+            "title": "Ansible Realtime Framework & Pipelines",
+            "subTitle": "Realtime Framework",
+            "description": "The combination of Ansible with real-time frameworks and CI/CD pipelines can enhance the automation and deployment of infrastructure and applications, providing more agility, reliability, and scalability to the overall development and operations processes."
+          },
+          {
+            "icon": "Phone",
+            "title": "Python ETL Projects with K8s & Apache Airflow",
+            "subTitle": "Python ETL Projects",
+            "description": "using Python, Kubernetes, and Apache Airflow in conjunction can provide a robust and scalable infrastructure for ETL projects. This combination offers flexibility, scalability, and automation, making it easier to manage and orchestrate complex data workflows in a reliable and efficient manner"
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-power-of-Infra-Automation-training-for-Cloud",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Terraform-Terragrunt.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 35 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Infra Automation Engineer",
+        "isTrending": true
+      },
+      "mainTitle": "Unlock the power of Infra Automation training",
+      "description": "",
+      "normalCost": "18,000",
+      "discountedCost": "12,000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "Learn Infra Automation training course along with live projects with 100% career guidance. We designed our course to help you become a Infra Automation Engineer",
+        "date": "27 Feb 2023",
+        "duration": "1 month",
+        "modeOfTraining": "online",
+        "link": "https://youtu.be/EVpUmu776Ao"
+      },
+      "syllabus": [
+        {
+          "name": "Framework & Pipeline Discussion",
+          "content": "<ul><li style=\"text-align: justify;\">Module Framework Discussion</li><li style=\"text-align: justify;\">Module Dependency Framework Implementation</li><li style=\"text-align: justify;\">Terraform Pipeline Advantages &amp; Planning</li<li style=\"text-align: justify;\">Terraform Pipeline Implementation</li></ul>"
+        },
+        {
+          "name": "Dynamic Block & Separate Repo Use cases",
+          "content": "<ul><li style=\"text-align: justify;\">Terraform Dynamic Block - List(Objects) Use case Implementation</li><li style=\"text-align: justify;\">Terraform Dynamic Block - Map(Objects) Use case Implementation</li><li style=\"text-align: justify;\">Importance of Azure Modules in a Separate Repo</li></ul>"
+        },
+        {
+          "name": "ReactJs Deployment - Count, Custom Data, Provisioners",
+          "content": "<ul><li style=\"text-align: justify;\">Deep hands-on for Count Parameter</li><li style=\"text-align: justify;\">Invoking Bash Script via Terraform Using template_file &amp; Custom Data</li><li style=\"text-align: justify;\">Provisioners - local-exec, File, remote-exec with examples</li><li style=\"text-align: justify;\">ReactJs Docker Project deployment to multiple VMs Using Remote-Exec</li></ul>"
+        },
+        {
+          "name": "Additional Concepts - null resource, for_each",
+          "content": "<ul><li style=\"text-align: justify;\">Importance of Null Resource and hands-on examples</li><li style=\"text-align: justify;\">Importance of for_each and hands-on example</li></ul>"
+        },
+        {
+          "name": "Additional Use cases",
+          "content": "<ul style=\"text-align: justify;\"><li>Terragrunt - A detailed practical on setting up cloud-specific components</li><li>Terragrunt - A detailed practical in using existing Infra and configure the API</li><li>Terragrunt – Deploy a Service into Kubernetes using Ansible</li><li>Terragrunt – Deploy a service into K8s using Helmchart</li><li>Terragrunt - Setting up the Terragrunt Framework to make use of CI/CD</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://youtu.be/EVpUmu776Ao"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqnfzomWc6M_fqXKnyUwT3m",
+      "careerPaths": [
+        {
+          "name": "Automation Engineer"
+        },
+        {
+          "name": "DevOps Engineer"
+        },
+        {
+          "name": "DevSecOps Engineer"
+        },
+        {
+          "name": "Site Reliability Engineer (SRE)"
+        },
+        {
+          "name": "Infrastructure Engineer"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Automation Engineer High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Automation Engineer High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our Automation Engineer Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Terraform Realtime Framework & Pipelines",
+            "subTitle": "Realtime Framework",
+            "description": "The integration of Terraform with real-time frameworks and CI/CD pipelines can contribute to the creation of dynamic, responsive, and well-managed infrastructure and applications. This integration ensures that changes in infrastructure and code are efficiently and reliably deployed across different environments"
+          },
+          {
+            "icon": "Phone",
+            "title": "Terragrunt Realtime Framework & Pipelines",
+            "subTitle": "Realtime Framework",
+            "description": "The integration of Terraform with real-time frameworks and CI/CD pipelines can contribute to the creation of dynamic, responsive, and well-managed infrastructure and applications. This integration ensures that changes in infrastructure and code are efficiently and reliably deployed across different environments"
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-power-of-Azure-Devops-Architect-training-for-Cloud",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Azure-Cloud-DevSecOPs.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 80 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Azure Devops Architect",
+        "isTrending": true
+      },
+      "mainTitle": "Unlock the power of Azure Devops Architect training",
+      "description": "The Azure DevOps Architect is instrumental in designing and implementing efficient DevOps practices within Azure environments. They optimize software development processes, enable continuous integration and delivery, ensure security and compliance, drive innovation, and foster collaboration among teams. Their expertise is essential for organizations leveraging Azure to maximize productivity, agility, and business value.",
+      "normalCost": "20,000",
+      "discountedCost": "18,000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "The Azure DevOps Architect is instrumental in designing and implementing efficient DevOps practices within Azure environments. They optimize software development processes, enable continuous integration and delivery, ensure security and compliance, drive innovation, and foster collaboration among teams. Their expertise is essential for organizations leveraging Azure to maximize productivity, agility, and business value.",
+        "date": "27 March 2024",
+        "duration": "2 months",
+        "modeOfTraining": "online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFp5iSWncUGP30mvYXEtjOcv"
+      },
+      "syllabus": [
+        {
+          "name": "Cloud Computing & Microsoft Azure Fundamentals",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to Azure</li><li>Different segments SaaS, PaaS, and IaaS</li><li>Azure Regions and Data Centers</li><li>Introduction to Vnet & subnetsLogical calculation of Subnets</li></ul>"
+        },
+        {
+          "name": "Azure Networking",
+          "content": "<ul style=\"text-align: justify;\"><li>Azure Virtual Networks</li><li>Azure Subnets</li><li>Launching the VM in the subnet</li><li>Launching DB in the Subnet</li><li>Connecting to the Public DB</li><li>Importance of Jump host</li><li>Connecting the Private DB using Jump host</li><li>IP Address Public & Private IPs</li><li>Azure Vnet Subnets</li><li>Azure Network Interface Cards (NIC)</li><li>Network Security Group (NSG)</li><li>Service Tags</li><li>Azure DNS</li><li>Private DNS</li></ul>"
+        },
+        {
+          "name": "Azure Virtual Machines",
+          "content": "<ul style=\"text-align: justify;\"><li>Virtual Machine instances</li><li>Azure VM types and Pricing</li><li>Disks & Images</li><li>VM Availability using Availability Sets</li><li>Provisioning the Linux & windows VM</li><li>Importance of Jumphost</li><li>Connecting to the DB using the Jumphost</li><li>Understanding the Firewall Rules</li><li>Connect to DB using Firewall Rules</li><li>Importance of security Group</li><li>Inbound & outbound Rules setup</li><li>Private Endpoints</li><li>Service Endpoints</li><li>Difference between the Private endpoint and Service endpoint</li></ul>"
+        },
+        {
+          "name": "Microsoft Azure Storage",
+          "content": "<ul style=\"text-align: justify;\"><li>Storage Account Replication Techniques</li><li>Protocols and Consistency Model</li><li>Type of Azure Storage Account</li><li>Storage Services Blob, Table, Queue, File</li></ul>"
+        },
+        {
+          "name": "App Services ",
+          "content": "<ul><li>Deployment to App Service</li><li>App Service plan</li><li>AD Authentication</li><li>Custom Domain setup for the web app</li><li>App Settings & Deployment Slots</li></ul>"
+        },
+        {
+          "name": "Source Code Versioning [ Azure Repos ]",
+          "content": "<ul><li>What is Git</li><li>Lab - Azure Repos</li><li>Understanding the branches in Git</li><li>Check-in code from Local to Remote Repo</li><li>Understanding on the Git commands</li><li>Pushing branches onto Azure Repos</li><li>Pulling changes from a git repository</li><li>Using the .gitignore file</li><li>GitHub and Azure Boards Integration</li><li>Raising PR to the Main/Master/RC Branches</li><li>Importance of the Hotfix, Release Candidate Branches</li><li>Branching strategy on the Azure Repos</li><li>Branching policies on the Azure Repos</li><li>Branch locking</li><li>Setting up the Global Branching Policies on the Release Folder</li><li>Maintain the security on the Repos</li><li>Azure Pipelines - Java application [Mini Project 1]</li></ul>"
+        },
+        {
+          "name": "Docker",
+          "content": "<ul><li>Virtualization and Containerization</li><li>Introduction to Docker</li><li>Installing Docker on the VM</li><li>Lab session for the Docker Commands</li><li>Running container in the interactive and Detached modes</li><li>Creating a customized image</li><li>Docker hub login</li><li>Pushing an image to Docker hub</li><li>Understanding on the Azure Container Registry [ACR]</li><li>ACR Login</li><li>Pushing an image to Azure Container Registry</li><li>Understanding on the Azure Container Instance</li><li>Executing the image using Container instance</li><li>Understanding the security on the Azure Container Registry</li><li>Real time project - Java application as a container with Database [Mini Project 2]</li><li>Real time project - React application as a container [Mini Project 3]</li></ul>"
+        },
+        {
+          "name": "Kubernetes",
+          "content": "<ul><li>Monolithic vs Microservices</li><li>Kubernetes Features</li><li>Kubernetes Architecture</li><li>Understanding on the Pods and pod lifecycle</li><li>Writing yaml from the scratch including syntaxes</li><li>Types of Kubernetes Exposed Services</li><li>Differences among Cluster IP vs Node Port vs Load Balancer</li><li>BoM Preparation for AKS components</li><li>Architecture for Cluster IP, Node Port and Load Balancer</li><li>Creating a Deployment in Kubernetes using YAML</li><li>Installing the Kubectl in the VM</li><li>Connecting the AKS cluster using the VM</li><li>Understanding on the Kubernetes Commands</li><li>Security on the AKS setup process</li><li>Difference between the AKS public and private cluster</li><li>Deploying to Multiple clusters using same VM</li><li>How to connect to the VM to Private DNS zone of AKS API Server</li><li>Importance VNet Link and Vnet peering in the AKS multi cluster connection</li><li>Creating a Service in Kubernetes using YAML</li><li>Creating a Secrets in Kubernetes using YAML</li><li>Accessing the secrets in the Kubernetes Deployment yaml</li><li>Setting up the Resources limits on the pods in the AKS</li><li>Understanding on the Replica set</li><li>External Load Balancer vs Internal Load balancer</li><li>Importance and Drawbacks of the Kubernetes services</li><li>Introduction to Ingress</li><li>Provisioning the Application Gateway [Ingress Controller]</li><li>Path/Host Mapping Techniques</li><li>Security on the Application Gateway</li><li>Setting up the Real Time project using AKS along with APGW Ingress Controller</li><li>Setting up the Real Time project using AKS along with NGINX Ingress Controller</li></ul>"
+        },
+        {
+          "name": "Helm Charts",
+          "content": "<ul><li>What is Helm Chart?</li><li>Why to use Helm?</li><li>How does Helm work?</li><li>Some examples of Helm commands</li><li>Develop on Azure Kubernetes Service (AKS) with Helm</li><li>Generate Helm Chart and update the Chart (template)</li><li>Real time project using Helm Charts, ArgoCD & Azure Kubernetes Service(AKS) to Deploy the application</li></ul>"
+        },
+        {
+          "name": "Terraform & Terragrunt",
+          "content": "<ul><li>Terraform Course Introduction & Basics</li><li>Terraform Importance in Realtime</li><li>Terraform Setup with Azure Cloud</li><li>VM Provisioning & Attaching a Disk for an existing VM</li><li>Module Importance in Realtime with Azure Flexi DB Server</li><li>Framework & Pipeline Discussion</li><li>Module Framework Discussion</li><li>Module Dependency Framework Implementation & Variables Deepdive</li><li>Terraform Pipeline Implementation</li><li>Terraform Pipeline Advantages & Planning</li><li>Dynamic Block & Saperate Repo Usecases</li><li>Dynamic Block - List(Objects)</li><li>Dynamic Block - Map(Objects)</li><li>Azure-Modules in a Saperate Repo</li><li>Reactjs Deployment - Count, Custom Data, Provisioners</li><li>Deep hands-on for Count Parameter</li><li>Invoking Bash Script via terraform Using template_file & Custom Data</li><li>Provisioners - local-exec, File, remote-exec with examples</li><li>ReactJs Docker Project deployment to multiple VMs Using Remote-Exec</li><li>Additional Concepts - null resource, for_each</li><li>Importance of Null Resource and with hands-on examples</li><li>Importance of for_each and with hands-on example</li></ul>"
+        },
+        {
+          "name": "Ansible",
+          "content": "<ul><li>Ansible Intro & Importance</li><li>Ansible & Terraform Integration</li><li>Terraform & Ansible Adhoc Commands</li><li>Ansible Playbook Usecases with Custom Roles</li><li>Ansible Multihost - Conditional & Import Playbook</li><li>Cost Optimization using Ansible Playbook</li><li>Ansible Framework & Pipeline Discussion</li><li>Ansible Framework & Pipeline Implementation</li><li>Docker Agent Example Using Ansible Pull</li><li>Helmcharts & FluxCD Framework Discussion Using Ansible</li><li>Helmcharts & FluxCD Framework Implementation Using Ansible</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFrL1tkOKMtiFahVRzmHLdsP"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFrL1tkOKMtiFahVRzmHLdsP",
+      "careerPaths": [
+        {
+          "name": "Automation Engineer"
+        },
+        {
+          "name": "DevOps Engineer"
+        },
+        {
+          "name": "DevSecOps Engineer"
+        },
+        {
+          "name": "Site Reliability Engineer (SRE)"
+        },
+        {
+          "name": "Infrastructure Engineer"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Azure Devops High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Azure Devops High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our Automation Engineer Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "ReactJs/Angular Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Embark on a journey of innovation with our ReactJS/Angular Project powered by Azure DevOps! Our project harnesses the capabilities of cutting-edge frontend technologies like ReactJS and Angular to deliver dynamic and user-friendly web applications. With Azure DevOps at the helm, we ensure seamless collaboration, continuous integration, and efficient delivery pipelines. Our team is dedicated to crafting robust, scalable, and secure solutions that exceed industry standards."
+          },
+          {
+            "icon": "Phone",
+            "title": "Springboot/.NET Java Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Explore the synergy of Spring Boot/.NET Java Project seamlessly integrated with Azure DevOps! Our project leverages the power of Spring Boot and .NET to deliver high-performance, scalable, and secure applications. With Azure DevOps as our DevOps platform, we ensure streamlined collaboration, automated CI/CD pipelines, and efficient release management. Join us in driving innovation, accelerating development cycles, and delivering exceptional software solutions."
+          },
+          {
+            "icon": "Phone",
+            "title": "Python Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Join us on an exciting journey of Python development empowered by Azure DevOps! Our Python project is built on the pillars of collaboration, automation, and efficiency, with Azure DevOps as our central platform. Together, we'll leverage the flexibility and scalability of Python to create innovative solutions while harnessing Azure DevOps for seamless integration, continuous delivery, and robust DevOps practices. Let's embark on this journey together and unlock the full potential of Python development in the cloud era."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"unlock-the-power-of-Spirngboot-java-with-Multi-Cloud-Devops-three",
+        "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+        "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Springboot-java-multicloud-Devops.png",
+        "rating": {
+          "stars": "5",
+          "name": "Highly Rated",
+          "ratingDesc":"Earn Upto 35 lakhs"
+        },
+        "training": {
+          "category": "cloud",
+          "name": "Spirngboot Java with Multi Cloud Devops",
+          "isTrending":true
+        },
+        "mainTitle": "Spirngboot Java with Multi Cloud Devops",
+        "description": "Discover the power of Spring Boot Java within the realm of Multi-Cloud DevOps! This comprehensive course delves into the seamless integration of Spring Boot with various cloud platforms, empowering you to harness the full potential of cloud-native development. Explore advanced DevOps methodologies tailored for multi-cloud environments, and learn to leverage the agility, scalability, and reliability offered by leading cloud providers. Whether you're a seasoned developer or just starting your DevOps journey, this course equips you with the skills and knowledge needed to thrive in today's dynamic tech landscape. Join us and unlock the possibilities of Multi-Cloud DevOps with Spring Boot Java!",
+        "normalCost": "10,000",
+        "discountedCost": "8,000",
+        "upcomingClass": {
+          "title": "Upcoming Classes",
+          "description": "Discover the power of Spring Boot Java within the realm of Multi-Cloud DevOps! This comprehensive course delves into the seamless integration of Spring Boot with various cloud platforms, empowering you to harness the full potential of cloud-native development. Explore advanced DevOps methodologies tailored for multi-cloud environments, and learn to leverage the agility, scalability, and reliability offered by leading cloud providers. Whether you're a seasoned developer or just starting your DevOps journey, this course equips you with the skills and knowledge needed to thrive in today's dynamic tech landscape. Join us and unlock the possibilities of Multi-Cloud DevOps with Spring Boot Java!",
+          "date": "27 May 2024",
+          "duration": "2 months",
+          "modeOfTraining": "online",
+          "link": "https://www.youtube.com/watch?v=r4YIdn2eTm4"
+        },
+      "syllabus": [
+        {
+          "title": "Introduction to Java",
+          "content": "<ul style=\"text-align: justify;\"><li>What is Java?</li><li>History and evolution of Java.</li><li>Importance and usage of Java in software development</li></ul>"
+        },
+        {
+          "title": "Features of Java",
+          "content": "<ul style=\"text-align: justify;\"><li>Platform independence</li><li>Object-oriented programming</li><li>Robustness and reliability</li><li>Security features</li><li>Multi-threading support</li><li>Dynamic memory allocation (garbage collection)</li><li>High-performance</li></ul>"
+        },
+        {
+          "title": "JDK, JRE, JVM",
+          "content": "<ul style=\"text-align: justify;\"><li>Definitions and purposes of JDK, JRE, and JVM.</li><li>Understanding their roles in Java development and execution</li></ul>"
+        },
+        {
+          "title": "Java Variables and Data Types",
+          "content": "<ul style=\"text-align: justify;\"><li>Different types of variables (local, instance, class variables)</li><li>Primitive data types (int, double, char, boolean)</li><li>Reference data types (objects, arrays, strings)</li></ul>"
+        },
+        {
+          "title": "Java Operators and Keywords",
+          "content": "<ul style=\"text-align: justify;\"><li>Arithmetic, relational, logical, bitwise, and assignment operators</li><li>Commonly used Java keywords and their significance</li></ul>"
+        },
+        {
+          "title": "Control Statements",
+          "content": "<ul style=\"text-align: justify;\"><li>Conditional statements (if, else if, switch)</li><li>Looping statements (for, while, do-while)</li><li>Branching statements (break, continue, return)</li></ul>"
+        },
+        {
+          "title": "Java OOPs Concepts",
+          "content": "<ul style=\"text-align: justify;\"><li>Understanding the pillars of OOP (encapsulation, inheritance, polymorphism, abstraction)</li><li>Benefits and principles of OOP</li></ul>"
+        },
+        {
+          "title": "Object and Class",
+          "content": "<ul style=\"text-align: justify;\"><li>Definitions of objects and classes</li><li>Understanding class members (fields, methods, constructors)</li></ul>"
+        },
+        {
+          "title": "Constructor, Static, and This Keyword",
+          "content": "<ul style=\"text-align: justify;\"><li>Constructors and their types (default, parameterized)</li><li>Static keyword and its usage</li><li>Understanding 'this' keyword and its significance</li></ul>"
+        },
+        {
+          "title": "Java Inheritance",
+          "content": "<ul style=\"text-align: justify;\"><li>Defining inheritance and its types (single, multi-level, hierarchical)</li><li>Implementing inheritance in Java classes</li></ul>"
+        },
+        {
+          "title": "Polymorphism",
+          "content": "<ul style=\"text-align: justify;\"><li>Understanding polymorphism and its types (compile-time and runtime polymorphism)</li><li>Method overloading and overriding</li></ul>"
+        },
+        {
+          "title": "Abstraction",
+          "content": "<ul style=\"text-align: justify;\"><li>Concept of abstraction and its importance</li><li>Abstract classes and interfaces</li></ul>"
+        },
+        {
+          "title": "String",
+          "content": "<ul style=\"text-align: justify;\"><li>String class and its methods</li><li>String manipulation and operations</li></ul>"
+        },
+        {
+          "title": "Exception Handling",
+          "content": "<ul style=\"text-align: justify;\"><li>Basics of exception handling (try-catch blocks, throw, throws)</li><li>Exception hierarchy and handling multiple exceptions</li></ul>"
+        },
+        {
+          "title": "Java Multiple Threading",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to multi-threading</li><li>Creating and managing threads in Java</li></ul>"
+        },
+        {
+          "title": "Java Collection",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of Java collections framework</li><li>Lists, sets, maps, and their implementations</li><li>Iterators and sorting collections</li></ul>"
+        },
+        {
+          "title": "JDBC (Java Database Connectivity)",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to JDBC and its significance</li><li>Connecting to databases using JDBC</li><li>Executing SQL queries and handling database operations</li></ul>"
+        },
+        {
+          "title": "Introduction to Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of Spring Boot and its features</li><li>Benefits of using Spring Boot for rapid application development</li></ul>"
+        },
+        {
+          "title": "Understanding Spring Boot Auto Configuration",
+          "content": "<ul style=\"text-align: justify;\"><li>Explaining the concept of auto-configuration</li><li>How Spring Boot automatically configures beans based on dependencies</li></ul>"
+        },
+        {
+          "title": "Getting Started with Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Setting up a development environment for Spring Boot</li><li>Creating your first Spring Boot project</li></ul>"
+        },
+        {
+          "title": "Creating Spring Boot Projects using Spring Initializer",
+          "content": "<ul style=\"text-align: justify;\"><li>Using Spring Initializer to bootstrap Spring Boot projects</li><li>Customizing project dependencies and settings</li></ul>"
+        },
+        {
+          "title": "Downloading and Installing Spring Tool Suite (STS)",
+          "content": "<ul style=\"text-align: justify;\"><li>Step-by-step guide to download and install STS IDE for Spring Boot development</li><li>Configuration and setup of STS for Spring Boot projects</li></ul>"
+        },
+        {
+          "title": "Utilizing the application.properties File",
+          "content": "<ul style=\"text-align: justify;\"><li>Understanding the purpose of the application.properties file in Spring Boot</li><li>Configuration options and settings available in the properties file</li></ul>"
+        },
+        {
+          "title": "JPA with Spring Boot: Complete Explanation",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to Java Persistence API (JPA) and its integration with Spring Boot</li><li>Explaining ORM concepts and mapping entities to database tables</li></ul>"
+        },
+        {
+          "title": "Practical Implementation of JPA with Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Hands-on exercises to demonstrate JPA usage in Spring Boot applications</li><li>Creating entities, repositories, and performing CRUD operations</li></ul>"
+        },
+        {
+          "title": "Database Configuration",
+          "content": "<ul style=\"text-align: justify;\"><li>Configuring database connections in Spring Boot applications</li><li>Different database configuration options available in Spring Boot</li></ul>"
+        },
+        {
+          "title": "CRUD Operations",
+          "content": "<ul style=\"text-align: justify;\"><li>Implementing CRUD (Create, Read, Update, Delete) operations with Spring Boot and JPA</li></ul>"
+        },
+        {
+          "title": "Executing JPQL and Native Queries",
+          "content": "<ul style=\"text-align: justify;\"><li>Writing and executing JPQL (Java Persistence Query Language) and native SQL queries in Spring Boot applications</li></ul>"
+        },
+        {
+          "title": "Introduction to API Web Services",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of API (Application Programming Interface) concepts and web services</li><li>Different types of web services architectures (RESTful, SOAP)</li></ul>"
+        },
+        {
+          "title": "Creating REST API using Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Building RESTful APIs using Spring Boot and Spring MVC</li><li>Implementing endpoints for resource creation, retrieval, update, and deletion</li></ul>"
+        },
+        {
+          "title": "Explaining Different Types of Mapping",
+          "content": "<ul style=\"text-align: justify;\"><li>Understanding various mapping annotations in Spring Boot (e.g., @RequestMapping, @GetMapping, @PostMapping)</li><li>Mapping URL patterns to controller methods</li></ul>"
+        },
+        {
+          "title": "Connecting with Database using JPA",
+          "content": "<ul style=\"text-align: justify;\"><li>Establishing database connections and performing data operations using JPA in Spring Boot applications</li></ul>"
+        },
+        {
+          "title": "File Uploading in Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Implementing file upload functionality in Spring Boot applications</li><li>Handling file uploads, storing files, and retrieving uploaded files</li></ul>"
+        },
+        {
+          "title": "Connecting with Database using JPA",
+          "content": "<ul style=\"text-align: justify;\"><li>Establishing database connections and performing data operations using JPA in Spring Boot applications</li></ul>"
+        },
+        {
+          "title": "Explaining Different Types of Mapping",
+          "content": "<ul style=\"text-align: justify;\"><li>Understanding various mapping annotations in Spring Boot (e.g., @RequestMapping, @GetMapping, @PostMapping)</li><li>Mapping URL patterns to controller methods</li></ul>"
+        },
+        {
+          "title": "Creating REST API using Spring Boot",
+          "content": "<ul style=\"text-align: justify;\"><li>Building RESTful APIs using Spring Boot and Spring MVC</li><li>Implementing endpoints for resource creation, retrieval, update, and deletion</li></ul>"
+        },
+        {
+          "title": "Introduction to API Web Services",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of API (Application Programming Interface) concepts and web services</li><li>Different types of web services architectures (RESTful, SOAP)</li></ul>"
+        },
+        {
+          "title": "Cloud Deployment with Kubernetes",
+          "content": "<ul><li>Monolithic vs Microservices</li><li>Kubernetes Features</li><li>Kubernetes Architecture</li><li>Understanding on the Pods and pod lifecycle</li><li>Writing yaml from the scratch including syntaxes</li><li>Types of Kubernetes Exposed Services</li><li>Differences among Cluster IP vs Node Port vs Load Balancer</li><li>BoM Preparation for AKS components</li><li>Architecture for Cluster IP, Node Port and Load Balancer</li><li>Creating a Deployment in Kubernetes using YAML</li><li>Installing the Kubectl in the VM</li><li>Connecting the AKS cluster using the VM</li><li>Understanding on the Kubernetes Commands</li><li>Security on the AKS setup process</li><li>Difference between the AKS public and private cluster</li><li>Deploying to Multiple clusters using same VM</li><li>How to connect to the VM to Private DNS zone of AKS API Server</li><li>Importance VNet Link and Vnet peering in the AKS multi cluster connection</li><li>Creating a Service in Kubernetes using YAML</li><li>Creating a Secrets in Kubernetes using YAML</li><li>Accessing the secrets in the Kubernetes Deployment yaml</li><li>Setting up the Resources limits on the pods in the AKS</li><li>Understanding on the Replica set</li><li>External Load Balancer vs Internal Load balancer</li><li>Importance and Drawbacks of the Kubernetes services</li><li>Introduction to Ingress</li><li>Provisioning the Application Gateway [Ingress Controller]</li><li>Path/Host Mapping Techniques</li><li>Security on the Application Gateway</li><li>Setting up the Real Time project using AKS along with APGW Ingress Controller</li><li>Setting up the Real Time project using AKS along with NGINX Ingress Controller</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/watch?v=3XFODda6YXo"
+      },
+      "youtubeLink": "https://www.youtube.com/watch?v=JIbIYCM48to",
+      "careerPaths": [
+        {
+          "name": "Java Engineer"
+        },
+        {
+          "name": "Springboot Engineer"
+        },
+        {
+          "name": "DevOps Engineer"
+        },
+        {
+          "name": "Docker",
+          "content": "<ul><li>Virtualization and Containerization</li><li>Introduction to Docker</li><li>Installing Docker on the VM</li><li>Lab session for the Docker Commands</li><li>Running container in the interactive and Detached modes</li><li>Creating a customized image</li><li>Docker hub login</li><li>Pushing an image to Docker hub</li><li>Understanding on the Azure Container Registry [ACR]</li><li>ACR Login</li><li>Pushing an image to Azure Container Registry</li><li>Understanding on the Azure Container Instance</li><li>Executing the image using Container instance</li><li>Understanding the security on the Azure Container Registry</li><li>Real time project - Java application as a container with Database [Mini Project 2]</li><li>Real time project - React application as a container [Mini Project 3]</li></ul>"
+        },
+        {
+          "name": "Kubernetes",
+          "content": "<ul><li>Monolithic vs Microservices</li><li>Kubernetes Features</li><li>Kubernetes Architecture</li><li>Understanding on the Pods and pod lifecycle</li><li>Writing yaml from the scratch including syntaxes</li><li>Types of Kubernetes Exposed Services</li><li>Differences among Cluster IP vs Node Port vs Load Balancer</li><li>BoM Preparation for AKS components</li><li>Architecture for Cluster IP, Node Port and Load Balancer</li><li>Creating a Deployment in Kubernetes using YAML</li><li>Installing the Kubectl in the VM</li><li>Connecting the AKS cluster using the VM</li><li>Understanding on the Kubernetes Commands</li><li>Security on the AKS setup process</li><li>Difference between the AKS public and private cluster</li><li>Deploying to Multiple clusters using same VM</li><li>How to connect to the VM to Private DNS zone of AKS API Server</li><li>Importance VNet Link and Vnet peering in the AKS multi cluster connection</li><li>Creating a Service in Kubernetes using YAML</li><li>Creating a Secrets in Kubernetes using YAML</li><li>Accessing the secrets in the Kubernetes Deployment yaml</li><li>Setting up the Resources limits on the pods in the AKS</li><li>Understanding on the Replica set</li><li>External Load Balancer vs Internal Load balancer</li><li>Importance and Drawbacks of the Kubernetes services</li><li>Introduction to Ingress</li><li>Provisioning the Application Gateway [Ingress Controller]</li><li>Path/Host Mapping Techniques</li><li>Security on the Application Gateway</li><li>Setting up the Real Time project using AKS along with APGW Ingress Controller</li><li>Setting up the Real Time project using AKS along with NGINX Ingress Controller</li></ul>"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Springboot Java with Devops High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our Springboot Java with Devops Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Springboot Java Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Explore the synergy of Spring Boot Java Project seamlessly integrated with Azure DevOps! Our project leverages the power of Spring Boot and .NET to deliver high-performance, scalable, and secure applications. With Azure DevOps as our DevOps platform, we ensure streamlined collaboration, automated CI/CD pipelines, and efficient release management. Join us in driving innovation, accelerating development cycles, and delivering exceptional software solutions. Together, let's harness the full potential of modern technology to propel your projects to new heights"
+          },
+          {
+            "icon": "Phone",
+            "title": "Springboot Java Project with AWS Devops",
+            "subTitle": "Realtime Project",
+            "description": "This Project provides hands-on training in developing Spring Boot Java projects integrated with AWS DevOps practices. Participants will learn to build, deploy, and manage scalable and reliable Java applications using Spring Boot and AWS DevOps tools and services."
+          },
+          {
+            "icon": "Phone",
+            "title": "Springboot Java Project with GCP Devops",
+            "subTitle": "Realtime Project",
+            "description": "This course offers practical guidance in developing Spring Boot Java projects integrated with GCP DevOps practices. Participants will learn to leverage Spring Boot for building robust Java applications and utilize GCP DevOps tools and services for seamless deployment, automation, and management on the Google Cloud Platform."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-power-of-Docker-Kubernetes-new-for-new",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Docker-Kubernetes-Mastery.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 28 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Docker + Kubernetes",
+        "isTrending": "True"
+      },
+      "mainTitle": "Unlock the power of Docker+Kubernetes training New",
+      "description": "Discover the power of containerization and orchestration with our Docker and Kubernetes Essentials course. This compact yet comprehensive program is designed to equip you with the fundamental skills needed to work confidently with Docker and Kubernetes in just a few weeks.",
+      "normalCost": "10,000",
+      "discountedCost": "8000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "Discover the power of containerization and orchestration with our Docker and Kubernetes Essentials course. This compact yet comprehensive program is designed to equip you with the fundamental skills needed to work confidently with Docker and Kubernetes in just a few weeks.",
+        "date": "27 March 2024",
+        "duration": "2 months",
+        "modeOfTraining": "Online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "syllabus": [
+        {
+          "name": "Docker",
+          "content": "<ul><li>Virtualization and Containerization</li><li>Introduction to Docker</li><li>Installing Docker on the VM</li><li>Lab session for the Docker Commands</li><li>Running container in the interactive and Detached modes</li><li>Creating a customized image</li><li>Docker hub login</li><li>Pushing an image to Docker hub</li><li>Understanding on the Azure Container Registry [ACR]</li><li>ACR Login</li><li>Pushing an image to Azure Container Registry</li><li>Understanding on the Azure Container Instance</li><li>Executing the image using Container instance</li><li>Understanding the security on the Azure Container Registry</li><li>Real time project - Java application as a container with Database [Mini Project 2]</li><li>Real time project - React application as a container [Mini Project 3]</li></ul>"
+        },
+        {
+          "name": "Kubernetes",
+          "content": "<ul><li>Monolithic vs Microservices</li><li>Kubernetes Features</li><li>Kubernetes Architecture</li><li>Understanding on the Pods and pod lifecycle</li><li>Writing yaml from the scratch including syntaxes</li><li>Types of Kubernetes Exposed Services</li><li>Differences among Cluster IP vs Node Port vs Load Balancer</li><li>BoM Preparation for AKS components</li><li>Architecture for Cluster IP, Node Port and Load Balancer</li><li>Creating a Deployment in Kubernetes using YAML</li><li>Installing the Kubectl in the VM</li><li>Connecting the AKS cluster using the VM</li><li>Understanding on the Kubernetes Commands</li><li>Security on the AKS setup process</li><li>Difference between the AKS public and private cluster</li><li>Deploying to Multiple clusters using same VM</li><li>How to connect to the VM to Private DNS zone of AKS API Server</li><li>Importance VNet Link and Vnet peering in the AKS multi cluster connection</li><li>Creating a Service in Kubernetes using YAML</li><li>Creating a Secrets in Kubernetes using YAML</li><li>Accessing the secrets in the Kubernetes Deployment yaml</li><li>Setting up the Resources limits on the pods in the AKS</li><li>Understanding on the Replica set</li><li>External Load Balancer vs Internal Load balancer</li><li>Importance and Drawbacks of the Kubernetes services</li><li>Introduction to Ingress</li><li>Provisioning the Application Gateway [Ingress Controller]</li><li>Path/Host Mapping Techniques</li><li>Security on the Application Gateway</li><li>Setting up the Real Time project using AKS along with APGW Ingress Controller</li><li>Setting up the Real Time project using AKS along with NGINX Ingress Controller</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ",
+      "careerPaths": [
+        {
+          "name": "Java Engineer"
+        },
+        {
+          "name": "Springboot Engineer"
+        },
+        {
+          "name": "DevOps Engineer"
+        },
+        {
+          "name": "Docker",
+          "content": "<ul><li>Virtualization and Containerization</li><li>Introduction to Docker</li><li>Installing Docker on the VM</li><li>Lab session for the Docker Commands</li><li>Running container in the interactive and Detached modes</li><li>Creating a customized image</li><li>Docker hub login</li><li>Pushing an image to Docker hub</li><li>Understanding on the Azure Container Registry [ACR]</li><li>ACR Login</li><li>Pushing an image to Azure Container Registry</li><li>Understanding on the Azure Container Instance</li><li>Executing the image using Container instance</li><li>Understanding the security on the Azure Container Registry</li><li>Real time project - Java application as a container with Database [Mini Project 2]</li><li>Real time project - React application as a container [Mini Project 3]</li></ul>"
+        },
+        {
+          "name": "Kubernetes",
+          "content": "<ul><li>Monolithic vs Microservices</li><li>Kubernetes Features</li><li>Kubernetes Architecture</li><li>Understanding on the Pods and pod lifecycle</li><li>Writing yaml from the scratch including syntaxes</li><li>Types of Kubernetes Exposed Services</li><li>Differences among Cluster IP vs Node Port vs Load Balancer</li><li>BoM Preparation for AKS components</li><li>Architecture for Cluster IP, Node Port and Load Balancer</li><li>Creating a Deployment in Kubernetes using YAML</li><li>Installing the Kubectl in the VM</li><li>Connecting the AKS cluster using the VM</li><li>Understanding on the Kubernetes Commands</li><li>Security on the AKS setup process</li><li>Difference between the AKS public and private cluster</li><li>Deploying to Multiple clusters using same VM</li><li>How to connect to the VM to Private DNS zone of AKS API Server</li><li>Importance VNet Link and Vnet peering in the AKS multi cluster connection</li><li>Creating a Service in Kubernetes using YAML</li><li>Creating a Secrets in Kubernetes using YAML</li><li>Accessing the secrets in the Kubernetes Deployment yaml</li><li>Setting up the Resources limits on the pods in the AKS</li><li>Understanding on the Replica set</li><li>External Load Balancer vs Internal Load balancer</li><li>Importance and Drawbacks of the Kubernetes services</li><li>Introduction to Ingress</li><li>Provisioning the Application Gateway [Ingress Controller]</li><li>Path/Host Mapping Techniques</li><li>Security on the Application Gateway</li><li>Setting up the Real Time project using AKS along with APGW Ingress Controller</li><li>Setting up the Real Time project using AKS along with NGINX Ingress Controller</li></ul>"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Docker + Kubernetes High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our Docker + K8S Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "ReactJs/Angular Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Embark on a journey of innovation with our ReactJS/Angular Project powered by Azure DevOps! Our project harnesses the capabilities of cutting-edge frontend technologies like ReactJS and Angular to deliver dynamic and user-friendly web applications. With Azure DevOps at the helm, we ensure seamless collaboration, continuous integration, and efficient delivery pipelines. Our team is dedicated to crafting robust, scalable, and secure solutions that exceed industry standards. Join us as we revolutionize the digital landscape and shape the future of web development. Let's build something extraordinary together!"
+          },
+          {
+            "icon": "Phone",
+            "title": "Springboot/.NET Java Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Explore the synergy of Spring Boot/.NET Java Project seamlessly integrated with Azure DevOps! Our project leverages the power of Spring Boot and .NET to deliver high-performance, scalable, and secure applications. With Azure DevOps as our DevOps platform, we ensure streamlined collaboration, automated CI/CD pipelines, and efficient release management. Join us in driving innovation, accelerating development cycles, and delivering exceptional software solutions. Together, let's harness the full potential of modern technology to propel your projects to new heights"
+          },
+          {
+            "icon": "Phone",
+            "title": "Python Project with Azure Devops",
+            "subTitle": "Realtime Project",
+            "description": "Join us on an exciting journey of Python development empowered by Azure DevOps! Our Python project is built on the pillars of collaboration, automation, and efficiency, with Azure DevOps as our central platform. Together, we'll leverage the flexibility and scalability of Python to create innovative solutions while harnessing Azure DevOps for seamless integration, continuous delivery, and robust DevOps practices. Let's embark on this journey together and unlock the full potential of Python development in the cloud era."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-power-of-Site-Reliability-Engineering-new-for-new",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Site-Reliability-Eng.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 25 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Site Reliability Engineering",
+        "isTrending": "True"
+      },
+      "mainTitle": "Unlock the power of Site Reliability Engineering training New",
+      "description": "Site Reliability Engineering (SRE) is an innovative approach that combines software engineering practices with IT operations to create scalable and reliable systems. This course provides a comprehensive overview of SRE fundamentals, covering key concepts, methodologies, and best practices essential for modern IT professionals and organizations",
+      "normalCost": "10,000",
+      "discountedCost": "8000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "Site Reliability Engineering (SRE) is an innovative approach that combines software engineering practices with IT operations to create scalable and reliable systems. This course provides a comprehensive overview of SRE fundamentals, covering key concepts, methodologies, and best practices essential for modern IT professionals and organizations",
+        "date": "27 March 2024",
+        "duration": "2 months",
+        "modeOfTraining": "Online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "syllabus": [
+        {
+          "name": "Introduction to SRE",
+          "content": "<ul><li style=\"text-align:justify;\">Defining Site Reliability Engineering (SRE) in detail.</li><li style=\"text-align:justify;\">Discussing the principles of SRE: reliability, scalability, performance, and fault tolerance.</li><li style=\"text-align:justify;\">Exploring the role of an SRE within an organization.</li><li style=\"text-align:justify;\">Conducting a comparative study of SRE vs DevOps.</li><li style=\"text-align:justify;\">Strategies for creating a culture of collaboration between development and operations teams.</li></ul>"
+        },
+        {
+          "name": "Fundamentals of Reliability Engineering",
+          "content":"<ul style=\"text-align: justify;\"><li>Deep dive into reliability concepts: uptime, downtime, MTTF (Mean Time To Failure), MTTR (Mean Time To Recover), etc.</li><li>Understanding Service Level Objectives (SLOs), Indicators (SLIs), and Agreements (SLAs).</li><li>Explaining error budgets and their significance in SRE.</li></ul>"
+
+        },
+        {
+          "name": "Operations and Infrastructure",
+          "content":"<ul style=\"text-align: justify;\"><li>Design principles for highly available systems: redundancy, fault isolation, graceful degradation, etc.</li><li>Infrastructure as Code (IaC): its importance and implementation.</li><li>Scalability: horizontal vs. vertical scaling, auto-scaling, and elasticity.</li></ul>"
+        },{
+          "name":"Incident Management and Response",
+          "content":"<ul style=\"text-align: justify;\"><li>Implementing incident response frameworks: identification, triage, resolution, and post-mortems.</li><li>Setting up effective monitoring and alerting systems.</li><li>Building runbooks and incident documentation.</li></ul>"
+        },
+        {
+          "name":"Service Capacity Planning",
+          "content":"<ul style=\"text-align: justify;\"><li>Techniques for capacity planning: forecasting, load testing, and performance modeling.</li><li>Resource allocation strategies and their impact on reliability.</li><li>Handling unexpected traffic spikes and load balancing strategies.</li></ul>"
+        },
+        {
+          "name":"Tooling and Technologies",
+          "content":"<ul style=\"text-align: justify;\"><li>Configuration management tools (e.g., Ansible, Puppet, Chef).</li><li>Monitoring and alerting tools (e.g., Prometheus, Grafana, Nagios).</li><li>Orchestration and automation tools (e.g., Kubernetes, Docker, Terraform).</li></ul>"
+
+        },
+        {
+          "name":"Release Engineering and Deployment Strategies",
+          "content":"<ul style=\"text-align: justify;\"><li>CI/CD pipelines: tools, best practices, and their integration into SRE.</li><li>Deployment strategies: canary deployments, blue-green deployments, and A/B testing.</li><li>Strategies to minimize risk during deployments.</li></ul>"
+
+        },
+        {
+          "name":"Reliability Testing",
+          "content":"<ul style=\"text-align: justify;\"><li>Introduction to Chaos Engineering : Chaos engineering in SRE</li><li>Principle of Chaos Engineering</li><li>Chaos Engineering tools(e.g., Litmus)</li><li>Chaos experiment design</li><li>Chaos Experiment Execution (Random pod deletion experiment)</li></ul>"
+        },
+        {
+          "name":"Reliability in Cloud Environments",
+          "content":"<ul style=\"text-align: justify;\"><li>Cloud-native technologies</li><li>Best practices for reliability in cloud setups</li></ul>"
+
+        },
+        {
+          "name":"Case Studies and Real-world Examples",
+          "content":"<ul style=\"text-align: justify;\"><li>Analyzing scenarios from leading tech companies</li><li>Learning from successful and challenging SRE Implementation.</li></ul>"
+
+        },
+        {
+          "name":"What is SRE?",
+          "content":"<ul style=\"text-align: justify;\"><li>Site Reliability Engineering (SRE) is a methodology that combines software engineering practices with principles of operations to create scalable and reliable systems. It's about maintaining the reliability and performance of large-scale systems while enabling frequent updates and changes.</li></ul>"
+
+        },
+        {
+          "name":"Why Organizations Need SRE",
+          "content":"<ul style=\"text-align: justify;\"><li>Reliability: In today's digital world, users expect services to be available 24/7 without disruptions. SRE ensures systems are reliable, minimizing downtime and ensuring a good user experience.</li><li>Scalability: As companies grow, their systems need to handle more users and data. SRE helps design and maintain systems that can grow and handle increased loads without breaking.</li><li>Faster Innovation: SRE practices allow for continuous updates and improvements to systems without sacrificing reliability. It enables innovation and rapid development while keeping services stable.</li><li>Cost Efficiency: By preventing downtime and optimizing systems, SRE can save organizations money in the long run by reducing expensive outages or hardware costs.</li></ul>"
+
+        },
+        {
+          "name":"Learning about Site Reliability Engineering (SRE) can be beneficial for individuals in various ways",
+          "content":"<ul style=\"text-align: justify;\"><li>Career Opportunities: SRE skills are in high demand across industries. Learning SRE principles, tools, and practices can open up lucrative career opportunities in tech companies and organizations focused on reliability and scalability.</li><li>Holistic Understanding: SRE covers a wide range of topics, from software development to system reliability. Learning SRE provides a comprehensive understanding of how to design, build, and maintain reliable and scalable systems.</li><li>Enhanced Problem-Solving Skills: SRE involves dealing with complex systems and solving challenging problems related to reliability, performance, and scalability. Individuals can develop strong problem-solving skills that are valuable across various domains.</li><li>Improved Collaboration: SRE emphasizes collaboration between development and operations teams. Learning SRE fosters an understanding of cross-functional collaboration, which is increasingly important in modern workplaces.</li><li>Adaptability and Innovation: SRE encourages continuous improvement and innovation while maintaining reliability. Individuals learn to implement new technologies and practices without compromising system stability.</li><li>Resilience and Mitigating Risk: SRE principles focus on resilience and risk mitigation. Individuals equipped with SRE knowledge can anticipate potential failures and design systems to withstand them.</li><li>Personal Development: Learning SRE isn't just about technical skills. It can also foster soft skills such as communication, adaptability, and a proactive approach to problem-solving.</li></ul>"
+
+        },
+        {
+          "name":"Here's a list of companies implementing SRE",
+          "content":"<ul style=\"text-align: justify;\"><li>Google</li><li>Netflix</li><li>Amazon</li><li>Facebook</li><li>Microsoft</li><li>Hotstar</li><li>Twitter</li><li>LinkedIn</li><li>eBay</li><li>PayPal</li><li>Airbnb</li><li>Dropbox</li><li>Slack</li><li>Reddit</li><li>Pinterest</li><li>GitLab</li><li>Hulu</li><li>Twitch</li><li>Zillow</li><li>Docker</li><li>NVIDIA</li><li>Wayfair</li><li>DoorDash</li><li>Robinhood</li><li>Evernote</li><li>Box</li></ul>"
+
+        },
+        {
+          "name":"Learning Site Reliability Engineering (SRE) can open various career opportunities across the tech industry",
+          "content":"<ul style=\"text-align: justify;\"><li>Site Reliability Engineer (SRE)</li><li>DevOps Engineer</li><li>Cloud Engineer/Architect</li><li>Software Engineer with a Focus on Reliability</li><li>Infrastructure Engineer</li><li>Data Engineer</li><li>Security Engineer</li><li>Quality Assurance (QA) Engineer</li><li>Technical L</li></ul>"
+
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ",
+      "careerPaths": [
+        {
+          "name": "Devops Engineer"
+        },
+        {
+          "name": "Site Reliability Engineer (SRE)"
+        },
+        {
+          "name": "Site Operations Engineer"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Mar, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Docker + Kubernetes High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Expected Learning Outcomes",
+        "description": "Structured outline for demonstrating your skills and knowledge as a Site Reliability Engineer while addressing key areas such as automation, monitoring, incident response, and reliability engineering. Adjustments can be made based on specific project goals, technology stack, and learning objectives",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Expected Learning Outcome 1",
+            "subTitle": "Realtime Project",
+            "description": "Demonstrate proficiency in designing and implementing reliable and scalable systems using Site Reliability Engineering practices."
+          },
+          {
+            "icon": "Phone",
+            "title": "Expected Learning Outcome 2",
+            "subTitle": "Realtime Project",
+            "description": "Gain hands-on experience with infrastructure automation, monitoring tools, incident response, and performance optimization strategies."
+          },
+          {
+            "icon": "Phone",
+            "title": "Expected Learning Outcome 3",
+            "subTitle": "Realtime Project",
+            "description": "Enhance problem-solving skills, critical thinking, and collaboration through a real-world project focused on system reliability and performance."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+
+      "id": "unlock-the-power-of-GCP-DevSecOps-new-for-new",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/GCP-DevSecOps.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 40 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "GCP DevSecOps",
+        "isTrending": "True"
+      },
+      "mainTitle": "Unlock the power of GCP DevSecOps training New",
+      "description": "The GCP DevSecOps course focuses on integrating security practices seamlessly into the DevOps process on Google Cloud Platform (GCP). This course is designed to provide participants with the skills and knowledge required to build secure, scalable, and resilient cloud-native applications while maintaining a strong focus on security throughout the development lifecycle.",
+      "normalCost": "10,000",
+      "discountedCost": "8000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "The GCP DevSecOps course focuses on integrating security practices seamlessly into the DevOps process on Google Cloud Platform (GCP). This course is designed to provide participants with the skills and knowledge required to build secure, scalable, and resilient cloud-native applications while maintaining a strong focus on security throughout the development lifecycle.",
+        "date": "27 Apr 2024",
+        "duration": "2 months",
+        "modeOfTraining": "Online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "syllabus": [
+        {
+          "name": "Learning Objective",
+          "content":"<ul style=\"text-align: justify;\"><li>Understanding DevOps</li><li>What is DevOps?</li><li>Evolution of Software Methodologies</li><li>Waterfall</li><li>Agile</li><li>Disadvantages of traditional SDLC</li><li>Why DevOps?</li><li>Dev Challenges v/s DevOps Solution</li><li>Ops Challenges v/s DevOps Solution</li><li>Stages Of DevOps Lifecycle</li><li>Continuous Development</li><li>Continuous Testing</li><li>Continuous Integration</li><li>Continuous Deployment</li><li>Continuous Monitoring</li><li>The Various DevOps Tools Introduction</li><li>Roles and Responsibilities of a DevOps Engineer</li><li>How DevOps fits in the whole Software Development Lifecycle</li></ul>"
+
+        },
+        {
+          "name": "Physical and Virtual Computing Environment",
+          "content":"<ul style=\"text-align: justify;\"><li>Computing Environments and Operating Systems</li><li>Personal Computing, Server- Client</li><li>Understanding Virtualization</li><li>Understanding Hypervisor</li><li>Hosted</li><li>Baremetal</li><li>Hands-On</li><li>Setting up a Virtual Machine with Linux OS</li></ul>"
+
+        },
+        {
+          "name": "Linux for Devops",
+          "content":"<ul style=\"text-align: justify;\"><li>What is Linux and Open Source</li><li>Linux Distributions</li><li>Understanding Local User in Linux</li><li>Understanding Linux Hierarchy</li><li>Understanding Shell</li><li>Understanding Absolute and Relative Path</li><li>Working with Text Editors</li><li>Creating Files and Directory Using CLI</li><li>Understanding Linux Command and Using Options for Linux Commands</li><li>Understanding Globbing, Pipe, Tee</li><li>Understanding Variables, Operators</li><li>Hands-On</li><li>Executing Basic Shell Commands - cd, ls, vim, nano, touch, mkdir</li><li>File and Directory Management - cp, mv, rm</li><li>Commands with Pattern Matching</li><li>Writing Simple Shell Scripts</li></ul>"
+
+         },
+        {
+          "name": "Getting Started with Python and Writing Python Programs",
+          "content":"<ul style=\"text-align: justify;\"><li>Introduction to Python: What is Python and why to learn Python as a DevOps engineer?</li><li>Installation and Setup Local Development Environment</li><li>Write Simple Python program</li><li>Python IDE vs simple File Editor</li><li>Strings and Number Data Types</li><li>Variables</li><li>Encapsulate Logic with Functions</li><li>Accepting User Input</li><li>Conditionals (if / else) and Boolean Data Type</li><li>Error Handling with Try / Except</li><li>While Loops</li><li>Lists and For Loops</li><li>Comments in Python</li><li>Sets</li><li>Built-In Functions</li><li>Dictionary Data Type</li><li>Modularize your project with Modules Packages, PyPI and Pip</li><li>Object Oriented Programming: Classes and Objects</li><li>Hands-On</li><li>Installation and Setup Local Development Environment</li><li>Writing Python Scripts</li><li>Project: Countdown App</li><li>Project: Automation with Python (Working with Spreadsheets)</li><li>Project: API Request to GitLab</li></ul>"
+
+        },
+        {
+          "name": "VCS with Git",
+          "content":"<ul style=\"text-align: justify;\"><li>Understanding Git & GitHub (Managing Source Code and What is Version Control System(VCS)?)</li><li>Understanding AWS Code Commit</li><li>Why VCS?</li><li>VCS tools</li><li>Distributed VCS</li><li>What is Git & Why Git?</li><li>Features Of Git</li><li>Git Workflow</li><li>Git Configurations</li><li>Creating Git Repository</li><li>Syncing Repositories</li><li>Adding Origin</li><li>Pushing changes</li><li>Pulling changes</li><li>Clone operation</li><li>Concepts of Branches</li><li>Merge Requests</li><li>Deleting Branches</li><li>Resolving Merge Conflicts</li><li>Git Ignore</li><li>Git Stash</li><li>Merging Branches</li><li>Hand-on Lab:</li><li>Launch EC2 Instance (Windows) and Configure Git</li><li>Launch EC2 Instance (Linux) and Configure Git</li><li>Configuring all Git Operations (Creating Local and Setting up Remote Repository in GitHub and Code Commit), push, pull, clone, creating branches, merge</li></ul>"
+         
+        },
+        {
+          "name": "Build & Package Manager Tools",
+          "content":"<ul style=\"text-align: justify;\"><li>What are Build Tools and Package Managers?</li><li>How to build an artifact?</li><li>How to run the application artifact?</li><li>How to publish the application artifact to the artifact repository?</li><li>Build Tools for Java (gradle and maven examples)</li><li>Dependency Management in Software Development</li><li>Package Manager in JavaScript applications - Build and run applications in JS</li><li>Build Tools</li><li>Why Build Tools are relevant for DevOps Engineers?</li><li>Artifact Repository Manager with Nexus</li><li>Understanding Artifact Repository Manager, Types</li><li>What is an Artifact Repository Manager?</li><li>Install and run Nexus on Cloud Server</li><li>Different Repository Types (proxy, hosted, etc.) explained</li><li>Different Repository Formats (maven, docker, npm, etc.) explained</li><li>Upload Jar File to Nexus (maven and gradle projects)</li><li>Nexus API and Repository URLs</li><li>Blob stores</li><li>Browsing Components - Components vs Assets</li><li>Cleanup Policies</li><li>Scheduled Tasks</li></ul>"
+
+        },
+        {
+          "name": "Continuous Integration with Jenkins",
+          "content":"<ul style=\"text-align: justify;\"><li>Understanding Integration with Jenkins</li><li>Challenges before Continuous Integration</li><li>What is Continuous Integration?</li><li>Benefits of Continuous Integration</li><li>Tools of Continuous Integration</li><li>Introduction to Jenkins</li><li>Jenkins Plugins</li><li>Build Setup in Jenkins</li><li>Jenkins Pipeline (Use Cases)</li><li>Create a simple Pipeline Job</li><li>Full Jenkinsfile Syntax Demo</li><li>Create a full Pipeline Job</li><li>Build Java App</li><li>Build Docker Image</li><li>Push to Private DockerHub</li><li>Create a Multi-Branch Pipeline Job</li><li>Credentials in Jenkins</li><li>Jenkins Shared Library</li><li>WebHooks - Trigger Jenkins Jobs automatically</li><li>Versioning Application in Continuous Deployment</li><li>Concepts of Versioning in Software Development</li><li>Increment Application version from Jenkins Pipeline</li><li>Set new Docker Image version from Jenkins Pipeline</li><li>Commit Version Bump from Jenkins Pipeline</li><li>Hands on Lab</li><li>Launch EC2 Instance (Linux) and Install Jenkins</li><li>Creating a simple freestyle job</li><li>Configure Git Repository and Build a java application</li><li>Build docker images and push it to docker hub</li><li>Create a Simple and Multiple Pipeline</li></ul>"
+ 
+        },
+        {
+          "name": "Containerization Learning Objective",
+          "content":"<ul style=\"text-align: justify;\"><li>Understanding Traditional(Physical and Virtual) Application Deployment Methods) and Containerization</li><li>Advantages</li><li>Understanding Docker and Components</li><li>Managing Docker in a Standalone Instance</li></ul>"
+          
+        }, {
+          "name": "Topics Covered",
+          "content":"<ul style=\"text-align: justify;\"><li>Virtualization vs Containerization</li><li>What are Containers and Advantages of Containers</li><li>Architecture of Docker</li><li>Container Components of Docker</li><li>Images</li><li>Registries (Docker Hub, Elastic Container Registry)</li><li>Managing Docker Service</li><li>Running a Container(Attached/Detached), Logging in to Container</li><li>Starting / Stopping / Restarting Containers ❏ Container Networking</li><li>Bridge</li><li>Host</li><li>Overlay</li><li>Managing Storage for Containers</li><li>Understanding Docker File</li><li>Docker Hub - Pushing Images to Repository</li><li>Hand-on Lab:</li><li>Launch EC2 Instance (Windows and Linux) and Configure Docker Engine</li><li>Run a Simple Standalone Webapp Container</li><li>Run an Ubuntu Container to Check Connectivity between Containers</li><li>Creating Volume for Containers and Mounting it Persistently</li><li>Creating a Custom Container Image from Another Container / Docker File</li></ul>"
+ 
+        }, 
+        {
+          "name": "Containerization Orchestration Learning Objective",
+          "content":"<ul style=\"text-align: justify;\"><li>Understanding What is Container Orchestration</li><li>Kubernetes</li><li>ECS/EKS</li><li>Introduction to Kubernetes</li><li>Understand the Main Kubernetes Components</li><li>Node, Pod, Service, Ingress, ConfigMap, Secret, Volume, Deployment, StatefulSet</li><li>Kubernetes Architecture</li><li>Minikube and Kubectl - Local Setup</li><li>Main Kubectl Commands - K8s CLI</li><li>Create and Debug Pod in a Minicluster</li><li>Kubernetes YAML Configuration File Create and Configure Deployment and Service Components</li><li>Organizing your components with K8s Namespaces</li><li>Kubernetes Service Types</li><li>Making your App accessible from outside with Kubernetes Ingress</li><li>Persisting Data in Kubernetes with Volumes</li><li>Persistent Volume</li><li>Persistent Volume Claim</li><li>Storage Class</li><li>ConfigMap and Secret Kubernetes Volume Types</li><li>Deploying Stateful Apps with StatefulSet</li><li>Deploying Kubernetes cluster on a Managed Kubernetes Service (K8s on Cloud)</li><li>Helm - Package Manager of Kubernetes</li><li>Creating a ECS Cluster</li><li>Creating a EKS Cluster</li><li>Infrastructure as Code with Terraform & Ansible Learning Objective</li></ul>"
+
+        }, 
+        {
+          "name": "Terraform and it's components",
+          "content":"<ul style=\"text-align: justify;\"><li>What is Terraform? How it works</li><li>Architecture</li><li>Providers</li><li>Resources & Data Sources</li><li>Variables & Output Values</li><li>Environment variables in Terraform Terraform commands</li><li>Terraform State</li><li>Provisioners</li><li>Modules</li><li>Remote State</li><li>Terraform & AWS</li><li>Hand-on Lab:</li><li>Create Security Group and Provision EC2 windows or Linux Instance using Terraform</li><li>Configure Terraform in Jenkins</li><li>Automate provisioning EC2 instance from Jenkins pipeline and deploy the application with docker-compose</li></ul>"
+
+        }, 
+        {
+          "name": "Automation with Ansible",
+          "content":"<ul style=\"text-align: justify;\"><li>What is Ansible, Uses and How Ansible Works.</li><li>Architecture</li><li>Control Node</li><li>Managed Node</li><li>Inventory</li><li>Module</li><li>Play and Playbook</li><li>Managing Static Inventory</li><li>Creating Ansible Project Directory and Configurations</li><li>Understanding Ansible Ad-hoc Commands</li><li>Privilege Escalation Configuration</li><li>Understanding YAML and Writing Simple Ansible Playbook</li><li>Using Variables in Ansible Playbook</li><li>Using Loop Using Conditions</li><li>Ansible Roles from Ansible Galaxy</li><li>Hand-on Lab:</li><li>Launch an EC2 Linux Instance and Configure Ansible Engine</li><li>Setting Up Linux Managed Nodes</li><li>Writing a Playbook for Deploying Web Application</li><li>Deploying Applications from Ansible Galaxy</li><li>Project: Ansible & Terraform</li><li>Project: Run Docker applications</li><li>Project: Run Ansible from Jenkins Pipeline</li></ul>"
+            
+        },
+        {
+          "name": "Google Cloud Platform (GCP) Course Curriculum",
+          "content":"<ul style=\"text-align: justify;\"><li>GCP Introduction</li><li>Managing GCP Services</li><li>GCP Networking Services</li><li>Gcp IAM And Security Services</li><li>GCP Compute Services</li><li>GCP Storage And Database Services</li><li>GCP Containers</li><li>Google Cloud Migration</li></ul>"
+
+        },
+        {
+          "name": "GCP Introduction",
+          "content":"<ul style=\"text-align: justify;\"><li>Google Cloud Platform (GCP) Infrastructure</li><li>Compute resources</li><li>Networking Services</li><li>Storage and Database offering</li><li>Introduction to Primitive role</li></ul>"
+   
+        }, 
+        {
+          "name": "Managing GCP Services",
+          "content":"<ul style=\"text-align: justify;\"><li>Managing GCP environment with GCP console</li><li>Control GCP environment using CLI</li><li>GCP environment management using Cloud Shell</li><li>GCP environment management using Gcloud</li><li>GCP environment management using Gsutil</li><li>Install and configure cloud SDK</li></ul>"
+
+        },
+        {
+          "name": "Gcp IAM And Security Services",
+          "content":"<ul style=\"text-align: justify;\"><li>Understand Identity and Access Management (IAM)</li><li>Understanding Organizations, Roles, Members, Service accounts,</li><li>Policy Hierarchy</li><li>Understanding different role and permission</li></ul>"
+
+        },
+        {
+          "name": "GCP Compute Services",
+          "content":"<ul style=\"text-align: justify;\"><li>Understand Compute Engine</li><li>Understand and implement Compute options (vCPU and Memory) specific to workload</li><li>Persistent disk – HDD, SSD</li><li>Load Balancing</li><li>Common Compute Engine actions</li></ul>"
+
+        }, 
+        {
+          "name": "GCP Storage And Database Services",
+          "content":"<ul style=\"text-align: justify;\"><li>Understand Cloud Storage – Nearline, Coldline</li><li>Pros and cons of storage option and how to choose</li><li>Understanding Billing aspect of storage options</li><li>Trade off of storage options</li><li>Integration with on premises/multi-cloud environment</li><li>Cloud Storage (Object storage)</li><li>Cloud SQL (Managed relational databases)</li><li>Cloud Bigtable (NoSQL database)</li><li>Cloud Spanner (Horizontally scalable, globally distributed relational database)</li><li>Cloud Firestore (NoSQL document database)</li><li>Cloud Memorystore (Managed Redis)</li><li>Cloud Datastore (Legacy NoSQL database)</li></ul>"
+
+        }, 
+        {
+          "name": "GCP Containers",
+          "content":"<ul style=\"text-align: justify;\"><li>Understand Containers and their benefits</li><li>Kubernetes Engine, Container Registry</li><li>How to use Kubernetes Load Balancing</li><li>How to choose Kubernetes Engine, App Engine, or Containers on Compute Engine</li></ul>"
+
+        }
+        
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ",
+      "careerPaths": [
+        {
+          "name": "Cloud Security Engineer"
+        },
+        {
+          "name": "Site Reliability Engineer (SRE)"
+        },
+        {
+          "name": "DevSecOps Engineer"
+        },
+        {
+          "name": "Infrastructure Engineer:"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Mar, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "2-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "GCP DevSecOps High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "By the time you complete from our GCP Devops Live training, you will get hands-on experience on multiple real projects to impress top tech recruiters with and land the job you want. Here’s a peek at some of the projects:",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "ReactJs/Angular Project with GCP DevSecops",
+            "subTitle": "Realtime Project",
+            "description": "Embark on a journey of innovation with our ReactJS/Angular Project powered by GCP DevSecOps! Our project harnesses the capabilities of cutting-edge frontend technologies like ReactJS and Angular to deliver dynamic and user-friendly web applications. With GCP DevOps at the helm, we ensure seamless collaboration, continuous integration, and efficient delivery pipelines. Our team is dedicated to crafting robust, scalable, and secure solutions that exceed industry standards. Join us as we revolutionize the digital landscape and shape the future of web development. Let's build something extraordinary together!"
+          },
+          {
+            "icon": "Phone",
+            "title": "Springboot/.NET Java Project with GCP DevSecOps",
+            "subTitle": "Realtime Project",
+            "description": "Explore the synergy of Spring Boot/.NET Java Project seamlessly integrated with GCP DevSecOps! Our project leverages the power of Spring Boot and .NET to deliver high-performance, scalable, and secure applications. With GCP DevOps as our DevOps platform, we ensure streamlined collaboration, automated CI/CD pipelines, and efficient release management. Join us in driving innovation, accelerating development cycles, and delivering exceptional software solutions. Together, let's harness the full potential of modern technology to propel your projects to new heights"
+          },
+          {
+            "icon": "Phone",
+            "title": "Python Project with GCP DevSecOps",
+            "subTitle": "Realtime Project",
+            "description": "Join us on an exciting journey of Python development empowered by GCP DevSecOps! Our Python project is built on the pillars of collaboration, automation, and efficiency, with GCP DevOps as our central platform. Together, we'll leverage the flexibility and scalability of Python to create innovative solutions while harnessing GCP DevOps for seamless integration, continuous delivery, and robust DevOps practices. Let's embark on this journey together and unlock the full potential of Python development in the cloud era."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-Azure-Data-Engineering-Course-Curriculum-new-for-new",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/azure-data-engineer.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 30 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Azure Data Engineering",
+        "isTrending": "True"
+      },
+      "mainTitle": "Unlock the power of Azure-Data-Engineering-Course training New",
+      "description": "The Azure Data Engineering course is designed to equip participants with the skills and knowledge required to design, implement, and manage data solutions using Microsoft Azure services. In today's data-driven world, organizations rely on robust data engineering practices to collect, process, and analyze data efficiently for decision-making and business insights.",
+      "normalCost": "10,000",
+      "discountedCost": "8000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "The Azure Data Engineering course is designed to equip participants with the skills and knowledge required to design, implement, and manage data solutions using Microsoft Azure services. In today's data-driven world, organizations rely on robust data engineering practices to collect, process, and analyze data efficiently for decision-making and business insights.",
+        "date": "27 March 2024",
+        "duration": "2 months",
+        "modeOfTraining": "Online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "syllabus": [
+        {
+          "name": "Azure Data Engineer + Databricks Developer",
+          "content":"<ul style=\"text-align: justify;\"><li>Python</li><li>DataBricks</li><li>Spark</li><li>Pyspark</li><li>Spark SQL</li><li>Delta Lake</li><li>Azure Data Factory</li><li>Azure Synapse DW (Dedicated SQL POOL)</li><li>Azure ADF &amp; Databricks Projects</li></ul>"
+ 
+        },
+        {
+          "name": "Azure Databricks Concepts",
+          "content":"<ul style=\"text-align: justify;\"><li>Azure Databricks Introduction</li><li>Databricks Architecture</li><li>Databricks Components overview</li><li>Benefits for data engineers and data scientists</li><li>Azure Databricks concepts</li><li>Workspace – Creation and managing workspace.</li><li>Notebook – creating notebooks, calling and managing different notebooks.</li><li>Library - installing libraries, managing libraries</li><li>Data Management</li><li>Databricks File System. - DBFS commands copy and manage files using DBFS.</li><li>Database - Creating database, tables and managing databases and tables.</li><li>Table - Creating Tables, dropping tables, loading data ..</li><li>Metastore - managing metadata and delta tables creation, managing delta tables.</li><li>Computation Management</li><li>Cluster -- Creating Clusters , managing clusters</li><li>Pool - creating pools and using pools for Auto scaling.</li><li>Databricks Runtime - understanding and using Databricks runtimes based on requirement.</li><li>Jobs - creating jobs from notebooks and assigning types of clusters for jobs.</li><li>Workload - monitoring jobs and managing loads.</li><li>Execution Context – understanding context.</li><li>Databricks Advanced topics.</li><li>Databricks Workflows</li><li>Calling one notebook into another notebook.</li><li>Creating global variables (widgets) and using into Azure ADF pipeline.</li><li>How to implement parallelism in notebooks execution.</li><li>Mounting azure blob storage and data lake storage accounts.</li><li>Integrating source code (notebooks) with GitHub</li><li>Calling DataBricks notebooks into Azure Data factory.</li><li>Databricks Clusters logs monitoring flow.</li></ul>"
+
+        },
+        {
+          "name": "SPARK Concepts",
+          "content":"<ul style=\"text-align: justify;\"><li>Introduction to Spark - Getting started</li><li>What is Spark and what is its purpose?</li><li>Components of the Spark unified stack</li><li>Resilient Distributed Dataset (RDD)</li><li>Downloading and installing Spark standalone</li><li>Scala and Python overview</li><li>Launching and using Spark’s Scala and Python shell ©</li><li>Resilient Distributed Dataset and Data Frames</li><li>Understand how to create parallelized collections and external datasets</li><li>Work with Resilient Distributed Dataset (RDD) operations</li><li>Utilize shared variables and key-value pairs</li><li>Spark application programming</li><li>Understand the purpose and usage of the Spark Context</li><li>Initialize Spark with the various programming languages</li><li>Describe and run some Spark examples</li><li>Pass functions to Spark</li><li>Create and run a Spark standalone application</li><li>Submit applications to the cluster</li><li>Introduction to Spark libraries</li><li>Understand and use the various Spark libraries</li><li>Spark configuration, monitoring and tuning</li><li>Understand components of the Spark cluster</li><li>Configure Spark to modify the Spark properties, environmental variables, or logging properties</li><li>Understand components of the Spark clusterMonitor Spark using the web UIs, metrics, and external instrumentation ,Understand performance tuning considerations</li></ul>"
+
+        },
+        {
+          "name": "PySpark Content",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction To Pyspark</li><li>What is Spark Session</li><li>How to create spark session</li><li>What is Spark Context</li><li>How to create Spark Context</li><li>What is SQL Context</li><li>How to Use Jupiter Notebooks & Databricks notebooks for Python Development.</li><li>Install and configure PySpark in Local System for development.</li><li>Introduction to Big Data and Apache Spark</li><li>Apache Spark Framework & Execution Process.</li><li>Introduction To RDDs</li><li>Different Ways to Create RDD’s in Pyspark.</li><li>RDD Transformations</li><li>RDD Actions</li><li>RDD Cache & Persist</li><li>Introduction to Data Frame.</li><li>Different Ways to Create Data Frame’sin Pyspark.</li><li>Dataframe Transformations</li><li>Dataframe Actions</li><li>Dataframe Cache & Persist</li><li>Different types of Big Data File systems.</li><li>Difference between Row store format and column store format.</li><li>Avro File</li><li>Parquet file</li><li>ORC File</li><li>Reading and Writing Different Types of Files using Dataframe.</li><li>CSV files</li><li>Json files</li><li>Xml files</li><li>Excel files</li><li>Complex Json files</li><li>Avro files</li><li>Parquet files</li><li>Orc files</li><li>Need for Spark SQL</li><li>What is Spark SQL</li><li>SQL Table Creation</li><li>SQL Join Types</li><li>SQL Nested Queries</li><li>SQL DML Operations</li><li>SQL Merge Scripts</li><li>SQL SCD Type 2 implementation</li><li>User-Defined Functions</li><li>Create Private Link to different services</li><li>Limitation</li><li>What is Azure Data Factory</li><li>How to create Data Factory + All Components</li><li>Creating Pipeline + Copy Activity</li><li>General Activities</li><li>Iteration and Conditions</li><li>Data Flow Resource + Data Flow Activity</li><li>Synapse Activities</li><li>Azure Monitor and Manage</li></ul>"
+          
+        },
+        {
+          "name": "DELTA LAKE",
+          "content": "<ul style=\"text-align: justify;\"><li>Delta Lake usage in Databricks.</li><li>Delta Lake Architecture</li><li>Delta Lake Storage Understanding</li><li>Delta lake table creation and API options</li><li>Delta Lake DML Operations usage.</li><li>Delta Lake partitions</li><li>Delta Lake Schema Enforcement</li><li>Delta Lake Schema Evolution</li><li>Delta Lake Versions</li><li>Delta Lake Time Travel</li><li>Delta Lake Vaccum</li><li>Delta Lake Merge (SCD Type 1 and SCD Type2)</li></ul>" 
+        },
+        {
+          "name": "Azure Data Engineer",
+          
+            "content": "<ul style=\"text-align: justify;\"><li>Overview of the Microsoft Azure Platform</li><li>Introduction to Azure</li><li>Basics of Cloud computing</li><li>Azure Infrastructure</li><li>Walkthrough of Azure Portal</li><li>Overview of Azure Services</li><li>Azure Data Architecture</li><li>Traditional RDBMS workloads.</li><li>Data Warehousing Approach</li><li>Big data architectures.</li><li>Transferring data to and from Azure</li><li>Azure Storage options</li><li>Blob Storage</li><li>ADLS Gen1 & Gen2</li><li>RDBMS</li><li>Hadoop</li><li>NoSQL</li><li>Disk</li><li>Blob Storage</li><li>Azure Blob Resources</li><li>Types of Blobs in Azure</li><li>Azure storage account data objects</li><li>Azure storage account types and Options</li><li>Replications in distribution</li><li>Secure access to an application's data</li><li>Azure Import/Export service</li><li>Storage Explorer</li><li>Practical section on Blob Storage</li><li>Azure Data Factory</li><li>Azure Data Factory Architecture</li><li>Creating ADF Resource and Use in azure cloud</li><li>Pipeline Creation and Usage Options</li><li>Copy Data Tool in ADF Portal, Use</li><li>Linked Service Creation in ADF</li><li>Dataset Creation, Connection Reuse</li><li>Staging Dataset with Azure Storage</li><li>ADF Pipeline Deployments</li><li>Pipeline Orchestration using Triggers</li><li>ADF Transformations and other tools integration.</li><li>Processing different type’s files using ADF.</li><li>Integration Runtime</li><li>Monitoring ADF Jobs</li><li>Manage IR’s and Linked Services.</li><li>Azure SQL Database Service</li><li>Introduction to Azure SQL Database</li><li>Relational Data Services in the Cloud</li><li>Azure SQL Database Service Tiers</li><li>Database Throughput Units (DTU)</li><li>Scalable performance and pools</li><li>Creating and Managing SQL Databases</li><li>Azure SQL Database Tools</li><li>Migrating data to Azure SQL Database</li><li>Azure Data Lake Gen1 & Gen2</li><li>Explore the Azure Data Lake enterprise-class security features.</li><li>Understand storage account keys.</li><li>Understand shared access signatures.</li><li>Understand transport-level encryption with HTTPS.</li><li>Understand Advanced Threat Protection.</li><li>Control network access.</li><li>Differences between Gen1 & Gen2</li><li>Azure Synapse SQL DW (Dedicated SQLPOOL)</li><li>Azure Synapse DW (Dedicated SQL POOL)?</li><li>Synapse DW Architecture.</li><li>Creating Internal table with default distribution</li><li>Creating external table in synapse dw</li><li>Loading data from databricks to azure synapse dw</li><li>Loading data from adls gen2 to azure synapse dw</li><li>What is dedicated sql pool</li><li>data warehouse unit overview</li><li>Distributed table with example</li><li>Hash distribution with example</li><li>Round robin distribution with example</li><li>Replicate distribution with example</li><li>What are the types of indexes with examples</li><li>Clustered Index with example</li><li>Non-Clustered index with example</li><li>Clustered Column Store Index with example</li><li>Heap Index with example</li></ul>"
+                  
+        },
+        {
+          "name": "SPARK SQL",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to Spark SQL.</li><li>Spark SQL Create database</li><li>Drop databases</li><li>Create internal table</li><li>Create external table</li><li>Create partitioned table</li><li>Create partitioned with bucketing table</li><li>SPARK DML insert, update, delete and merge operations</li><li>SPARK SQL DRL Select queries with different clauses</li><li>Spark SQL MERGE With SCD Type 1 and SCD Type 2</li><li>Spark SQL WHERE Clause, Group By Clause and Having Clauses</li><li>Spark SQL Order by, Sort By clauses</li><li>Spark SQL join types, Window , Pivot , Limit and Like</li><li>Spark SQL Grouping Sets, Rollup and Cube</li><li>Spark SQL Cultured By and Distributed By</li><li>Spark SQL Case, With and Take sample</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ",
+      "careerPaths": [
+        {
+          "name": "Azure Data Engineer"
+        },
+        {
+          "name": "Data Architect"
+        },
+        {
+          "name": "Cloud Data Engineer"
+        }
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 Feb, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "3-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "Azure Data Engineer High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "As part of our Azure Data Engineering course, you will have the opportunity to work on three capstone projects that showcase your skills and expertise in designing and implementing data solutions using Microsoft Azure services. These projects are designed to give you hands-on experience and real-world scenarios to enhance your portfolio and impress potential employers in the data engineering field. Here are the details of the capstone projects",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Real-time Data Analytics Dashboard with Azure Synapse Analytics",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will design and develop a real-time data analytics dashboard using Azure Synapse Analytics. You will ingest streaming data from multiple sources, process and transform the data using Azure Data Factory and Azure Databricks, and store it in Azure Synapse Analytics. The dashboard will provide insights and visualizations using Azure Power BI, showcasing your ability to build end-to-end data pipelines and create actionable insights for decision-makers"
+          },
+          {
+            "icon": "Phone",
+            "title": "IoT Data Processing and Analysis with Azure Cosmos DB and Azure Functions",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will work on processing and analyzing IoT (Internet of Things) data using Azure Cosmos DB and Azure Functions. You will simulate IoT device data, ingest it into Azure Cosmos DB, and then use Azure Functions for real-time processing, enrichment, and analytics. You will also explore how to scale the solution and handle large volumes of IoT data efficiently, demonstrating your skills in handling big data scenarios on Azure."
+          },
+          {
+            "icon": "Phone",
+            "title": "Customer Segmentation and Personalization using Azure Machine Learning",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will focus on customer segmentation and personalization using Azure Machine Learning services. You will use historical customer data stored in Azure SQL Database or Azure Blob Storage to train machine learning models for segmentation. Then, you will deploy these models as APIs using Azure Machine Learning endpoints and integrate them into a web application or a marketing platform to showcase personalized recommendations and targeted marketing strategies based on customer behavior and preferences.."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unlock-the-MS-Azure-Data-Factory-Curriculum-new-for-new",
+      "heroImage": "https://www.w3schools.com/howto/photographer.jpg",
+      "thumbnailImage": "https://tnttechiesguide.blob.core.windows.net/course-banners/Adf-Mastery-Icon.png",
+      "rating": {
+        "stars": "5",
+        "name": "Highly Rated",
+        "ratingDesc":"Earn Upto 28 lakhs"
+      },
+      "training": {
+        "category": "cloud",
+        "name": "Azure Data Factory",
+        "isTrending": "True"
+      },
+      "mainTitle": "Unlock the power of MS Azure Data Factory Curriculum training New",
+      "description": "The Azure Data Factory course is designed to provide participants with a deep understanding of Azure Data Factory (ADF) and empower them to build scalable data integration and ETL (Extract, Transform, Load) solutions in the Azure cloud environment. Azure Data Factory is a fully managed cloud-based data integration service that allows you to create, schedule, and manage data pipelines for ingesting, transforming, and orchestrating data across various sources and destinations..",
+      "normalCost": "10,000",
+      "discountedCost": "8000",
+      "upcomingClass": {
+        "title": "Upcoming Classes",
+        "description": "The Azure Data Factory course is designed to provide participants with a deep understanding of Azure Data Factory (ADF) and empower them to build scalable data integration and ETL (Extract, Transform, Load) solutions in the Azure cloud environment. Azure Data Factory is a fully managed cloud-based data integration service that allows you to create, schedule, and manage data pipelines for ingesting, transforming, and orchestrating data across various sources and destinations.",
+        "date": "27 March 2024",
+        "duration": "2 months",
+        "modeOfTraining": "Online",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "syllabus": [
+        {
+          "name": "Azure Basics",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to Cloud Computing /li><li>IaaS Vs PaaS vs SaaS and Serverless</li><li>Understand Azure Management Portal</li></ul>"
+        },
+        {
+          "name": "Database in the Cloud",
+          "content": "<ul style=\"text-align: justify;\"><li>Introduction to various options for hosting SQL server on Azure</li><li>Create a VM with SQL Server image (IaaS)</li><li>Create Logical SQL Server and Sql Database</li><li>Understand how to scale-up and scale-down the capacity of SQL Database</li><li>Understand how to configure Alerts on db load</li><li>Configure Web App code to access SQL Database</li><li>Configure Geo-Replication for disaster recovery</li><li>Configure Firewall to whitelist the required IP Address for secure access at both Server</li></ul>"          
+        },
+        {
+          "name": "Azure Storage",
+          "content": "<ul style=\"text-align: justify;\"><li>Create a Storage Account</li><li>Create Containers and Blobs</li><li>Install & Explore Azure Storage Explorer</li><li>Create SAS tokens and understand the benefits of SAS tokens</li><li>Copy Files from on prem to Azure Blob Storage using AzCopy</li><li>Copy Files from one Storage Account to other Storage Account</li><li>Create Queues and add messages into the queue using Powershell</li><li>Create File Shares and sync the files</li><li>Create Tables using Storage Explorer</li></ul>"   
+        },
+        {
+          "name": "Azure NoSQL – Cosmos DB",
+          "content": "<ul style=\"text-align: justify;\"><li>Cosmos DB – architecture</li><li>Understand the RUs and Throughput</li><li>Understand Partitions and the advantages</li></ul>"
+
+        },
+        {
+          "name": "Azure – Deployment as Code using ARM Templates",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of ARM Templates</li><li>Benefits of ARM Templates</li><li>Understand the Structure of ARM Templates</li><li>Provision Azure Resources using ARM Templates</li><li>Plug-in ARM Templates to Release pipeline to automate the process of provisioning the Resources.</li></ul>"
+        },
+        {
+          "name": "Azure Data Factory",
+          "content": "<ul style=\"text-align: justify;\"><li>Azure Data Factory Overview</li><li>Understand ADF Core Concepts</li><li>Move Data from Azure Storage to SQL Database pipelines and activities</li><li>Migrate Data from On Prem SQL Server to SQL Database using ADF</li><li>Migrate SSIS Packages to Azure using ADF</li><li>Understand scheduling and Monitoring the ADF Pipelines</li><li>Create & work with Dataflow</li><li>Build an End-to-End pipeline to demonstrate ETL</li></ul>"
+        },
+        {
+          "name": "Azure Data Lake",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of Azure Data Lake</li><li>Understand Azure Data Lake Architecture VM</li><li>Creating an Azure Data Lake Store Gen2 with Portal</li><li>Managing Data with Azure Data Lake Store Gen2</li></ul>"
+        },
+        {
+          "name": "Azure Data Bricks",
+          "content": "<ul style=\"text-align: justify;\"><li>Overview of Azure Data Bricks</li><li>Create an Azure Data Bricks service.</li><li>Create a Spark cluster in Azure Data Bricks.</li><li>Learn transformation of data in Azure Data Bricks using Scala</li><li>Create Notebook to develop ETL using Data Bricks</li><li>Understand how to parameterize Data Bricks pipelines</li><li>Invoke Data Bricks pipelines with Azure Data Factory</li></ul>"
+        }
+      ],
+      "enrollBanner": {
+        "text": "Enroll now to our class",
+        "link": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ"
+      },
+      "youtubeLink": "https://www.youtube.com/playlist?list=PL2VnphbyAiFqMwVhM3_sw_H8Uqu5ALljZ",
+      "careerPaths": [
+        {
+          "name": "Data Engineers"
+        },
+        {
+          "name": "ETL Developers"
+        },
+        {
+          "name": "Data Analysts"
+        }
+        
+      ],
+      "programHighlights": [
+        {
+          "subText": "Level",
+          "mainText": "Beginner / Intermediate / Advanced",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Length",
+          "mainText": "40 Sessions",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Projects",
+          "mainText": "3 Fully Functional",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Pre-requisites",
+          "mainText": "None",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Batch Size",
+          "mainText": "10-15 participants per team",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Job Preparation",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Certificate",
+          "mainText": "Yes",
+          "isHighLighted": false
+        },
+        {
+          "subText": "Start Date",
+          "mainText": "27 May, 2024",
+          "isHighLighted": false
+        }
+      ],
+      "programImages": [
+        {
+          "heading": "Salary Expectations",
+          "subHeading": "Per Annum",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/i-salary.jpg",
+          "cssClass": "light-purple-bg"
+        },
+        {
+          "heading": "Best Fit for",
+          "subHeading": "3-12 Exprienced",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/perfect-tick.jpg",
+          "cssClass": "light-blue-bg"
+        },
+        {
+          "heading": "High Job Demands",
+          "subHeading": "at these companies",
+          "imgUrl": "https://tnttechiesguide.blob.core.windows.net/icons/companies.png",
+          "cssClass": "col-span-2 light-green-bg"
+        }
+      ],
+      "projectDetails": {
+        "title": "Capstone Projects",
+        "description": "As part of our Azure Data Factory course, you will work on practical capstone projects that demonstrate your skills in data integration, ETL (Extract, Transform, Load), and data orchestration using Azure Data Factory. These projects are designed to give you hands-on experience and showcase your ability to design, develop, and manage data pipelines in the Azure cloud environment. Here are the details of the capstone projects",
+        "projectInfoList": [
+          {
+            "icon": "Phone",
+            "title": "Real-time Data Ingestion and Processing Pipeline",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will design and implement a real-time data ingestion and processing pipeline using Azure Data Factory. You will ingest streaming data from a source such as Azure Blob Storage or Azure Event Hubs, perform real-time transformations using Azure Databricks or Azure Functions, and store the processed data in Azure SQL Database or Azure Data Lake Storage. The pipeline will include monitoring and logging mechanisms to track data flow and ensure data quality."
+          },
+          {
+            "icon": "Phone",
+            "title": "Batch Data Migration and Transformation Pipeline",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will build a batch data migration and transformation pipeline using Azure Data Factory. You will extract data from an on-premises database or a cloud-based source, transform the data using Azure Data Factory's data flow activities, and load it into a target data warehouse or data lake in Azure. The pipeline will include scheduling and dependency management to ensure reliable and efficient data processing"
+          },
+          {
+            "icon": "Phone",
+            "title": "Hybrid Data Integration and Orchestration Solution",
+            "subTitle": "Realtime Project",
+            "description": "In this project, you will create a hybrid data integration and orchestration solution using Azure Data Factory. You will work with data sources both in the cloud (e.g., Azure SQL Database, Azure Blob Storage) and on-premises (e.g., SQL Server, File Shares) to build end-to-end data workflows. The solution will demonstrate data movement, data transformation, data enrichment, and data orchestration capabilities of Azure Data Factory, showcasing your skills in integrating diverse data sources and automating data workflows."
+          }
+        ]
+      },
+      "upcomingClasses": [
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 April, 2024",
+              "isHighLighted": false
+            }
+          ]
+        },
+        {
+          "programHighlights": [
+            {
+              "subText": "Level",
+              "mainText": "Beginner / Intermediate / Advanced",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Length",
+              "mainText": "40 Sessions",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Projects",
+              "mainText": "3 Fully Functional",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Pre-requisites",
+              "mainText": "None",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Batch Size",
+              "mainText": "10-15 participants per team",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Job Preparation",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Certificate",
+              "mainText": "Yes",
+              "isHighLighted": false
+            },
+            {
+              "subText": "Start Date",
+              "mainText": "27 May, 2024",
+              "isHighLighted": false
+            }
+          ]
+        }
+      ]
+    }
+    
+  ],
+  "classes": [
+    {
+      "courseName": "Azure Devops Programming Online (Demo)",
+      "instructor": "Dinesh Reddy Jetti",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Automation Engineer Programming Online (Demo)",
+      "instructor": "Dinesh Reddy Jetti",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Javascript Programming Online (Demo)",
+      "instructor": "Tejaswini G",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Observability Stack",
+      "instructor": "Manoj Kumar Reddy",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Docker && Kuberntes",
+      "instructor": "Dinesh Reddy Jetti",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "CSS Programming Online (Demo)",
+      "instructor": "Dinesh Kumar four",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Security In DevOps",
+      "instructor": "Mohammed Siddiqui",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Test Automation Package Program",
+      "instructor": "Janani P",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "E2E Testing Package Program",
+      "instructor": "Mohammed Zahoor",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "AWS Devops",
+      "instructor": "Kirthi Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Blockchain Engineer Program",
+      "instructor": "Krishan & Sushain",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "GCP Devops",
+      "instructor": "Manoj Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "Azure Data Engineer",
+      "instructor": "Kirthi Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "AWS Data Engineer",
+      "instructor": "Rahul Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "AWS Data Engineer",
+      "instructor": "Manoj Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    },
+    {
+      "courseName": "SAP Basis Program",
+      "instructor": "Pradeep Kumar",
+      "dateTime": "2024-03-27 5:30pm",
+      "duration": "2 months",
+      "demoSessionLink": "https://meet.goto.com/493870613"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Ishara",
+      "rating": 5,
+      "designation": "Full stack Engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/chaithika.jpeg",
+      "description": "<p><strong>Transitioning from classroom</strong> Transitioning from classroom theory to real-world application can be daunting, but working on a Spring Boot Java project with Azure DevOps has been an invaluable learning experience. Azure DevOps provided the perfect platform for me to apply what I've learned in school to practical, industry-relevant projects. The seamless integration between Spring Boot and Azure DevOps empowered me to automate build and deployment processes and collaborate effectively with teammates."
+    },
+    {
+      "name": "John Simon",
+      "rating": 5,
+      "designation": "Automation engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong> Participating in automation</strong> Participating in automation engineering projects as a student has been an enriching experience that has greatly complemented my academic journey. Through hands-on projects and practical exercises, I've gained invaluable insights into automation principles, tools, and methodologies. These experiences have not only enhanced my technical skills but have also provided me with a deeper understanding of software development and testing processes."
+    },
+    {
+      "name": "Sai Vinay",
+      "rating": 5,
+      "designation": "SAP Basis Specialist",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/Ishara.jpeg",
+      "description": "<p><strong>I've immersed myself</strong> in the intricacies of enterprise resource planning systems. Through dedicated study and practical projects, I've gained valuable insights into SAP administration, system monitoring, and performance optimization. These experiences have not only expanded my technical skills but have also deepened my understanding of how SAP solutions drive business processes. I'm excited to continue exploring this dynamic field and applying my knowledge to support organizations in their digital transformation journey"
+    },
+    {
+      "name": "Sean Tan chee",
+      "rating": 5,
+      "designation": "Frontend Engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong>I've delved</strong> into the world of web development with enthusiasm and dedication. Through coursework and practical projects, I've honed my skills in HTML, CSS, and JavaScript, learning to create captivating user interfaces and seamless user experiences. These experiences have not only enhanced my technical abilities but have also fueled my passion for creating visually appealing and interactive websites. I'm eager to continue my journey in frontend development and contribute to building innovative and user-centric web applications."
+    },
+    {
+      "name": "Sai Teja",
+      "rating": 5,
+      "designation": "Cloud Engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong>As a student with a passion</strong> for cloud technologies, I've embarked on a journey to become a Cloud Engineer. Through hands-on projects and coursework, I've gained valuable insights into cloud platforms, infrastructure, and deployment strategies. These experiences have not only expanded my technical skills but have also deepened my understanding of cloud computing principles. I'm excited to continue exploring this dynamic field and applying my knowledge to drive innovation and efficiency in cloud-based solutions.."
+    },
+    {
+      "name": "Anand B",
+      "rating": 5,
+      "designation": "SQL DataBase Admin",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong>As a student venturing</strong> into the realm of SQL Database Administration, I've immersed myself in the world of data management and optimization. Through academic coursework and practical projects, I've acquired essential skills in SQL querying, database maintenance, and performance tuning. These experiences have equipped me with a solid foundation for effectively managing databases and ensuring their optimal performance. I look forward to leveraging my knowledge to tackle real-world challenges in the field of database administration"
+    },
+    {
+      "name": "Bhargavi",
+      "rating": 5,
+      "designation": "Test Automation Engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong>As a student pursuing a career</strong>  in Test Automation Engineering, I've had the opportunity to dive into the world of software testing and automation. Through hands-on projects and internships, I've gained valuable experience in designing and executing automated test cases. These experiences have not only enhanced my technical skills but also deepened my understanding of the importance of quality assurance in software development. I'm eager to apply my knowledge and contribute to innovative projects in the field of test automation."
+    },
+    {
+      "name": "Bhanu T",
+      "rating": 5,
+      "designation": "Cloud Devops Engineer",
+      "imgUrl": "https://tnttechiesguide.blob.core.windows.net/testimonials/rudi.jpeg",
+      "description": "<p><strong>The journey from student</strong>  to Cloud DevOps Engineer has been an exhilarating ride filled with growth and learning opportunities. The hands-on experiences gained through various academic projects and internships provided me with a solid understanding of cloud technologies, automation tools, and DevOps practices. These experiences equipped me with the skills needed to architect scalable and resilient infrastructure, automate repetitive tasks, and streamline deployment pipelines."
+    }
+  ]
+}
+

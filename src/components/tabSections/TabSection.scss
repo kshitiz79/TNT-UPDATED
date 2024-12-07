@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+.tab-section{
+    .tab-default{
+        
+        color:$secondary-color;
+        font-size: 1rem;
+        border-bottom: 3px solid $light-bg-color;
+
+        &.tab-active{
+            font-weight: 700;
+            border-bottom: 3px solid $secondary-color;
+        }
+    }
+}

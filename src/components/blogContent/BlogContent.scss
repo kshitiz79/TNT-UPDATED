@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+.blog-content-wrapper{
+    .blog-card{
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+
+        .placeholder-text {
+            font-size: 12px;
+            margin-top: 1rem;
+            color: grey;
+        }
+
+        h6{
+            color:$primary-color;
+        }
+
+        .category-wrp{
+            .category-item{
+                font-size: 12px;
+                background-color: $secondary-color;
+                display: inline-block;
+                padding: 2px 5px;
+                border-radius: 5px;
+                margin-right:10px;
+            }
+        }
+    }
+}

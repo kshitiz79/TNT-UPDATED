@@ -1,0 +1,28 @@
+.career-pathways {
+    // background-color: green;
+    color: white;
+    padding: 2rem;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        right: 50px;
+        z-index: 12;
+        background-image: url("../../../public/assets/question-mark-icon.png");
+        bottom: 0;
+        background-size: cover;
+        top: 0;
+        margin: auto 0;
+    }
+
+    h3{
+        color:white;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-top:3rem;
+    }
+}

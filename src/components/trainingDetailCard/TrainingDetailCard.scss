@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.training-detail-card{
+    &__body{
+        background-color: $secondary-color;
+        border: 3px solid $primary-color;
+    }
+}

@@ -1,0 +1,59 @@
+@import '../../styles/variables';
+.course-section-wrapper{
+     background-color: #fff;    
+    svg{
+        color:$yellow-color;
+    }
+    .training-subtitle{
+        font-size:12px;
+    }
+    .training-title{
+        color: $primary-color;
+    }
+    .rating-description{
+        color:rgb(136, 136, 136);
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .anchor-link{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #fff;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        bottom:-35px;
+        
+        list-style-type: none;
+        
+            li {
+                margin: 0 0.25rem;
+            }
+        
+            button {
+                display: block;
+                width: 1rem;
+                height: 1rem;
+                padding: 0;
+                
+                border: none;
+                border-radius: 100%;
+                background-color: lightgray;
+                
+                text-indent: -9999px;
+            }
+        
+            li.slick-active button {
+                background-color: grey;
+            }
+        
+    }
+}
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
