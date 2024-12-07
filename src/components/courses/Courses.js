@@ -1,16 +1,19 @@
 "use client";
-import "./Courses.scss";
-import { getCourses, getTrendingCourses } from "@/data/api/Api";
-import { rightArrow, leftArrow } from "../common/Icons";
+
 import React, { useEffect, useState } from "react";
-import CourseCard from "./CourseCard";
 import Slider from "react-slick";
 import Link from "next/link";
+import "./Courses.scss";
+
+import { getCourses, getTrendingCourses } from "@/data/api/Api";
+import { rightArrow, leftArrow } from "../common/Icons";
+import CourseCard from "./CourseCard";
 
 const Courses = (props) => {
-  const { title, isHomePage } = props;
+  const { title = "Our Courses", isHomePage = false } = props;
   const [trainings, setTrainings] = useState([]);
 
+  // Fetch the course data
   const getCoursesArr = async () => {
     let arr = [];
     if (isHomePage) {
@@ -18,14 +21,14 @@ const Courses = (props) => {
     } else {
       arr = await getCourses();
     }
-    setTrainings(arr);
-    // console.log("Courses array", arr)
+    setTrainings(arr || []); // Ensure it is always an array
   };
 
   useEffect(() => {
     getCoursesArr();
   }, []);
 
+  // Slider Settings
   const settings = {
     dots: false,
     infinite: true,
@@ -35,8 +38,8 @@ const Courses = (props) => {
     arrows: true,
     autoplay: true,
     fade: false,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -57,32 +60,33 @@ const Courses = (props) => {
   };
 
   return (
-    <div className="  items-center  flex justify-center w-full p-6 course-section-wrapper">
-      <div className="  container ">
-        <div className="flex justify-center items-center flex-col mb-6 ml-6">
-          {title && <h2>{title}</h2>}
-         
-           <div className='text-gray-600 w-[35%] text-center'>Problems trying to resolve the conflict between 
-           the two major realms of Classical physics: Newtonian mechanics  </div>
+    <div className="course-section-wrapper items-center flex justify-center w-full p-6">
+      <div className="container">
+        {/* Section Title */}
+        <div className="flex justify-center items-center flex-col mb-6">
+          <h2 className="text-3xl font-bold text-black mb-4">{title}</h2>
+          <p className="text-gray-600 w-[35%] text-center">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics.
+          </p>
         </div>
 
-        {isHomePage && trainings && trainings.length > 0 ? (
+        {/* Slider or Grid */}
+        {isHomePage && trainings.length > 0 ? (
           <Slider {...settings} className="pb-6">
-            {trainings &&
-              trainings.map((item, index) => (
-                <CourseCard key={index} item={item} isHomePage={isHomePage} />
-              ))}
+            {trainings.map((item, index) => (
+              <CourseCard key={index} item={item} isHomePage={isHomePage} />
+            ))}
           </Slider>
         ) : (
           <div
-            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ${
+            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ${
               !isHomePage ? "mb-6" : ""
             }`}
           >
-            {trainings &&
-              trainings.map((item, index) => (
-                <CourseCard key={index} item={item} />
-              ))}
+            {trainings.map((item, index) => (
+              <CourseCard key={index} item={item} />
+            ))}
           </div>
         )}
       </div>
@@ -92,19 +96,28 @@ const Courses = (props) => {
 
 export default Courses;
 
+// Custom Slider Arrows
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
-    <div className={`left-arrow ${className}`} onClick={onClick}>
+    <div
+      className={`next-arrow ${className}`}
+      onClick={onClick}
+      style={{ fontSize: "24px", cursor: "pointer" }}
+    >
       {rightArrow}
     </div>
   );
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
-    <div className={className} onClick={onClick}>
+    <div
+      className={`prev-arrow ${className}`}
+      onClick={onClick}
+      style={{ fontSize: "24px", cursor: "pointer" }}
+    >
       {leftArrow}
     </div>
   );
