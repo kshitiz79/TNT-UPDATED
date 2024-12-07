@@ -42,10 +42,10 @@ const Page = () => {
   return (
     <>
       {/* Hero Section */}
-      <HeroBanner customClass="common-hero flex items-end pb-5" title="About Us" />
+      <HeroBanner customClass="common-hero flex items-end pb-5 flex justify-center items-center" title="About Us" />
 
       {/* Who Are We Section */}
-      <div className="flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-10">
+      <div className="flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-10 container  mx-auto">
         {/* Left Content */}
         <div className="w-full md:w-[50%] text-left">
           <h2 className="text-4xl font-bold text-black mb-4">Who Are We?</h2>
@@ -73,7 +73,7 @@ const Page = () => {
             alt="Educational Graphics"
             width={500}
             height={500}
-            className="w-full rounded-lg shadow-md"
+            className="w-full "
           />
         </div>
       </div>
@@ -82,7 +82,7 @@ const Page = () => {
       <ImageDescriptionBlock
         imgUrl={descriptionImageBlockOneData.imgUrl}
         title={descriptionImageBlockOneData.title}
-        subTitle={descriptionImageBlockOneData.subTitle}
+        subTitle="TnT Techies Guide is a leading training and consulting firm dedicated to empowering individuals and organizations in the dynamic fields of technology. Specializing in comprehensive guides, hands-on training, and expert consulting services, we cater to a diverse range of tech enthusiasts, professionals, and businesses seeking to stay at the forefront of innovation. Our tailored programs cover a spectrum of technology domains, ensuring that clients receive cutting-edge insights and practical skills to navigate and excel in today's fast-paced digital landscape. With a commitment to excellence, TnT Techies Guide strives to be the go-to destination for those seeking top-notch training and strategic consulting solutions to unlock their full potential in the ever-evolving world of technology."
         description={descriptionImageBlockOneData.description}
       />
 

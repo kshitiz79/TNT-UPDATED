@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
     return (
         <>
-            <HeroBanner customClass="common-hero flex items-end pb-5" title="Blogs"/>
+            <HeroBanner customClass="common-hero flex items-end pb-5 flex justify-center items-center" title="Blogs"/>
             <div className='container mx-auto'>
                 <BlogContent/>
             </div>

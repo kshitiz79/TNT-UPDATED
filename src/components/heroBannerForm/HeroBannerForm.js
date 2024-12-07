@@ -209,7 +209,7 @@ export default function HeroBannerForm() {
   return (
     <div className=" justify-center items-center  p-4 w-full ">
       <form
-        className="p-6  rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-[80%] bg-white lg:h-auto border border-black mt-20 lg:ml-[24%]"
+        className="p-6  rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-[100%] bg-white lg:h-auto border border-black mt-20 "
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">Connect With Us</h2>

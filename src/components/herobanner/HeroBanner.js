@@ -6,7 +6,7 @@ import HeroBannerForm from '../heroBannerForm/HeroBannerForm';
 import heroImage from '../../../public/assets/common-page-banner-new.png';
 import { usePathname } from 'next/navigation';
 
-const HeroBanner = ({ customClass, title, buttonText, buttonLink,mt='6' }) => {
+const HeroBanner = ({ customClass, title, buttonText, buttonLink,mt='0' }) => {
     const [isHomePage, setIsHomePage] = useState(false);
     const pathname = usePathname();
 
@@ -18,28 +18,28 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink,mt='6' }) => {
     return (
         <div className={`hero-bg-image ${customClass} ${marginTopClass}`}>
             <div className="container">
-                {/* Top Section: Title and Form */}
+          
                 <div className='flex flex-col md:flex-row justify-between items-start gap-8 '>
-                    {/* Left Content: Title, Paragraph, and Info Cards */}
-                    <div className='w-full md:w-[70%] space-y-6'>
+       
+                    <div className='w-full md:w-[70%] space-y-6 mt-5'>
                         {/* Title */}
                         {title && (
                 <h1
-                    className={`text-6xl w-4/6 font-bold text-black mb-4`}
+                    className={`text-6xl w-4/6 font-bold text-black mb-4 `}
                     style={{ marginTop: `${mt}rem` }}
                 >
                     {title}
                 </h1>
             )}
 
-                        {/* Button */}
+                        
                         {buttonLink && (
                             <a href={buttonLink} className="text-blue-500 underline mb-4 block">
                                 {buttonText}
                             </a>
                         )}
 
-                        {/* Paragraph and Info Cards: Only Visible on Home Page */}
+                 
                         {isHomePage && (
                             <>
                                 <p className='w-4/6 font-[600] text-black '>
@@ -61,7 +61,7 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink,mt='6' }) => {
                         )}
                     </div>
 
-                    {/* Right Content: Form */}
+            
                     {isHomePage && (
                         <div className='w-full md:w-[45%] mt-4'>
                             <HeroBannerForm />

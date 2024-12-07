@@ -21,7 +21,7 @@ const page = () => {
     return (
         <>
             {/* Hero Section */}
-            <HeroBanner customClass="common-hero flex items-end pb-5" title="Contact Us" />
+            <HeroBanner customClass="common-hero flex items-end pb-5 flex justify-center items-center " title="Contact Us" />
 
 
 
@@ -75,23 +75,23 @@ const page = () => {
     </div>
 
     {/* Right Side: Contact Form */}
-    <div className="bg-blue-400 p-8 rounded-lg shadow-lg">
+    <div className="bg-gray-200 p-8 rounded-lg shadow-lg ">
       <h2 className="text-3xl font-bold mb-6 text-black text-center">Contact Us</h2>
       <form className="space-y-4">
         <input
           type="text"
           placeholder="Enter your Name"
-          className="w-full p-3 border-b-2 border-gray-300 focus:border-blue-600 outline-none bg-transparent text-white"
+          className="w-full p-3 border-b-2 border-gray-300  outline-none bg-transparent text-black"
         />
         <input
           type="email"
           placeholder="Enter a valid email address"
-          className="w-full p-3 border-b-2 border-gray-300 focus:border-blue-600 outline-none bg-transparent text-white"
+          className="w-full p-3 border-b-2 border-gray-300  outline-none bg-transparent text-black"
         />
         <textarea
           rows="5"
           placeholder="Enter your message"
-          className="w-full p-3 border-b-2 border-gray-300 focus:border-blue-600 outline-none bg-transparent text-white"
+          className="w-full p-3 border-b-2 border-gray-300  outline-none bg-transparent text-black"
         ></textarea>
         <div className="text-center">
           <button
@@ -127,7 +127,7 @@ const page = () => {
 
            
             {/* Contact Details Section */}
-            <div className="py-10 bg-gray-50 mb-10">
+            <div className="py-10 bg-gray-50 mb-10 py-6">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Google Map */}

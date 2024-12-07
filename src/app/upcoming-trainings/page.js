@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
     return (
         <>
-            <HeroBanner customClass="common-hero flex items-end pb-5" title="Upcoming Classes"/> 
+            <HeroBanner customClass="common-hero flex items-end pb-5 flex justify-center items-center" title="Upcoming Classes"/> 
             <DataTable dataListType="upcoming-trainings"/>
         </>
     );

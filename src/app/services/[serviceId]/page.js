@@ -20,7 +20,7 @@ const ServicePage = async ({ params }) => {
     <div className='mt-6'>
       {/* Hero Section */}
       <HeroBanner 
-        customClass="common-hero flex items-end pb-5" 
+        customClass="common-hero flex items-end pb-5 flex justify-center " 
         title={serviceData?.training?.name} 
         mt="20" // Dynamic margin-top
       />
