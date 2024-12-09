@@ -8,17 +8,28 @@ import ImageDescriptionBlock from '@/components/imageDescriptionBlock/ImageDescr
 import Testimonials from '@/components/testimonials/Testimonials';
 import DataStripe from '@/components/dataStripe/DataStripe';
 import { usePathname } from 'next/navigation'; // Import usePathname
+import GetStarted from '@/components/GetStarted/GetStarted';
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const pathname = usePathname(); // Get the current path
   console.log("Current path:", pathname); // For debugging
-
+  const router = useRouter();
   const dataStripeInfo = [
     { name: "Courses", value: "15+", url: "assets/icn_settings.png" },
     { name: "Students", value: "200+", url: "assets/fa-solid_award.png" },
     { name: "Lecturers", value: "20+", url: "assets/carbon_tool.png" },
     { name: "Years", value: "5+", url: "assets/bx_bx-stats.png" },
   ];
+
+
+
+
+  
+
+  const handleRedirect = () => {
+    router.push("/contact-us"); // Replace with your actual route
+  };
 
   return (
     <main>
@@ -77,15 +88,20 @@ export default function Home() {
                 The quick fox jumps over the lazy dog
               </h4>
             </div>
-            <button className="text-white bg-orange-500 rounded-xl p-3">
-              Contact Us
-            </button>
+            <button
+      onClick={handleRedirect}
+      className="text-white bg-orange-500 rounded-xl px-6 py-3 shadow-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
+    >
+      Contact Us
+    </button>
           </div>
         </div>
       )}
 
       {/* Testimonials Section */}
       <Testimonials />
+
+      <GetStarted/>
     </main>
   );
 }

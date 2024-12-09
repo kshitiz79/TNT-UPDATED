@@ -137,7 +137,7 @@ const NavBar = () => {
                         />
                       </svg>
                     </Link>
-                    <ul className="absolute left-0 mt-1 w-[20rem] bg-white shadow-md py-2 z-10 hidden group-hover:block">
+                    <ul className="absolute left-0 mt-1 w-[20rem] bg-zinc-300 shadow-md py-2 z-10 hidden group-hover:block">
                       {item.dropdownItems.map((dropdownItem, i) => (
                         <li key={i}>
                           <Link

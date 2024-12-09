@@ -52,7 +52,7 @@ const CourseMainPage = ({ id }) => {
         {/* Hero Banner */}
         <HeroBanner
           heroUrl={training?.heroImage}
-          customClass="common-hero flex items-end pb-5"
+          customClass="common-hero flex items-end pb-5 flex justify-center items-center"
           title={training?.training?.name}
         />
 

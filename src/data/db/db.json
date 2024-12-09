@@ -1338,7 +1338,7 @@
           },
           "training": {
             "category": "cloud",
-            "name": "Spirngboot Java with Multi Cloud Devops",
+            "name": "Spirngboot with Multi Cloud Devops",
             "isTrending":true
           },
           "mainTitle": "Spirngboot Java with Multi Cloud Devops",
@@ -3112,7 +3112,7 @@
         },
         "training": {
           "category": "cloud",
-          "name": "Mastering SecOps: Comprehensive Training for Modern Cybersecurity",
+          "name": "Mastering SecOps",
           "isTrending": true
         },
         "mainTitle": "Mastering SecOps: Comprehensive Training for Modern Cybersecurity",
@@ -3406,7 +3406,7 @@
         },
         "training": {
           "category": "cloud",
-          "name": "GCP DevOps and Cloud Computing Masterclass",
+          "name": "GCP DevOps & Cloud Computing ",
           "isTrending": true
         },
         "mainTitle": "GCP DevOps and Cloud Computing Masterclass",
@@ -3766,7 +3766,7 @@
         },
         "training": {
           "category": "cloud",
-          "name": "Comprehensive Playwright Testing Course: From Setup to Advanced Techniques",
+          "name": "Comprehensive Testing Course",
           "isTrending": true
         },
         "mainTitle": "Unlock the power of Playwright Testing Course",
