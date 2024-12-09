@@ -10,6 +10,7 @@ import TrainerCardLink from "@/components/trainerCardLink/TrainerCardLink";
 import TabSections from "@/components/tabSections/TabSections";
 import CourseDisplayBanner from "@/components/courseDisplayBanner/CourseDisplayBanner";
 import Image from "next/image";
+import CoursesForm from "./CourcesForm";
 
 const CourseMainPage = ({ id }) => {
   const [training, setTraining] = useState(null);
@@ -80,8 +81,12 @@ const CourseMainPage = ({ id }) => {
         {/* Trainer Info */}
         <TrainerCardLink trainerInfo={training?.trainerDetails} />
 
+
+        <div className=" flex items-center justify-center "> <CoursesForm/> </div>
+
         {/* Testimonials */}
         <Testimonials />
+
       </div>
     )
   );
