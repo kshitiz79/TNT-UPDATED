@@ -42,54 +42,52 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Column 5: Company */}
-            <div >
-                <h2 className="mb-5 text-lg font-bold uppercase text-white justify-between">Company</h2>
-                <ul className="space-y-4">
-                    <li>
-                        <Link href="/courses" className="hover:underline">Courses</Link>
-                    </li>
-                    <li>
-                        <Link href="/upcoming-trainings" className="hover:underline">Upcoming Classes</Link>
-                    </li>
-                    <li>
-                        <Link href="/blogs" className="hover:underline">Blogs</Link>
-                    </li>
-                    <li>
-                        <Link href="/about-us" className="hover:underline">About Us</Link>
-                    </li>
-                    <li>
-                        <Link href="/contact-us" className="hover:underline">Contact Us</Link>
-                    </li>
-                </ul>
-            </div>
 
-            {/* Column 6: Follow Us */}
-            <div>
-    <h2 className="mb-5 text-lg font-bold uppercase text-white  ">Follow Us</h2>
 
-    {/* Clickable Email */}
-    <div className="flex items-center mb-3">
-        <span className="mr-3 flex-shrink-0">{email}</span>
-        <a
-            href="mailto:tttechiesguide@gmail.com"
-            className="hover:underline text-white "
-        >
-            tttechiesguide@gmail.com
-        </a>
+
+            <div className="flex flex-col md:flex-row gap-10 text-white">
+  {/* Company Section */}
+  <div className="flex-1">
+    <h2 className="mb-5 text-lg font-bold text-white uppercase">Company</h2>
+    <ul className="space-y-3">
+      <li>
+        <Link href="/courses" className="hover:underline">Courses</Link>
+      </li>
+      <li>
+        <Link href="/upcoming-trainings" className="hover:underline">Upcoming Classes</Link>
+      </li>
+      <li>
+        <Link href="/blogs" className="hover:underline">Blogs</Link>
+      </li>
+      <li>
+        <Link href="/about-us" className="hover:underline">About Us</Link>
+      </li>
+      <li>
+        <Link href="/contact-us" className="hover:underline">Contact Us</Link>
+      </li>
+    </ul>
+  </div>
+
+  {/* Follow Us Section */}
+  <div className="flex-1 mt-6">
+    <h2 className=" text-lg font-bold uppercase text-white">Follow Us</h2>
+
+    {/* Email */}
+    <div className="flex items-center mb-4">
+      <i className="fas fa-envelope mr-2"></i>
+      <a href="mailto:tttechiesguide@gmail.com" className="hover:underline">
+        tttechiesguide@gmail.com
+      </a>
     </div>
 
-    {/* Clickable Phone */}
+    {/* Phone */}
     <div className="flex items-center">
-        <span className="mr-3 flex-shrink-0 ">{phone}</span>
-        <a
-            href="tel:+15132000529"
-            className="hover:underline text-white"
-        >
-            +(1) 513 2000 529
-        </a>
+      <i className="fas fa-phone mr-2"></i>
+      <a href="tel:+15132000529" className="hover:underline">
+        +(1) 513 2000 529
+      </a>
     </div>
-
+  </div>
 </div>
 
         </div>

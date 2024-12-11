@@ -67,7 +67,7 @@ const Page = () => {
         </div>
 
         {/* Right Content: Image */}
-        <div className="w-full md:w-[45%] mt-8 md:mt-0">
+        <div className="w-full md:w-[45%] -mt-6 md:mt-0">
           <Image
             src={aboutUsImageUrl}
             alt="Educational Graphics"

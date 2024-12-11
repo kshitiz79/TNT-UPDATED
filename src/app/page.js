@@ -68,7 +68,7 @@ export default function Home() {
                 <Link
                   href="/courses"
                   type="button"
-                  className="md:mt-0 p-4 text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-3xl text-sm px-3 py-3 focus:outline-none"
+                  className="mt-6  text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-3xl text-sm lg:px-3 lg:py-3 px-2 py-2 focus:outline-none"
                 >
                   Register Now!
                 </Link>
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
             <button
       onClick={handleRedirect}
-      className="text-white bg-orange-500 rounded-xl px-6 py-3 shadow-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
+      className="text-white bg-orange-500 rounded-xl lg:px-6 lg:py-3 px-4 py-2 shadow-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
     >
       Contact Us
     </button>
