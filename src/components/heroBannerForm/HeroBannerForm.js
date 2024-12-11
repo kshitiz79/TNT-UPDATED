@@ -147,9 +147,9 @@ export default function HeroBannerForm() {
   };
 
   return (
-    <div className="flex justify-center items-center p-4 w-full">
+    <div className="flex justify-center items-center p-4 w-full ">
     <form
-      className="p-4 sm:p-6 rounded-lg w-full bg-white border border-black mt-4 sm:mt-10 md:mt-20 max-w-md mx-auto"
+      className="p-4 sm:p-6 rounded-lg w-auto  bg-white border border-black mt-4 sm:mt-10 md:mt-20 max-w-md mx-auto"
       onSubmit={handleSubmit}
     >
       <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 uppercase text-center text-black">

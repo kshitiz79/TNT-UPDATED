@@ -1,35 +1,23 @@
 @import '../../styles/variables';
-.homepage-hero{
+
+.homepage-hero {
     color-scheme: light only;
     color: black;
-    
-    .banner-info-card{
 
-        &__item{
+    .banner-info-card {
+        &__item {
             background: $primary-color;
             color: #fff;
-            margin: 30px 30px 30px 0px;
-            padding: 20px 40px;
+            margin: 0; // Removed large fixed margins for better responsiveness
             border-radius: 20px;
-            border: 2px solid  $primary-color;
-            @media screen and (max-width:767px) {
-                margin: 10px 30px 10px 0px;
+            border: 2px solid $primary-color;
+            transition: all 0.3s ease-in-out;
+            
+            &:hover {
+                background-color: transparent;
+                border: 2px solid $primary-color;
+                color: $primary-color;
             }
         }
-        &__item:hover{
-            background-color: transparent;
-            border: 2px solid  $primary-color;
-            color: $primary-color;
-        }
     }
-
-    .banner-info-contact{
-        &__item{
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-right: 30px;
-            gap: 10px;
-        }
-    }
-
 }

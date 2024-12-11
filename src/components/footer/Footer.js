@@ -43,8 +43,8 @@ const Footer = () => {
             </div>
 
             {/* Column 5: Company */}
-            <div>
-                <h2 className="mb-5 text-lg font-bold uppercase text-white">Company</h2>
+            <div >
+                <h2 className="mb-5 text-lg font-bold uppercase text-white justify-between">Company</h2>
                 <ul className="space-y-4">
                     <li>
                         <Link href="/courses" className="hover:underline">Courses</Link>
@@ -66,14 +66,14 @@ const Footer = () => {
 
             {/* Column 6: Follow Us */}
             <div>
-    <h2 className="mb-5 text-lg font-bold uppercase text-white">Follow Us</h2>
+    <h2 className="mb-5 text-lg font-bold uppercase text-white  ">Follow Us</h2>
 
     {/* Clickable Email */}
     <div className="flex items-center mb-3">
         <span className="mr-3 flex-shrink-0">{email}</span>
         <a
             href="mailto:tttechiesguide@gmail.com"
-            className="hover:underline text-white"
+            className="hover:underline text-white "
         >
             tttechiesguide@gmail.com
         </a>
@@ -89,8 +89,8 @@ const Footer = () => {
             +(1) 513 2000 529
         </a>
     </div>
-</div>
 
+</div>
 
         </div>
     </div>

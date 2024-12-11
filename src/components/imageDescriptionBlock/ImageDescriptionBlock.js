@@ -46,7 +46,7 @@ const ImageDescriptionBlock = ({ imgUrl, subTitle, title, descriptionOne, descri
                     )}
                 </div>
 
-                <div className='md:flex lg:flex justify-between mb-6'>
+                <div className='md:flex lg:flex justify-between mb-6 space-y-6 md:space-y-0'>
                     <img src="/assets/fa-brands_hooli.png" alt='holli'  className='md:m-3 m-auto object-contain '/>
                     <img src="/assets/fa-brands_lyft.png" alt='holli'  className='md:m-3 m-auto object-contain'/>
                     <img src="/assets/fa-brands_pied-piper-hat.png" alt='pied-piper-logo'  className='md:m-3 m-auto object-contain' />
