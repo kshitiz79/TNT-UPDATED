@@ -12,14 +12,15 @@ import { Button } from "flowbite-react";
 const NavBar = () => {
   const [selectedUrl, setSelectedUrl] = useState("");
   const [services, setServices] = useState([]);
-  const [isScrolled, setIsScrolled] = useState(false); // State to track scroll position
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // NEW state to manage menu visibility
   const pathname = usePathname();
 
   const trendingCourses = [
-    { name: "Courses", url: `/courses` },  
+    { name: "Courses", url: `/courses` },
     ...services.map((item) => {
       return { name: item.training.name, url: `/services/${item.id}` };
-    })
+    }),
   ];
 
   const getAllServices = async () => {
@@ -33,7 +34,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) { // Change this value as needed
+      if (window.scrollY > 50) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -41,11 +42,19 @@ const NavBar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // Close menu on route change
+  useEffect(() => {
+    setIsMenuOpen(false); // Reset menu when pathname changes
+  }, [pathname]);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   const links = [
     { name: "Home", url: "/", routerName: "home" },
@@ -71,9 +80,10 @@ const NavBar = () => {
         id="toggleMenuBtn"
         data-collapse-toggle="navbar-multi-level"
         type="button"
+        onClick={toggleMenu}
         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100"
         aria-controls="navbar-multi-level"
-        aria-expanded="false"
+        aria-expanded={isMenuOpen}
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -96,7 +106,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`page-navigation text-black border-gray-200 sticky w-full top-0 z-50 transition-all duration-300  ${
+      className={`page-navigation text-black border-gray-200 sticky w-full top-0 z-50 transition-all duration-300 ${
         isScrolled ? "bg-gray-100 shadow-lg" : "bg-transparent"
       }`}
     >
@@ -106,7 +116,9 @@ const NavBar = () => {
         </Link>
         {renderToogleBtn()}
         <div
-          className="hidden w-full lg:block lg:w-auto"
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } w-full lg:block lg:w-auto`}
           id="navbar-multi-level"
         >
           <ul className="flex flex-col font-medium p-2 md:p-0 border border-gray-100 rounded-lg md:space-x-8 lg:flex-row md:mt-0 md:border-0">
@@ -116,7 +128,10 @@ const NavBar = () => {
                   <>
                     <Link
                       href={item.url}
-                      onClick={() => setSelectedUrl(item.url)}
+                      onClick={() => {
+                        setSelectedUrl(item.url);
+                        setIsMenuOpen(false); // Close menu on click
+                      }}
                       className={`${desktopLinkClassName} ${
                         selectedUrl === item.url ? "active" : ""
                       } flex items-center text-black`}
@@ -142,7 +157,10 @@ const NavBar = () => {
                         <li key={i}>
                           <Link
                             href={dropdownItem.url}
-                            onClick={() => setSelectedUrl(dropdownItem.url)}
+                            onClick={() => {
+                              setSelectedUrl(dropdownItem.url);
+                              setIsMenuOpen(false); // Close menu on click
+                            }}
                             className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                           >
                             {dropdownItem.name}
@@ -154,7 +172,10 @@ const NavBar = () => {
                 ) : (
                   <Link
                     href={item.url}
-                    onClick={() => setSelectedUrl(item.url)}
+                    onClick={() => {
+                      setSelectedUrl(item.url);
+                      setIsMenuOpen(false); // Close menu on click
+                    }}
                     className={`${desktopLinkClassName} ${
                       selectedUrl === item.url ? "active" : ""
                     }`}
@@ -166,7 +187,12 @@ const NavBar = () => {
             ))}
             <li>
               <Button>
-                <Link href="/enroll-now">Enroll Now</Link>
+                <Link
+                  href="/enroll-now"
+                  onClick={() => setIsMenuOpen(false)} // Close menu on click
+                >
+                  Enroll Now
+                </Link>
               </Button>
             </li>
           </ul>
