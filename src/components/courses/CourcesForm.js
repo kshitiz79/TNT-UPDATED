@@ -202,151 +202,145 @@ export default function CoursesForm() {
   };
 
   return (
-    <div className="p-4 w-full container flex justify-center items-center">
-      <form
-        className="p-6 rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-[100%] bg-white lg:h-auto border border-black mt-20"
-        onSubmit={handleSubmit}
-      >
-        <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">
-          Connect With Us
-        </h2>
-        
-        <div className="grid md:grid-cols-3 gap-6">
-          {/* Column 1: Name, Email */}
-          <div className="space-y-4">
-            <div>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Enter your name"
-                value={formData.name}
-                onChange={handleChange}
-                className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                  errors.name ? "border-red-500" : "border-gray-500"
-                } focus:border-blue-500 outline-none py-2`}
-              />
-              {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
-            </div>
-            <div>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="Enter your email"
-                value={formData.email}
-                onChange={handleChange}
-                className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                  errors.email ? "border-red-500" : "border-gray-500"
-                } focus:border-blue-500 outline-none py-2`}
-              />
-              {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-            </div>
-          </div>
+<div className="p-4 w-full container flex justify-center items-center">
+  <form
+    className="p-6 rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-[100%] bg-white lg:h-auto border border-black mt-10 md:mt-20"
+    onSubmit={handleSubmit}
+  >
+    <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">
+      Connect With Us
+    </h2>
+    
+    {/* Grid Layout with Responsive Columns */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* Column 1: Name, Email */}
+      <div className="space-y-4">
+        <div>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Enter your name"
+            value={formData.name}
+            onChange={handleChange}
+            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+              errors.name ? "border-red-500" : "border-gray-500"
+            } focus:border-blue-500 outline-none py-2`}
+          />
+          {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+        </div>
+        <div>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email"
+            value={formData.email}
+            onChange={handleChange}
+            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+              errors.email ? "border-red-500" : "border-gray-500"
+            } focus:border-blue-500 outline-none py-2`}
+          />
+          {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+        </div>
+      </div>
 
-          {/* Column 2: Phone */}
-          <div className="space-y-4">
-            <div>
-              <PhoneInput
-                placeholder="Enter your phone number"
-                value={formData.phone}
-                onChange={(phone) => setFormData({ ...formData, phone })}
-                className="w-full border border-gray-500 rounded-md focus:border-blue-500 outline-none py-2 px-3"
-              />
-              {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
-            </div>
-
-            <div>
-              <input
-                id="bestDateToCall"
-                name="bestDateToCall"
-                type="date"
-                min={today}
-                value={formData.bestDateToCall}
-                onChange={handleChange}
-                className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                  errors.bestDateToCall ? "border-red-500" : "border-gray-500"
-                } focus:border-blue-500 outline-none py-2`}
-              />
-              <Label htmlFor="bestDateToCall" className="text-black" />
-              {errors.bestDateToCall && (
-                <p className="text-red-500 text-sm mt-1">{errors.bestDateToCall}</p>
-              )}
-            </div>
-
-
-
-
-          </div>
-
-          {/* Column 3: Date, Time, Course */}
-          <div className="space-y-4">
-          
-            <div>
-              <input
-                id="preferredTime"
-                name="preferredTime"
-                type="time"
-                value={formData.preferredTime}
-                onChange={handleChange}
-                className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                  errors.preferredTime ? "border-red-500" : "border-gray-500"
-                } focus:border-blue-500 outline-none py-2`}
-              />
-              <Label htmlFor="preferredTime"  className="text-black" />
-              {errors.preferredTime && (
-                <p className="text-red-500 text-sm">{errors.preferredTime}</p>
-              )}
-            </div>
-
-
-
-            
-            <div>
-              <Select
-                id="course"
-                name="course"
-                value={formData.course}
-                onChange={handleChange}
-                className={`w-full border-none rounded-md ${
-                  errors.course ? "border-red-500" : "border-gray-500"
-                } focus:border-blue-500 py-2`}
-              >
-                <option value="" disabled>
-                  Select a course
-                </option>
-                <option value=" Comprehensive Advanced SecOps Training">
-                  Comprehensive Advanced SecOps Training
-                </option>
-                <option value="Automation Engineer">Automation Engineer</option>
-                <option value="Infra Automation">Infra Automation</option>
-                <option value=" Azure Devops Architect">Azure Devops Architect</option>
-                <option value="Spirngboot java with Multi Cloud Devops">
-                  Spirngboot java with Multi Cloud Devops
-                </option>
-                <option value="Docker Kubernetes">Docker Kubernetes</option>
-                <option value="Site Reliability Engineering">
-                  Site Reliability Engineering
-                </option>
-                <option value="GCP DevSecOps">GCP DevSecOps</option>
-                <option value="azure-data-engineering">Azure Data Engineering</option>
-                <option value="Azure Data Factory">Azure Data Factory</option>
-              </Select>
-              {errors.course && <p className="text-red-500 text-sm mt-1">{errors.course}</p>}
-            </div>
-          </div>
+      {/* Column 2: Phone */}
+      <div className="space-y-4">
+        <div>
+          <PhoneInput
+            placeholder="Enter your phone number"
+            value={formData.phone}
+            onChange={(phone) => setFormData({ ...formData, phone })}
+            className="w-full border border-gray-500 rounded-md focus:border-blue-500 outline-none py-2 px-3"
+          />
+          {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
         </div>
 
-        {/* Submit Button */}
-        <div className="mt-6 flex justify-center">
-          <button
-            type="submit"
-            className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+        <div>
+          <input
+            id="bestDateToCall"
+            name="bestDateToCall"
+            type="date"
+            min={today}
+            value={formData.bestDateToCall}
+            onChange={handleChange}
+            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+              errors.bestDateToCall ? "border-red-500" : "border-gray-500"
+            } focus:border-blue-500 outline-none py-2`}
+          />
+          <Label htmlFor="bestDateToCall" className="text-black" />
+          {errors.bestDateToCall && (
+            <p className="text-red-500 text-sm mt-1">{errors.bestDateToCall}</p>
+          )}
+        </div>
+      </div>
+
+      {/* Column 3: Date, Time, Course */}
+      <div className="space-y-4">
+        <div>
+          <input
+            id="preferredTime"
+            name="preferredTime"
+            type="time"
+            value={formData.preferredTime}
+            onChange={handleChange}
+            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+              errors.preferredTime ? "border-red-500" : "border-gray-500"
+            } focus:border-blue-500 outline-none py-2`}
+          />
+          <Label htmlFor="preferredTime" className="text-black" />
+          {errors.preferredTime && (
+            <p className="text-red-500 text-sm">{errors.preferredTime}</p>
+          )}
+        </div>
+
+        <div>
+          <Select
+            id="course"
+            name="course"
+            value={formData.course}
+            onChange={handleChange}
+            className={`w-full border-none rounded-md ${
+              errors.course ? "border-red-500" : "border-gray-500"
+            } focus:border-blue-500 py-2`}
           >
-            Submit
-          </button>
+            <option value="" disabled>
+              Select a course
+            </option>
+            <option value=" Comprehensive Advanced SecOps Training">
+              Comprehensive Advanced SecOps Training
+            </option>
+            <option value="Automation Engineer">Automation Engineer</option>
+            <option value="Infra Automation">Infra Automation</option>
+            <option value=" Azure Devops Architect">Azure Devops Architect</option>
+            <option value="Spirngboot java with Multi Cloud Devops">
+              Spirngboot java with Multi Cloud Devops
+            </option>
+            <option value="Docker Kubernetes">Docker Kubernetes</option>
+            <option value="Site Reliability Engineering">
+              Site Reliability Engineering
+            </option>
+            <option value="GCP DevSecOps">GCP DevSecOps</option>
+            <option value="azure-data-engineering">Azure Data Engineering</option>
+            <option value="Azure Data Factory">Azure Data Factory</option>
+          </Select>
+          {errors.course && <p className="text-red-500 text-sm mt-1">{errors.course}</p>}
         </div>
-      </form>
+      </div>
     </div>
+
+    {/* Submit Button */}
+    <div className="mt-6 flex justify-center">
+      <button
+        type="submit"
+        className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+
   );
 }
