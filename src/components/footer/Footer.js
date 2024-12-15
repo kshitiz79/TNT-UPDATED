@@ -29,7 +29,7 @@ const Footer = () => {
     <div className="mx-auto text-white container py-6 lg:py-8">
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-6">
             {/* Dynamically fetch Trending Courses spanning 4 columns */}
-            <div className="col-span-3">
+            <div className="col-span-3 mt-1">
                 <h2 className="mb-5 text-lg uppercase text-white font-bold">Trending Courses</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 ">
                     {trendingCourses && trendingCourses.map((item, index) => (
@@ -45,9 +45,9 @@ const Footer = () => {
 
 
 
-            <div className="flex flex-col md:flex-row  text-white gap-6">
+            <div className=" col-span-2 grid md:grid-cols-2  grid-cols-1  text-white md:justify-between">
   {/* Company Section */}
-  <div className="flex-1">
+  <div className="flex-1 mt-1">
     <h2 className="mb-5 text-lg font-bold text-white uppercase">Company</h2>
     <ul className="space-y-3">
       <li>
@@ -69,7 +69,7 @@ const Footer = () => {
   </div>
 
   {/* Follow Us Section */}
-  <div className="flex-1 ">
+  <div className='gap-6 mt-6 sm:mt-0 lg:mt-1'>
     <h2 className=" text-lg font-bold uppercase text-white">Follow Us</h2>
 
     {/* Email */}
@@ -88,6 +88,7 @@ const Footer = () => {
       </a>
     </div>
   </div>
+  
 </div>
 
         </div>
@@ -113,7 +114,7 @@ const Footer = () => {
         <footer className=" w-full">
             <div className='container mx-auto text-white  py-4 lg:py-8 sm:flex sm:items-center sm:justify-between '>
                 
-                    <div className="text-lg bg-white sm:text-center text-gray-400">© 2014 TNT Techies Guide. All Rights Reserved.
+                    <div className="text-lg bg-white sm:text-center text-gray-400">© 2024 TNT Techies Guide. All Rights Reserved.
                     </div>
                     <div className="flex mt-4 sm:mt-0 flex-wrap">
                                 <a target="_blank" href="https://www.facebook.com/tttechiesguide/" className="me-5 mt-3 text-black">
