@@ -172,12 +172,13 @@ export default function Page() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen p-4 get-started-banner">
+    <div className="flex justify-center items-center min-h-screen p-4 get-started-banner gap-6  flex-col ">
+      <h2 >Enroll Now</h2>
       <form
         className="p-6 shadow-lg rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-2xl font-bold mb-5">Contact Form</h2>
+        <h2 className="text-2xl font-bold mb-5 text-black">Contact Form</h2>
         <div className="mb-4 mt-4">
           <input
             id="name"

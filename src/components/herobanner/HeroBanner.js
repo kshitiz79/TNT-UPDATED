@@ -64,40 +64,12 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
                 </div>
 
                 {/* Environmental Consulting Cards: Only Visible on Home Page */}
-                {isHomePage && (
-                    <div className='flex flex-col lg:flex-row justify-between w-full mt-6 gap-4'>
-                        <div className='lg:w-[28%] w-full bg-white px-4 py-5 shadow-lg rounded flex flex-col items-start'>
-                            <img src='assets/carbon_tool.png' alt='Logo' className='mb-2 w-10 h-10 object-contain' />
-                            <h3 className='font-semibold text-black text-lg mb-1'>Environmental Consulting</h3>
-                            <h4 className='text-gray-600 text-sm'>
-                                We focus on ergonomics and meeting you where you work.
-                            </h4>
-                        </div>
-                        <div className='lg:w-[28%] w-full bg-white px-4 py-5 shadow-lg rounded flex flex-col items-start'>
-                            <img src='assets/shop_twotone.png' alt='Logo' className='mb-2 w-10 h-10 object-contain' />
-                            <h3 className='font-semibold text-black text-lg mb-1'>Environmental Consulting</h3>
-                            <h4 className='text-gray-600 text-sm'>
-                                We focus on ergonomics and meeting you where you work.
-                            </h4>
-                        </div>
-                        <div className='lg:w-[28%] w-full px-4 py-5 bg-teal-700 text-white shadow-lg rounded flex flex-col items-start'>
-                            <img src='assets/carbon_notebook.png' alt='Logo' className='mb-2 w-10 h-10 object-contain' />
-                            <h3 className='font-semibold text-white text-lg mb-1'>Environmental Consulting</h3>
-                            <h4 className='text-white text-sm'>
-                                We focus on ergonomics and meeting you where you work.
-                            </h4>
-                        </div>
-
-
-                    </div>
-
-                
-                )}
+               
             </div>
         
         </div>
         {isHomePage && (
-                        <div className='w-full flex justify-center items-center '>
+                        <div className=' flex justify-center items-center '>
                             <CoursesForm />
                         </div>
                     )}

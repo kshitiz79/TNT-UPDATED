@@ -208,13 +208,13 @@ export default function CoursesForm() {
     onSubmit={handleSubmit}
   >
     <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">
-      Connect With Us
+      Contact US
     </h2>
     
     {/* Grid Layout with Responsive Columns */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Column 1: Name, Email */}
-      <div className="space-y-4">
+      <div className="lg:space-y-4 ">
         <div>
           <input
             id="name"
@@ -238,7 +238,7 @@ export default function CoursesForm() {
             value={formData.email}
             onChange={handleChange}
             className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-              errors.email ? "border-red-500" : "border-gray-500"
+              errors.email ? "border-red-500" : "border-gray-500 mr-5"
             } focus:border-blue-500 outline-none py-2`}
           />
           {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
@@ -246,7 +246,7 @@ export default function CoursesForm() {
       </div>
 
       {/* Column 2: Phone */}
-      <div className="space-y-4">
+      <div className="space-y-2">
         <div>
           <PhoneInput
             placeholder="Enter your phone number"
@@ -277,7 +277,7 @@ export default function CoursesForm() {
       </div>
 
       {/* Column 3: Date, Time, Course */}
-      <div className="space-y-4">
+      <div className="space-y-2">
         <div>
           <input
             id="preferredTime"
@@ -331,7 +331,7 @@ export default function CoursesForm() {
     </div>
 
     {/* Submit Button */}
-    <div className="mt-6 flex justify-center">
+    <div className="lg:mt-6 mt-4 flex justify-center">
       <button
         type="submit"
         className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"

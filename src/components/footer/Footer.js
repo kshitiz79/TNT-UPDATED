@@ -45,7 +45,7 @@ const Footer = () => {
 
 
 
-            <div className="flex flex-col md:flex-row gap-10 text-white">
+            <div className="flex flex-col md:flex-row  text-white gap-6">
   {/* Company Section */}
   <div className="flex-1">
     <h2 className="mb-5 text-lg font-bold text-white uppercase">Company</h2>
@@ -69,7 +69,7 @@ const Footer = () => {
   </div>
 
   {/* Follow Us Section */}
-  <div className="flex-1 mt-6">
+  <div className="flex-1 ">
     <h2 className=" text-lg font-bold uppercase text-white">Follow Us</h2>
 
     {/* Email */}
