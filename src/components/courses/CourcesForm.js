@@ -214,7 +214,7 @@ export default function CoursesForm() {
     {/* Grid Layout with Responsive Columns */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Column 1: Name, Email */}
-      <div className="lg:space-y-4 ">
+      <div className="space-y-4 ">
         <div>
           <input
             id="name"
@@ -265,7 +265,7 @@ export default function CoursesForm() {
             min={today}
             value={formData.bestDateToCall}
             onChange={handleChange}
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md text-black ${
               errors.bestDateToCall ? "border-red-500" : "border-gray-500"
             } focus:border-blue-500 outline-none py-2`}
           />
