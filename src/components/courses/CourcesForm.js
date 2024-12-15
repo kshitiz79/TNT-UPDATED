@@ -204,7 +204,7 @@ export default function CoursesForm() {
   return (
 <div className="p-4 w-full container flex justify-center items-center">
   <form
-    className="p-4 lg:p-6 rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-[100%] bg-white lg:h-auto border border-black mt-10 md:mt-20"
+    className="p-4 lg:p-6 rounded-lg w-full sm:w-3/4 md:w-full lg:w-[100%] bg-white lg:h-auto border border-black mt-10 md:mt-20"
     onSubmit={handleSubmit}
   >
     <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">
