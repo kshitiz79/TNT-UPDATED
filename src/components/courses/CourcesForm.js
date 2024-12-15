@@ -277,7 +277,7 @@ export default function CoursesForm() {
       </div>
 
       {/* Column 3: Date, Time, Course */}
-      <div className="space-y-2">
+      <div className="space-y-4">
         <div>
           <input
             id="preferredTime"
