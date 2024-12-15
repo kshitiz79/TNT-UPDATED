@@ -43,10 +43,7 @@ export default function RootLayout({ children }) {
           data-elfsight-app-lazy
         ></div>
 
-        <div
-          className="elfsight-app-7000798d-c1f8-4f4a-bf18-b8a645215458 enroll-widget"
-          data-elfsight-app-lazy
-        ></div>
+       
       </body>
     </html>
   );

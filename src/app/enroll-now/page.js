@@ -203,14 +203,16 @@ export default function Page() {
           {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
         </div>
         <div className="mb-4">
-          <PhoneInput
-            placeholder="Enter your phone number"
-            value={formData.phone}
-            onChange={(phone) => setFormData({ ...formData, phone })} 
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${errors.phone ? 'border-red-500' : 'border-gray-500'} focus:border-blue-500 outline-none`}
-          />
-          {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
-        </div>
+        <PhoneInput
+          placeholder="Enter your phone number"
+          value={formData.phone}
+          onChange={(phone) => setFormData({ ...formData, phone })}
+          className="text-sm w-full border border-gray-500 rounded-md focus:border-blue-500 outline-none py-2 px-3"
+        />
+        {errors.phone && (
+          <p className="text-red-500 text-xs mt-1">{errors.phone}</p>
+        )}
+      </div>
         <div className="mb-4">
           <input
             id="bestDateToCall"

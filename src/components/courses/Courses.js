@@ -65,9 +65,8 @@ const Courses = (props) => {
         {/* Section Title */}
         <div className="flex justify-center items-center flex-col mb-6">
           <h2 className="text-3xl font-bold text-black mb-4">{title}</h2>
-          <p className="text-gray-600 lg:w-[35%] w-auto text-center">
-            Problems trying to resolve the conflict between the two major realms
-            of Classical physics: Newtonian mechanics.
+          <p className="text-gray-600 lg:w-[55%] w-auto text-center md:text-base text-sm">
+          Dive into the intricate interplay between the deterministic laws of Newtonian mechanics and the complexities of other classical realms. Gain a comprehensive understanding of the foundational principles and their modern implications
           </p>
         </div>
 

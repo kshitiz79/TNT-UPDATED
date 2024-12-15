@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react';
 import "./HeroBanner.scss";
 import HeroBannerForm from '../heroBannerForm/HeroBannerForm';
 import { usePathname } from 'next/navigation';
-
+import CourcesForm from '../courses/CourcesForm';
+import CoursesForm from '../courses/CourcesForm';
 const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
     const [isHomePage, setIsHomePage] = useState(false);
     const pathname = usePathname();
@@ -17,7 +18,8 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
     const marginTopClass = `mt-${mt}`;
 
     return (
-        <div className={`hero-bg-image ${customClass} ${marginTopClass} p-4 sm:p-6 md:p-8`}>
+        <div>
+        <div className={`hero-bg-image ${customClass} ${marginTopClass} p-4 sm:p-6 md:p-8  `}>
             <div className="container mx-auto">
                 <div className='flex flex-col md:flex-row justify-between items-start gap-8'>
                     <div className='w-full md:w-2/3 space-y-6 mt-5'>
@@ -58,11 +60,7 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
                         )}
                     </div>
 
-                    {isHomePage && (
-                        <div className='w-full md:w-[45%] '>
-                            <HeroBannerForm />
-                        </div>
-                    )}
+                  
                 </div>
 
                 {/* Environmental Consulting Cards: Only Visible on Home Page */}
@@ -89,10 +87,22 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
                                 We focus on ergonomics and meeting you where you work.
                             </h4>
                         </div>
+
+
                     </div>
+
+                
                 )}
             </div>
+        
         </div>
+        {isHomePage && (
+                        <div className='w-full flex justify-center items-center '>
+                            <CoursesForm />
+                        </div>
+                    )}
+      
+            </div>
     );
 };
 

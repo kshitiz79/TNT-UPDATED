@@ -19,6 +19,7 @@
     "react": "^18",
     "react-awesome-reveal": "^4.2.7",
     "react-dom": "^18",
+    "react-phone-input-2": "^2.15.1",
     "react-phone-number-input": "^3.4.5",
     "react-slick": "^0.29.0",
     "react-slugify": "^3.0.3",
