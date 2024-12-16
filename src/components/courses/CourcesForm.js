@@ -214,7 +214,7 @@ export default function CoursesForm() {
     {/* Grid Layout with Responsive Columns */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Column 1: Name, Email */}
-      <div className="space-y-4 ">
+      <div className="space-y-6 ">
         <div>
           <input
             id="name"
@@ -223,7 +223,7 @@ export default function CoursesForm() {
             placeholder="Enter your name"
             value={formData.name}
             onChange={handleChange}
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+            className={`w-full border-b-2  rounded-md ${
               errors.name ? "border-red-500" : "border-gray-500"
             } focus:border-blue-500 outline-none py-2`}
           />
@@ -237,7 +237,7 @@ export default function CoursesForm() {
             placeholder="Enter your email"
             value={formData.email}
             onChange={handleChange}
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
+            className={`w-full border-b-2  rounded-md ${
               errors.email ? "border-red-500" : "border-gray-500 mr-5"
             } focus:border-blue-500 outline-none py-2`}
           />
@@ -246,15 +246,15 @@ export default function CoursesForm() {
       </div>
 
       {/* Column 2: Phone */}
-      <div className="space-y-2">
+      <div className="space-y-5">
         <div>
           <PhoneInput
             placeholder="Enter your phone number"
             value={formData.phone}
             onChange={(phone) => setFormData({ ...formData, phone })}
-            className="w-full border border-gray-500 rounded-md focus:border-blue-500 outline-none py-2 px-3"
+            className="w-full border border-gray-500 text-black rounded-md focus:border-blue-500 outline-none py-2 px-3"
           />
-          {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
+          {errors.phone && <p className="text-red-500 text-sm mt-1 ">{errors.phone}</p>}
         </div>
 
         <div>
@@ -265,13 +265,13 @@ export default function CoursesForm() {
             min={today}
             value={formData.bestDateToCall}
             onChange={handleChange}
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md text-black ${
+            className={`w-full border-b-2  rounded-md text-black ${
               errors.bestDateToCall ? "border-red-500" : "border-gray-500"
             } focus:border-blue-500 outline-none py-2`}
           />
-          <Label htmlFor="bestDateToCall" className="text-black" />
+          <Label htmlFor="bestDateToCall" value="Best Date to Call" className='text-black'/>
           {errors.bestDateToCall && (
-            <p className="text-red-500 text-sm mt-1">{errors.bestDateToCall}</p>
+            <p className="text-red-500 text-sm ">{errors.bestDateToCall}</p>
           )}
         </div>
       </div>
@@ -285,11 +285,11 @@ export default function CoursesForm() {
             type="time"
             value={formData.preferredTime}
             onChange={handleChange}
-            className={`w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-              errors.preferredTime ? "border-red-500" : "border-gray-500"
+            className={`w-full border-b-2  rounded-md ${
+              errors.preferredTime ? "border-red-500"  : "border-gray-500 text-black" 
             } focus:border-blue-500 outline-none py-2`}
           />
-          <Label htmlFor="preferredTime" className="text-black" />
+                  <Label htmlFor="preferredTime" value="Preferred Time"  className='text-black'/>
           {errors.preferredTime && (
             <p className="text-red-500 text-sm">{errors.preferredTime}</p>
           )}

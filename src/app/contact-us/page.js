@@ -67,9 +67,9 @@ const ContactPage = () => {
       <div className="py-10 mb-6 px-2 ">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 ">
           {/* Contact Information Boxes */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl px-6 ">
             {/* Main Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
+            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
               <div className="text-blue-600 text-3xl mb-2">📍</div>
               <h3 className="font-bold text-lg mb-2">OUR MAIN OFFICE</h3>
               <p className="text-gray-600">
@@ -82,11 +82,11 @@ const ContactPage = () => {
               <div className="text-blue-600 text-3xl mb-2">📞</div>
               <h3 className="font-bold text-lg mb-2">PHONE NUMBER</h3>
               <p className="text-gray-600">
-                <a href="tel:+15132000529" className="hover:underline">
+                <a href="tel:+15132000529" className="hover:underline text-sm">
                   +(1) 513 2000 529
                 </a>
                 <br />
-                <a href="tel:+918499893456" className="hover:underline">
+                <a href="tel:+918499893456" className="hover:underline text-sm">
                   +(91) 84998 93456
                 </a>
               </p>
