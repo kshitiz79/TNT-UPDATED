@@ -62,7 +62,7 @@ export default function Home() {
             <div className="w-[80%] p-5 md:flex items-center justify-between md:relative md:bg-blue-950 bottom-[65px]">
               <div>
                 <p className="font-bold">Signup and get the early bird offer?</p>
-                <h2 className="text-white m-[0px]">Ready to Get Started!</h2>
+                <h2 className="text-white ">Ready to Get Started!</h2>
               </div>
               <button>
                 <Link
