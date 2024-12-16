@@ -25,7 +25,7 @@ const Footer = () => {
 
     return (
         <>
-   <footer className="footer-section w-full border-t border-solid bg-blue-950">
+   <footer className="footer-section w-full border-t border-solid bg-blue-950 px-6">
     <div className="mx-auto text-white container py-6 lg:py-8">
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-6">
             {/* Dynamically fetch Trending Courses spanning 4 columns */}

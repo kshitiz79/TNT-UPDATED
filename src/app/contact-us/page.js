@@ -30,6 +30,11 @@ const ContactPage = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "Name is required";
     if (!formData.phone) newErrors.phone = "Phone number is required";
+    if (!formData.email) {
+      newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email is invalid";
+    }
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -59,10 +64,10 @@ const ContactPage = () => {
         title="Contact Us"
       />
 
-      <div className="py-10 mb-6">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="py-10 mb-6 px-2 ">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 ">
           {/* Contact Information Boxes */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl px-6">
             {/* Main Office */}
             <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
               <div className="text-blue-600 text-3xl mb-2">📍</div>
@@ -119,10 +124,10 @@ const ContactPage = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-lg shadow-lg lg:ml-6">
-            <h2 className="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+          <div className="bg-white p-8 rounded-lg shadow-lg lg:ml-6 ">
+            <h2 className="text-3xl font-bold mb-6 text-center  mt-3">Contact Us</h2>
             <form onSubmit={handleSubmit}>
-              <div className="mb-4">
+              <div className="mb-6 px-6 ">
                 <input
                   id="name"
                   name="name"
@@ -137,23 +142,39 @@ const ContactPage = () => {
                 )}
               </div>
 
-              <div className="mb-4">
-                <PhoneInput
-                  country={"us"}
-                  placeholder="Enter your phone number"
-                  value={formData.phone}
-                  onChange={(phone) => setFormData({ ...formData, phone })}
-                  className="w-full"
-                />
-                {errors.phone && (
-                  <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
-                )}
-              </div>
+              <div className="mb-6">
+  <PhoneInput
+    country={"us"}
+    placeholder="Enter your phone number"
+    value={formData.phone}
+    onChange={(phone) => setFormData({ ...formData, phone })}
+    className="w-full px-6"
+  />
+  {errors.phone && (
+    <p className="text-red-500 text-sm mt-1 mr-6 ">{errors.phone}</p>
+  )}
+</div>
+
+              <div className="px-6">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email"
+            value={formData.email}
+            onChange={handleChange}
+            className={`w-full border-b-2  border-gray-300  rounded-md  ${
+              errors.email ? "border-red-500 " : "border-gray-500 mr-5 "
+            } focus:border-blue-500 outline-none py-2`}
+          />
+          {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+        </div>
+
 
               <div className="text-center">
                 <button
                   type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 mt-6 mb-6 rounded-lg shadow-lg"
                 >
                   Submit
                 </button>
