@@ -93,7 +93,7 @@ const ContactPage = () => {
             </div>
 
             {/* Second Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
+            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
               <div className="text-blue-600 text-3xl mb-2">📍</div>
               <h3 className="font-bold text-lg mb-2">2ND OFFICE</h3>
               <p className="text-gray-600">
@@ -135,7 +135,7 @@ const ContactPage = () => {
                   placeholder="Enter your name"
                   value={formData.name}
                   onChange={handleChange}
-                  className={`w-full border-b-2 border-gray-300 focus:border-blue-500 outline-none py-2`}
+                  className={`w-full border-b-2 border-black focus:border-blue-500 outline-none py-2`}
                 />
                 {errors.name && (
                   <p className="text-red-500 text-sm mt-1">{errors.name}</p>
