@@ -1,7 +1,6 @@
 "use client";
 import "./Navbar.scss";
 import React, { useEffect, useState } from "react";
-import { initFlowbite } from "flowbite";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -12,7 +11,8 @@ import { Button } from "flowbite-react";
 const NavBar = () => {
   const [selectedUrl, setSelectedUrl] = useState("");
   const [services, setServices] = useState([]);
-  const [isScrolled, setIsScrolled] = useState(false); // State to track scroll position
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // Added state to control mobile menu
   const pathname = usePathname();
 
   const trendingCourses = [
@@ -33,15 +33,13 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) { // Change this value as needed
+      if (window.scrollY > 50) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -74,6 +72,7 @@ const NavBar = () => {
         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100"
         aria-controls="navbar-multi-level"
         aria-expanded="false"
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} // Toggle mobile menu
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -101,12 +100,14 @@ const NavBar = () => {
       }`}
     >
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <Link href="/" onClick={() => setSelectedUrl("/")}>
+        <Link href="/" onClick={() => { setSelectedUrl("/"); setIsMobileMenuOpen(false); }}>
           <Image src={Logo.src} alt="TNT Logo" width={170} height={170} />
         </Link>
         {renderToogleBtn()}
         <div
-          className="hidden w-full lg:block lg:w-auto"
+          className={`${
+            isMobileMenuOpen ? "block" : "hidden"
+          } w-full lg:block lg:w-auto`}
           id="navbar-multi-level"
         >
           <ul className="flex flex-col font-medium p-2 md:p-0 border border-gray-100 rounded-lg md:space-x-8 lg:flex-row md:mt-0 md:border-0">
@@ -116,7 +117,10 @@ const NavBar = () => {
                   <>
                     <Link
                       href={item.url}
-                      onClick={() => setSelectedUrl(item.url)}
+                      onClick={() => {
+                        setSelectedUrl(item.url);
+                        setIsMobileMenuOpen(false); // Close menu on link click
+                      }}
                       className={`${desktopLinkClassName} ${
                         selectedUrl === item.url ? "active" : ""
                       } flex items-center text-black`}
@@ -142,7 +146,10 @@ const NavBar = () => {
                         <li key={i}>
                           <Link
                             href={dropdownItem.url}
-                            onClick={() => setSelectedUrl(dropdownItem.url)}
+                            onClick={() => {
+                              setSelectedUrl(dropdownItem.url);
+                              setIsMobileMenuOpen(false); // Close menu on dropdown item click
+                            }}
                             className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                           >
                             {dropdownItem.name}
@@ -154,7 +161,10 @@ const NavBar = () => {
                 ) : (
                   <Link
                     href={item.url}
-                    onClick={() => setSelectedUrl(item.url)}
+                    onClick={() => {
+                      setSelectedUrl(item.url);
+                      setIsMobileMenuOpen(false); // Close menu on link click
+                    }}
                     className={`${desktopLinkClassName} ${
                       selectedUrl === item.url ? "active" : ""
                     }`}
@@ -166,7 +176,14 @@ const NavBar = () => {
             ))}
             <li>
               <Button>
-                <Link href="/enroll-now">Enroll Now</Link>
+                <Link
+                  href="/enroll-now"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false); // Close menu on link click
+                  }}
+                >
+                  Enroll Now
+                </Link>
               </Button>
             </li>
           </ul>

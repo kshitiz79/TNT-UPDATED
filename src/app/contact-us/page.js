@@ -6,6 +6,7 @@ import "react-phone-input-2/lib/style.css";
 import PhoneInput from "react-phone-input-2";
 import HeroBanner from "@/components/herobanner/HeroBanner";
 import Image from "next/image";
+import HeroBannerForm from "@/components/heroBannerForm/HeroBannerForm";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -65,9 +66,9 @@ const ContactPage = () => {
       />
 
       <div className="py-10 mb-6 px-2 ">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 ">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-6 ">
           {/* Contact Information Boxes */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl px-6 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 mx-auto max-w-6xl px-6 mt-6 ">
             {/* Main Office */}
             <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
               <div className="text-blue-600 text-3xl mb-2">📍</div>
@@ -124,8 +125,8 @@ const ContactPage = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-lg shadow-lg lg:ml-6 ">
-            <h2 className="text-3xl font-bold mb-6 text-center  mt-3">Contact Us</h2>
+
+            {/* <h2 className="text-3xl font-bold mb-6 text-center  mt-3">Contact Us</h2>
             <form onSubmit={handleSubmit}>
               <div className="mb-6 px-6 ">
                 <input
@@ -179,8 +180,9 @@ const ContactPage = () => {
                   Submit
                 </button>
               </div>
-            </form>
-          </div>
+            </form> */}
+            <HeroBannerForm/>
+        
         </div>
       </div>
 
