@@ -3,7 +3,7 @@ import './globals.css';
 import '../styles/index.scss';
 import NavBar from '@/components/navbar/NavBar';
 import Footer from '@/components/footer/Footer';
-import WhatsAppButton from '@/components/whatsapp/Whatsapp';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <NavBar />
         {children}
-<WhatsAppButton/>
+
         <Footer />
 
         {/* Elfsight Platform Script */}
