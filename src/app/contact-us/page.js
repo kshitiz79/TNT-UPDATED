@@ -125,8 +125,8 @@ const ContactPage = () => {
 </div>
 
 
-       
-            <HeroBannerForm/>
+       <div className="px-[23px] sm:px-0"><HeroBannerForm/></div>
+            
         
         </div>
       </div>
