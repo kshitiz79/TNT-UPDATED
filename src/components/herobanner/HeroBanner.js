@@ -41,14 +41,14 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
 
                         {isHomePage && (
                             <>
-                                <p className='font-semibold text-black max-w-[90%] md:max-w-[70%] leading-relaxed text-[0.8rem] md:text-[1rem] '>
+                                <p className='font-semibold text-black max-w-[90%] md:max-w-[70%] leading-relaxed text-[0.8rem] md:text-[1rem] '  style={{ marginBottom: '7rem' }}>
                                     Our purpose on this planet is to assist you in extracting maximum value from your career journey. 
                                     We believe that every individual has untapped potential waiting to be unlocked, and we are committed 
                                     to guiding you through every step of this transformative process.
                                 </p>
 
                                 {/* Info Cards */}
-                                <div className='banner-info-card flex flex-col sm:flex-row gap-4 mt-[100px]'>
+                                <div className='banner-info-card flex flex-col sm:flex-row gap-4 '>
                                     <div className='bg-green-400 px-4 py-3 rounded-2xl border-2 bg-primary-color text-white hover:text-green-400 hover:bg-transparent hover:text-primary-color hover:border-primary-color transition-colors'>
                                         For Students
                                     </div>
