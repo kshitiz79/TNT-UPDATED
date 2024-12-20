@@ -96,60 +96,60 @@ const Page = () => {
 
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto max-w-6xl px-6 mb-6">
-            {/* Main Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
-              <div className="text-blue-600 text-3xl mb-2">📍</div>
-              <h3 className="font-bold text-lg mb-2">OUR MAIN OFFICE</h3>
-              <p className="text-gray-600">
-                2971 Deckebach Avenue Apt <br /> 65, 45220 Cincinnati, Ohio
-              </p>
-            </div>
+  {/* Main Office */}
+  <div className="bg-gradient-to-br from-gray-50 to-gray-300 p-6 rounded-lg shadow-lg text-center h-[220px] flex flex-col items-center justify-center transition-transform transform hover:scale-105">
+    <div className="text-blue-600 text-4xl mb-3 animate-bounce">📍</div>
+    <h3 className="font-bold text-xl text-gray-800 mb-2 uppercase">Our Main Office</h3>
+    <p className="text-gray-700 leading-relaxed">
+      2971 Deckebach Avenue Apt <br /> 65, 45220 Cincinnati, Ohio
+    </p>
+  </div>
 
-            {/* Phone Numbers */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
-              <div className="text-blue-600 text-3xl mb-2">📞</div>
-              <h3 className="font-bold text-lg mb-2">PHONE NUMBER</h3>
-              <p className="text-gray-600">
-                <a href="tel:+15132000529" className="hover:underline text-sm">
-                  +(1) 513 2000 529
-                </a>
-                <br />
-                <a href="tel:+918499893456" className="hover:underline text-sm">
-                  +(91) 84998 93456
-                </a>
-              </p>
-            </div>
+  {/* Phone Numbers */}
+  <div className="bg-gradient-to-br from-gray-50 to-gray-300 p-6 rounded-lg shadow-lg text-center h-[220px] flex flex-col items-center justify-center transition-transform transform hover:scale-105">
+    <div className="text-blue-600 text-4xl mb-3 animate-bounce">📞</div>
+    <h3 className="font-bold text-xl text-gray-800 mb-2 uppercase">Phone Numbers</h3>
+    <p className="text-gray-700">
+      <a href="tel:+15132000529" className="hover:text-blue-500 underline text-base font-medium">
+        +(1) 513 2000 529
+      </a>
+      <br />
+      <a href="tel:+918499893456" className="hover:text-blue-500 underline text-base font-medium">
+        +(91) 84998 93456
+      </a>
+    </p>
+  </div>
 
-            {/* Second Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
-              <div className="text-blue-600 text-3xl mb-2">📍</div>
-              <h3 className="font-bold text-lg mb-2">2ND OFFICE</h3>
-              <p className="text-gray-600">
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=Dinesh+Auric+Building,+Bachupally,+500090"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  Unit No: 335, #10-11, Dinesh Auric Building, Bachupally, 500090
-                </a>
-              </p>
-            </div>
+  {/* Second Office */}
+  <div className="bg-gradient-to-br from-gray-50 to-gray-300 p-6 rounded-lg shadow-lg text-center h-[220px] flex flex-col items-center justify-center transition-transform transform hover:scale-105">
+    <div className="text-blue-600 text-4xl mb-3 animate-bounce">📍</div>
+    <h3 className="font-bold text-xl text-gray-800 mb-2 uppercase">Second Office</h3>
+    <p className="text-gray-700">
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Dinesh+Auric+Building,+Bachupally,+500090"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-500 underline text-base font-medium"
+      >
+        Unit No: 335, #10-11, Dinesh Auric Building, Bachupally, 500090
+      </a>
+    </p>
+  </div>
 
-            {/* Email */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
-              <div className="text-blue-600 text-3xl mb-2">✉️</div>
-              <h3 className="font-bold text-lg mb-2">EMAIL</h3>
-              <p className="text-gray-600">
-                <a
-                  href="mailto:info@tnttechiesguide.com"
-                  className="text-blue-500 underline"
-                >
-                  info@tnttechiesguide.com
-                </a>
-              </p>
-            </div>
-          </div>
+  {/* Email */}
+  <div className="bg-gradient-to-br from-gray-50 to-gray-300 p-6 rounded-lg shadow-lg text-center h-[220px] flex flex-col items-center justify-center transition-transform transform hover:scale-105">
+    <div className="text-blue-600 text-4xl mb-3 animate-bounce">✉️</div>
+    <h3 className="font-bold text-xl text-gray-800 mb-2 uppercase">Email</h3>
+    <p className="text-gray-700">
+      <a
+        href="mailto:info@tnttechiesguide.com"
+        className="hover:text-blue-500 underline text-base font-medium"
+      >
+        info@tnttechiesguide.com
+      </a>
+    </p>
+  </div>
+</div>
 
 
 

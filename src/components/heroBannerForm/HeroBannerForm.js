@@ -233,25 +233,7 @@ export default function Page() {
     </p>
   )}
 </div>
-{/* <div className="mb-4">
-      <PhoneInput
-        placeholder="Enter your phone number"
-        value={formData.phone}
-            className="text-sm w-full text-black border bg-green-100 border-green-100 rounded-full focus:outline-none focus:ring-2   px-3  shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
-        onChange={(phone) => setFormData({ ...formData, phone })}
-        inputComponent={(props) => (
-          <input
-       
-            className="text-sm w-full text-black border border-green-100 bg-green-100 rounded-full focus:outline-none focus:ring-2  py-2 px-4 placeholder-green-700"
-          />
-        )}
-      />
-      {errors.phone && (
-        <p className="text-red-500 text-xs mt-1 rounded-full bg-red-100 py-1 px-3">
-          {errors.phone}
-        </p>
-      )}
-    </div> */}
+
 
 
           <div className="mb-4">
