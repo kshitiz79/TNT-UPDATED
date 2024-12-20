@@ -6,11 +6,11 @@
 
     .banner-info-card {
         &__item {
-            background: $primary-color;
+            background: greenyellow;
             color: #fff;
             margin: 0; // Removed large fixed margins for better responsiveness
             border-radius: 20px;
-            border: 2px solid $primary-color;
+            border: greenyellow;
             transition: all 0.3s ease-in-out;
             
             &:hover {

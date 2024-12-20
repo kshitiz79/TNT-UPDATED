@@ -179,29 +179,28 @@ export default function Page() {
     <>
       <div className="flex justify-center items-center  w-full ">
         <form
-          className="p-4 sm:p-6 rounded-lg w-auto border border-black max-w-md mx-auto"
+          className=" rounded-lg w-auto max-w-md mx-auto"
           onSubmit={handleSubmit}
         >
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 uppercase text-center text-black">
-            Connect With Us
-          </h2>
+          
 
           <div className="mb-4 mt-4">
-            <input
-              id="name"
-              name="name"
-              type="text"
-              placeholder="Enter your name"
-              value={formData.name}
-              onChange={handleChange}
-              className={`text-sm w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                errors.name ? "border-red-500" : "border-gray-500"
-              } focus:border-blue-500 outline-none py-2`}
-            />
-            {errors.name && (
-              <p className="text-red-500 text-xs mt-1">{errors.name}</p>
-            )}
-          </div>
+  <input
+    id="name"
+    name="name"
+    type="text"
+    placeholder="Enter your name"
+    value={formData.name}
+    onChange={handleChange}
+    className={`text-sm w-full rounded-full bg-green-100 placeholder-green-700 shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl ${
+      errors.name ? "border-red-500" : "border-green-100"
+    } focus:border-blue-500 outline-none py-2 px-4`}
+  />
+  {errors.name && (
+    <p className="text-red-500 text-xs mt-1">{errors.name}</p>
+  )}
+</div>
+
 
           <div className="mb-4">
             <input
@@ -211,9 +210,9 @@ export default function Page() {
               placeholder="Enter your email"
               value={formData.email}
               onChange={handleChange}
-              className={`text-sm w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                errors.email ? "border-red-500" : "border-gray-500"
-              } focus:border-blue-500 outline-none py-2`}
+              className={`text-sm  w-full rounded-full bg-green-100 placeholder-green-700 shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl ${
+                errors.name ? "border-red-500" : "border-green-100"
+              } focus:border-blue-500 outline-none py-2 px-4`}
             />
             {errors.email && (
               <p className="text-red-500 text-xs mt-1">{errors.email}</p>
@@ -221,16 +220,39 @@ export default function Page() {
           </div>
 
           <div className="mb-4">
-            <PhoneInput
-              placeholder="Enter your phone number"
-              value={formData.phone}
-              onChange={(phone) => setFormData({ ...formData, phone })}
-              className="text-sm w-full border border-gray-500 rounded-md focus:border-blue-500 outline-none py-2 px-3"
-            />
-            {errors.phone && (
-              <p className="text-red-500 text-xs mt-1">{errors.phone}</p>
-            )}
-          </div>
+  <PhoneInput
+    placeholder="Enter your phone number"
+    value={formData.phone}
+    onChange={(phone) => setFormData({ ...formData, phone })}
+    className="text-sm w-full border  bg-green-100 border-green-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 py-2 px-3"
+   
+  />
+  {errors.phone && (
+    <p className="text-red-500 text-xs mt-1 rounded-full bg-red-100 py-1 px-3">
+      {errors.phone}
+    </p>
+  )}
+</div>
+{/* <div className="mb-4">
+      <PhoneInput
+        placeholder="Enter your phone number"
+        value={formData.phone}
+            className="text-sm w-full text-black border bg-green-100 border-green-100 rounded-full focus:outline-none focus:ring-2   px-3  shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+        onChange={(phone) => setFormData({ ...formData, phone })}
+        inputComponent={(props) => (
+          <input
+       
+            className="text-sm w-full text-black border border-green-100 bg-green-100 rounded-full focus:outline-none focus:ring-2  py-2 px-4 placeholder-green-700"
+          />
+        )}
+      />
+      {errors.phone && (
+        <p className="text-red-500 text-xs mt-1 rounded-full bg-red-100 py-1 px-3">
+          {errors.phone}
+        </p>
+      )}
+    </div> */}
+
 
           <div className="mb-4">
             <input
@@ -241,14 +263,15 @@ export default function Page() {
               placeholder="Best Date To Call"
               value={formData.bestDateToCall}
               onChange={handleChange}
-              className={`text-sm w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                errors.bestDateToCall ? "border-red-500" : "border-gray-500"
-              } focus:border-blue-500 outline-none py-2`}
+              className={`text-sm w-full  rounded-full bg-green-100 shadow-lg  transition-transform duration-300  hover:shadow-2xl ${
+                errors.name ? "border-red-500" : "border-green-100"
+              } focus:border-blue-500 outline-none py-2 px-4`}
+            
             />
             <Label
               htmlFor="bestDateToCall"
               value="Best Date to Call"
-              className="text-sm text-black mt-1"
+              className="text-sm text-green-900 mt-1"
             />
             {errors.bestDateToCall && (
               <p className="text-red-500 text-xs mt-1">{errors.bestDateToCall}</p>
@@ -263,14 +286,14 @@ export default function Page() {
               placeholder="Preferred Time"
               value={formData.preferredTime}
               onChange={handleChange}
-              className={`text-sm w-full border-b-2 border-x-0 border-t-0 rounded-md ${
-                errors.preferredTime ? "border-red-500" : "border-gray-500"
+              className={`text-sm w-full bg-green-100  rounded-full shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl ${
+                errors.preferredTime ? "border-red-500" : "border-green-100"
               } focus:border-blue-500 outline-none py-2`}
             />
             <Label
               htmlFor="preferredTime"
               value="Preferred Time"
-              className="text-sm text-black mt-1"
+              className="text-sm text-green-900 mt-5 shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             />
             {errors.preferredTime && (
               <p className="text-red-500 text-xs mt-1">{errors.preferredTime}</p>
@@ -278,44 +301,45 @@ export default function Page() {
           </div>
 
           <div className="mb-4">
-            <Select
-              id="course"
-              name="course"
-              value={formData.course}
-              onChange={handleChange}
-              className={`text-sm w-full border-none rounded-md ${
-                errors.course ? "border-red-500" : "border-gray-500"
-              } focus:border-blue-500 py-2`}
-            >
-              <option value="" disabled className="border-none">
-                Select a course
-              </option>
-              <option value="Comprehensive Advanced SecOps Training">
-                Comprehensive Advanced SecOps Training
-              </option>
-              <option value="Automation Engineer">Automation Engineer</option>
-              <option value="Infra Automation">Infra Automation</option>
-              <option value="Azure Devops Architect">Azure Devops Architect</option>
-              <option value="Spirngboot java with Multi Cloud Devops">
-                Spirngboot java with Multi Cloud Devops
-              </option>
-              <option value="Docker Kubernetes">Docker Kubernetes</option>
-              <option value="Site Reliability Engineering">
-                Site Reliability Engineering
-              </option>
-              <option value="GCP DevSecOps">GCP DevSecOps</option>
-              <option value="azure-data-engineering">Azure Data Engineering</option>
-              <option value="Azure Data Factory">Azure Data Factory</option>
-            </Select>
-            {errors.course && (
-              <p className="text-red-500 text-xs mt-1">{errors.course}</p>
-            )}
-          </div>
+  <select
+    id="course"
+    name="course"
+    value={formData.course}
+    onChange={handleChange}
+    className={`text-sm w-full rounded-full bg-green-100 placeholder-green-700 shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl ${
+      errors.course ? "border-red-500" : "border-green-100"
+    } focus:border-blue-500 focus:ring-2 focus:ring-blue-500 py-2 px-4 outline-none`}
+  >
+    <option value="" disabled className="border-none bg-green-100">
+      Select a course
+    </option>
+    <option value="Comprehensive Advanced SecOps Training">
+      Comprehensive Advanced SecOps Training
+    </option>
+    <option value="Automation Engineer">Automation Engineer</option>
+    <option value="Infra Automation">Infra Automation</option>
+    <option value="Azure Devops Architect">Azure Devops Architect</option>
+    <option value="Spirngboot java with Multi Cloud Devops">
+      Spirngboot java with Multi Cloud Devops
+    </option>
+    <option value="Docker Kubernetes">Docker Kubernetes</option>
+    <option value="Site Reliability Engineering">
+      Site Reliability Engineering
+    </option>
+    <option value="GCP DevSecOps">GCP DevSecOps</option>
+    <option value="azure-data-engineering">Azure Data Engineering</option>
+    <option value="Azure Data Factory">Azure Data Factory</option>
+  </select>
+  {errors.course && (
+    <p className="text-red-500 text-xs mt-1">{errors.course}</p>
+  )}
+</div>
+
 
           <div className="mt-4 flex justify-center">
             <button
               type="submit"
-              className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors w-full text-sm"
+              className="bg-blue-100 text-blue-900 py-2 px-4  rounded-full hover:bg-blue-200 transition-colors w-full text-sm shadow-lg  transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             >
               Submit
             </button>

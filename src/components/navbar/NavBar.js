@@ -175,16 +175,21 @@ const NavBar = () => {
               </li>
             ))}
             <li>
-              <Button>
-                <Link
-                  href="/enroll-now"
-                  onClick={() => {
-                    setIsMobileMenuOpen(false); // Close menu on link click
-                  }}
-                >
-                  Enroll Now
-                </Link>
-              </Button>
+
+
+<Button
+
+  className=" !text-white "
+>
+  <Link
+    href="/enroll-now"
+    onClick={() => setIsMobileMenuOpen(false)} // Close mobile menu
+    className="!text-white no-underline"
+  >
+    Enroll Now
+  </Link>
+</Button>
+
             </li>
           </ul>
         </div>

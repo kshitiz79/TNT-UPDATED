@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import "./HeroBanner.scss";
-import HeroBannerForm from '../heroBannerForm/HeroBannerForm';
+
 import { usePathname } from 'next/navigation';
-import CourcesForm from '../courses/CourcesForm';
+
 import CoursesForm from '../courses/CourcesForm';
 const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
     const [isHomePage, setIsHomePage] = useState(false);
@@ -18,7 +18,7 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
     const marginTopClass = `mt-${mt}`;
 
     return (
-        <div>
+        <div className=" flex flex-col justify-center ">
         <div className={`hero-bg-image ${customClass} ${marginTopClass} p-4 sm:p-6 md:p-8  `}>
             <div className="container mx-auto">
                 <div className='flex flex-col md:flex-row justify-between items-start gap-8'>
@@ -41,18 +41,18 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
 
                         {isHomePage && (
                             <>
-                                <p className='font-semibold text-black max-w-[90%] md:max-w-[70%] leading-relaxed text-[0.8rem] md:text-[1rem]'>
+                                <p className='font-semibold text-black max-w-[90%] md:max-w-[70%] leading-relaxed text-[0.8rem] md:text-[1rem] '>
                                     Our purpose on this planet is to assist you in extracting maximum value from your career journey. 
                                     We believe that every individual has untapped potential waiting to be unlocked, and we are committed 
                                     to guiding you through every step of this transformative process.
                                 </p>
 
                                 {/* Info Cards */}
-                                <div className='banner-info-card flex flex-col sm:flex-row gap-4'>
-                                    <div className='banner-info-card__item px-4 py-3 rounded-2xl border-2 bg-primary-color text-white hover:bg-transparent hover:text-primary-color hover:border-primary-color transition-colors'>
+                                <div className='banner-info-card flex flex-col sm:flex-row gap-4 mt-[100px]'>
+                                    <div className='bg-green-400 px-4 py-3 rounded-2xl border-2 bg-primary-color text-white hover:text-green-400 hover:bg-transparent hover:text-primary-color hover:border-primary-color transition-colors'>
                                         For Students
                                     </div>
-                                    <div className='banner-info-card__item px-4 py-3 rounded-2xl border-2 bg-primary-color text-white hover:bg-transparent hover:text-primary-color hover:border-primary-color transition-colors'>
+                                    <div className='bg-blue-500 px-4 py-3 rounded-2xl border-2 bg-primary-color text-white hover:text-blue-400 hover:bg-white  hover:text-primary-color hover:border-primary-color transition-colors'>
                                         For IT & non-IT Employees
                                     </div>
                                 </div>

@@ -65,64 +65,65 @@ const ContactPage = () => {
         title="Contact Us"
       />
 
-      <div className="py-10 mb-6 px-2 ">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-6 ">
+      <div className="  px-[100px] py-[50px] mb-6  ">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2   ">
           {/* Contact Information Boxes */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 mx-auto max-w-6xl px-6 mt-6 ">
-            {/* Main Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
-              <div className="text-blue-600 text-3xl mb-2">📍</div>
-              <h3 className="font-bold text-lg mb-2">OUR MAIN OFFICE</h3>
-              <p className="text-gray-600">
-                2971 Deckebach Avenue Apt <br /> 65, 45220 Cincinnati, Ohio
-              </p>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mx-auto gap-6 max-w-6xl px-6 mt-8">
+  {/* Main Office */}
+  <div className="group relative bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+    <div className="text-blue-600 text-4xl mb-4 group-hover:animate-bounce">📍</div>
+    <h3 className="font-extrabold text-xl text-gray-800 mb-2">OUR MAIN OFFICE</h3>
+    <p className="text-gray-600 leading-relaxed">
+      2971 Deckebach Avenue Apt <br /> 65, 45220 Cincinnati, Ohio
+    </p>
+  </div>
 
-            {/* Phone Numbers */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
-              <div className="text-blue-600 text-3xl mb-2">📞</div>
-              <h3 className="font-bold text-lg mb-2">PHONE NUMBER</h3>
-              <p className="text-gray-600">
-                <a href="tel:+15132000529" className="hover:underline text-sm">
-                  +(1) 513 2000 529
-                </a>
-                <br />
-                <a href="tel:+918499893456" className="hover:underline text-sm">
-                  +(91) 84998 93456
-                </a>
-              </p>
-            </div>
+  {/* Phone Numbers */}
+  <div className="group relative bg-gradient-to-br from-green-50 to-green-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+    <div className="text-yellow-600 text-4xl mb-4 group-hover:animate-bounce">📞</div>
+    <h3 className="font-extrabold text-xl text-gray-800 mb-2">PHONE NUMBER</h3>
+    <p className="text-gray-600 leading-relaxed">
+      <a href="tel:+15132000529" className="hover:text-blue-600 font-medium">
+        +(1) 513 2000 529
+      </a>
+      <br />
+      <a href="tel:+918499893456" className="hover:text-blue-600 font-medium">
+        +(91) 84998 93456
+      </a>
+    </p>
+  </div>
 
-            {/* Second Office */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center text-sm">
-              <div className="text-blue-600 text-3xl mb-2">📍</div>
-              <h3 className="font-bold text-lg mb-2">2ND OFFICE</h3>
-              <p className="text-gray-600">
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=Dinesh+Auric+Building,+Bachupally,+500090"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  Unit No: 335, #10-11, Dinesh Auric Building, Bachupally, 500090
-                </a>
-              </p>
-            </div>
+  {/* Second Office */}
+  <div className="group relative bg-gradient-to-br from-green-50 to-green-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+    <div className="text-green-600 text-4xl mb-4 group-hover:animate-bounce">📍</div>
+    <h3 className="font-extrabold text-xl text-gray-800 mb-2">2ND OFFICE</h3>
+    <p className="text-gray-600 leading-relaxed">
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Dinesh+Auric+Building,+Bachupally,+500090"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-600 font-medium underline"
+      >
+        Unit No: 335, #10-11, Dinesh Auric Building, Bachupally, 500090
+      </a>
+    </p>
+  </div>
 
-            {/* Email */}
-            <div className="bg-gray-200 p-6 rounded-lg text-center h-[200px] flex flex-col items-center justify-center">
-              <div className="text-blue-600 text-3xl mb-2">✉️</div>
-              <h3 className="font-bold text-lg mb-2">EMAIL</h3>
-              <p className="text-gray-600">
-                <a
-                  href="mailto:info@tnttechiesguide.com"
-                  className="text-blue-500 underline"
-                >
-                  info@tnttechiesguide.com
-                </a>
-              </p>
-            </div>
-          </div>
+  {/* Email */}
+  <div className="group relative bg-gradient-to-br  from-blue-50 to-blue-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+    <div className="text-pink-600 text-4xl mb-4 group-hover:animate-bounce">✉️</div>
+    <h3 className="font-extrabold text-xl text-gray-800 mb-2">EMAIL</h3>
+    <p className="text-gray-600 leading-relaxed">
+      <a
+        href="mailto:info@tnttechiesguide.com"
+        className="hover:text-blue-600 font-medium underline"
+      >
+        info@tnttechiesguide.com
+      </a>
+    </p>
+  </div>
+</div>
+
 
           {/* Contact Form */}
 
