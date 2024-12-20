@@ -177,7 +177,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="flex justify-center items-center  w-full ">
+      <div className="flex justify-center items-center  w-full  mt-[60px] sm:mt-[40px]">
         <form
           className=" rounded-lg w-auto max-w-md mx-auto"
           onSubmit={handleSubmit}

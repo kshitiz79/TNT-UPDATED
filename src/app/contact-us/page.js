@@ -65,12 +65,12 @@ const ContactPage = () => {
         title="Contact Us"
       />
 
-      <div className="  px-[100px] py-[50px] mb-6  ">
+      <div className="   mb-6  ">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2   ">
           {/* Contact Information Boxes */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mx-auto gap-6 max-w-6xl px-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mx-auto gap-6 max-w-6xl px-6  mt-[70px]">
   {/* Main Office */}
-  <div className="group relative bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+  <div className="group relative bg-gradient-to-br from-blue-50  to-blue-100 shadow-lg p-1 py-4 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl  ">
     <div className="text-blue-600 text-4xl mb-4 group-hover:animate-bounce">📍</div>
     <h3 className="font-extrabold text-xl text-gray-800 mb-2">OUR MAIN OFFICE</h3>
     <p className="text-gray-600 leading-relaxed">
@@ -79,7 +79,7 @@ const ContactPage = () => {
   </div>
 
   {/* Phone Numbers */}
-  <div className="group relative bg-gradient-to-br from-green-50 to-green-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+  <div className="group relative bg-gradient-to-br from-green-50 to-green-100 shadow-lg p-1 py-4 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
     <div className="text-yellow-600 text-4xl mb-4 group-hover:animate-bounce">📞</div>
     <h3 className="font-extrabold text-xl text-gray-800 mb-2">PHONE NUMBER</h3>
     <p className="text-gray-600 leading-relaxed">
@@ -94,7 +94,7 @@ const ContactPage = () => {
   </div>
 
   {/* Second Office */}
-  <div className="group relative bg-gradient-to-br from-green-50 to-green-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+  <div className="group relative bg-gradient-to-br from-green-50 py-4 to-green-100 shadow-lg p-1 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
     <div className="text-green-600 text-4xl mb-4 group-hover:animate-bounce">📍</div>
     <h3 className="font-extrabold text-xl text-gray-800 mb-2">2ND OFFICE</h3>
     <p className="text-gray-600 leading-relaxed">
@@ -110,7 +110,7 @@ const ContactPage = () => {
   </div>
 
   {/* Email */}
-  <div className="group relative bg-gradient-to-br  from-blue-50 to-blue-100 shadow-lg p-8 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+  <div className="group relative bg-gradient-to-br  from-blue-50  to-blue-100 shadow-lg p-1 py-4 rounded-3xl text-center flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
     <div className="text-pink-600 text-4xl mb-4 group-hover:animate-bounce">✉️</div>
     <h3 className="font-extrabold text-xl text-gray-800 mb-2">EMAIL</h3>
     <p className="text-gray-600 leading-relaxed">
@@ -125,70 +125,14 @@ const ContactPage = () => {
 </div>
 
 
-          {/* Contact Form */}
-
-            {/* <h2 className="text-3xl font-bold mb-6 text-center  mt-3">Contact Us</h2>
-            <form onSubmit={handleSubmit}>
-              <div className="mb-6 px-6 ">
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="Enter your name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className={`w-full border-b-2 border-black focus:border-blue-500 outline-none py-2`}
-                />
-                {errors.name && (
-                  <p className="text-red-500 text-sm mt-1">{errors.name}</p>
-                )}
-              </div>
-
-              <div className="mb-6">
-  <PhoneInput
-    country={"us"}
-    placeholder="Enter your phone number"
-    value={formData.phone}
-    onChange={(phone) => setFormData({ ...formData, phone })}
-    className="w-full px-6"
-  />
-  {errors.phone && (
-    <p className="text-red-500 text-sm mt-1 mr-6 ">{errors.phone}</p>
-  )}
-</div>
-
-              <div className="px-6">
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="Enter your email"
-            value={formData.email}
-            onChange={handleChange}
-            className={`w-full border-b-2  border-gray-300  rounded-md  ${
-              errors.email ? "border-red-500 " : "border-gray-500 mr-5 "
-            } focus:border-blue-500 outline-none py-2`}
-          />
-          {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-        </div>
-
-
-              <div className="text-center">
-                <button
-                  type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 mt-6 mb-6 rounded-lg shadow-lg"
-                >
-                  Submit
-                </button>
-              </div>
-            </form> */}
+       
             <HeroBannerForm/>
         
         </div>
       </div>
 
       {/* Google Map */}
-      <div className="bg-gray-50 py-6">
+      <div className="bg-gray-50 py-6 mt-5">
         <div className="container mx-auto">
           <div
             className="relative w-full rounded-lg overflow-hidden shadow-lg"
