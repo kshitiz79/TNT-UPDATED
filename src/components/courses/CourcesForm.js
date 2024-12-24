@@ -178,9 +178,9 @@ export default function Page() {
   return (
     <div className="p-4 w-full container flex justify-center items-center">
       <form
-        className="p-4 lg:p-6 rounded-lg w-full sm:w-3/4 md:w-full lg:w-[100%] bg-white lg:h-auto border border-black mt-10 md:mt-20"
-        onSubmit={handleSubmit}
-      >
+  className="p-6 lg:p-8 rounded-lg w-full sm:w-3/4 md:w-full lg:w-[100%] bg-blue-50/60 lg:h-auto lg:border lg:border-blue-50  backdrop-blur-lg mt-10 md:mt-20"
+  onSubmit={handleSubmit}
+>
         <h2 className="text-2xl font-bold mb-5 uppercase text-center text-black">
           Contact US
         </h2>
@@ -292,10 +292,10 @@ export default function Page() {
                   Spirngboot java with Multi Cloud Devops
                 </option>
                 <option value="Docker Kubernetes">Docker Kubernetes</option>
-                <option value="Docker Kubernetes">GCP DevOps & Cloud Computing</option>
-                <option value="Docker Kubernetes">Azure Data Factory
+                <option value="GCP DevOps & Cloud Computing">GCP DevOps & Cloud Computing</option>
+                <option value="Azure Data Factory">Azure Data Factory
                 </option>
-                <option value="Site Reliability Engineering">
+                <option value="iOS Training">
                 iOS Training
                 </option>
                 <option value="Site Reliability Engineering">
@@ -314,7 +314,7 @@ export default function Page() {
         <div className="lg:mt-6 mt-4 flex justify-center">
           <button
             type="submit"
-            className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+            className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-green-400 transition-colors"
           >
             Submit
           </button>

@@ -69,7 +69,7 @@ const HeroBanner = ({ customClass, title, buttonText, buttonLink, mt='0' }) => {
         
         </div>
         {isHomePage && (
-                        <div className=' flex justify-center items-center '>
+                        <div className=' flex justify-center items-center lg:bg-blue-50 bg-white'>
                             <CoursesForm />
                         </div>
                     )}
