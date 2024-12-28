@@ -84,7 +84,7 @@ export default function Page() {
   // 2. Sends an email
   const sendEmail = async (payload) => {
     const url = "https://talentlink-emailservice-production.up.railway.app/api/sendEmail";
-    console.log("Email payload:", payload); 
+    
     try {
       const emailResponse = await axios.post(url, payload);
       console.log("Email sent successfully:", emailResponse.data);
