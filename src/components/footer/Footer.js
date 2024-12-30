@@ -3,11 +3,13 @@ import React, { useState, useEffect } from 'react';
 import { getMediumData, getTrendingCourses } from '@/data/api/Api';
 import Link from 'next/link';
 
-import { facebook, youtube, linkedIn, threads, instagram, } from '../common/Icons';
+import { facebook, youtube, linkedIn } from '../common/Icons';
 
 import Instagram from '/public/assets/ucon5.svg';
 
 import tiktok from '/public/assets/ucon6.svg';
+
+import thread from '/public/assets/threads-white-icon.webp';
 
 const Footer = () => {
   const [trendingCourses, setTrendingCourses] = useState([])
@@ -94,7 +96,7 @@ const Footer = () => {
       className="me-5 mt-3 flex items-center text-white"
     >
       <span className="mr-2">{facebook}</span>
-      <span >Facebook page</span>
+      <span >Facebook </span>
     </a>
   </div>
 
@@ -116,7 +118,7 @@ const Footer = () => {
       className="me-5 mt-3 flex items-center text-white"
     >
       <span className="mr-2">{linkedIn}</span>
-      <span>LinkedIn page</span>
+      <span>LinkedIn </span>
     </a>
   </div>
 
@@ -131,7 +133,7 @@ const Footer = () => {
       src={tiktok.src}
       alt="tiktok-icon"
     />
-    <span>TikTok page</span>
+    <span>TikTok </span>
   </a>
 </div>
 
@@ -143,8 +145,12 @@ const Footer = () => {
     href="https://www.threads.net/@tttechiesguide"
     className="me-5 mt-3  flex items-center text-white"
   >
-    <span className="mr-2">{threads}</span>
-    <span>Threads page</span>
+     <img
+      className="w-4 h-5  mr-2"
+      src={thread.src}
+      alt="thread-icon"
+    />
+    <span>Threads </span>
   </a>
 </div>
 
@@ -161,7 +167,7 @@ const Footer = () => {
       src={Instagram.src}
       alt="instagram-icon"
     />
-    <span className="text-white">Instagram page</span>
+    <span className="text-white">Instagram </span>
   </a>
 </div>
 
