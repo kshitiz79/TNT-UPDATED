@@ -3,7 +3,15 @@ import Image from 'next/image';
 import "./ImageDescriptionBlock.scss";
 import HTMLReactParser from 'html-react-parser';
 
-const ImageDescriptionBlock = ({ imgUrl, title, description, cssClass, isCourse }) => {
+const ImageDescriptionBlock = ({ 
+  imgUrl, 
+  title, 
+  description, 
+  descriptionOne, 
+  descriptionTwo, 
+  cssClass, 
+  isCourse , subTitle
+}) => {
   return (
     <div className={`description-image-section pb-3 ${cssClass || ""}`}>
       <div className="container mx-auto pt-5">
@@ -23,10 +31,33 @@ const ImageDescriptionBlock = ({ imgUrl, title, description, cssClass, isCourse 
           <div className="text-wrapper flex flex-col justify-center p-3">
             {console.log("Title:", title)}
             {title && <h2 className="text-black">{title}</h2>}
+
+            {/* Main Description */}
             {console.log("Description:", description)}
             {description && (
-              <div className="description">
+              <div className="description mb-4">
                 {HTMLReactParser(description)}
+              </div>
+            )}
+
+{/* { subTitle && (
+              <div className="description-one mb-4">
+                <h3 className="text-lg font-bold mb-2">More Information:</h3>
+                {HTMLReactParser( subTitle)}
+              </div>
+            )} */}
+            {/* Additional Descriptions */}
+            {descriptionOne && (
+              <div className="description-one mb-4">
+                <h3 className="text-lg font-bold mb-2">More Information:</h3>
+                {HTMLReactParser(descriptionOne)}
+              </div>
+            )}
+
+            {descriptionTwo && (
+              <div className="description-two">
+                <h3 className="text-lg font-bold mb-2">Additional Details:</h3>
+                {HTMLReactParser(descriptionTwo)}
               </div>
             )}
           </div>

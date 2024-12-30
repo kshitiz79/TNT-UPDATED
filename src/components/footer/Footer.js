@@ -2,13 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import { getMediumData, getTrendingCourses } from '@/data/api/Api';
 import Link from 'next/link';
-import Logo from '/public/assets/tntlogo.svg'
-import { facebook, youtube, linkedIn } from '../common/Icons';
-import TikTok from '/public/assets/tik-tok.png'
-import Instagram from '/public/assets/instagram.png'
-import Threads from '/public/assets/threads.png'
-import { email, phone } from '../common/Icons';
 
+import { facebook, youtube, linkedIn, threads, instagram, } from '../common/Icons';
+
+import Instagram from '/public/assets/ucon5.svg';
+
+import tiktok from '/public/assets/ucon6.svg';
 
 const Footer = () => {
   const [trendingCourses, setTrendingCourses] = useState([])
@@ -88,54 +87,85 @@ const Footer = () => {
                   </a>
                 </div>
 
-                <div className="flex items-center">
-                  <a target="_blank" href="https://www.facebook.com/tttechiesguide/" className="me-5 mt-3 lg:ml-6 text-white">
-                    {facebook}
-                    <span className="sr-only">Facebook page</span>
-                  </a>
-                </div>
+                <div className="flex items-center flex-row">
+    <a
+      target="_blank"
+      href="https://www.facebook.com/tttechiesguide/"
+      className="me-5 mt-3 flex items-center text-white"
+    >
+      <span className="mr-2">{facebook}</span>
+      <span >Facebook page</span>
+    </a>
+  </div>
 
+  <div className="flex items-center">
+    <a
+      target="_blank"
+      href="https://www.youtube.com/@ttcloudtechies3267"
+      className="me-5 mt-3 flex items-center text-white"
+    >
+      <span className="mr-2">{youtube}</span>
+      <span >YouTube</span>
+    </a>
+  </div>
 
-
-                <div className="flex items-center">
-                  <a target="_blank" href="https://www.youtube.com/@ttcloudtechies3267" className="me-5 mt-3 lg:ml-6 text-white">
-                    {youtube}
-                    <span className="sr-only">Youtube</span>
-                  </a>
-                </div>
-
-                <div className="flex items-center">
-                  <a target="_blank" href="https://www.linkedin.com/in/tnt-techies-guide-74a07229b" className=" me-5 mt-3 lg:ml-6 text-white">
-                    {linkedIn}
-                    <span className="sr-only">linkedIn page</span>
-                  </a>
-                </div>
-
-
-                <div className="flex items-center">
-
-                  <a target="_blank" href="https://www.tiktok.com/@tttechiesguide" className=" me-5 mt-3 lg:ml-6 text-white">
-                    <img className="w-4 h-4" src={TikTok.src} alt="tiktok-icon" />
-                    <span className="sr-only">TikTok page</span>
-                  </a>
-                </div>
-
-
-                <div className="flex items-center">
-                  <a target="_blank" href="https://www.threads.net/@tttechiesguide" className=" me-5 mt-3 lg:ml-6 text-white">
-                    <img className="w-4 h-4" src={Threads.src} alt="threads-icon" />
-                    <span className="sr-only">Threads page</span>
-                  </a>
-                </div>
-
+  <div className="flex items-center">
+    <a
+      target="_blank"
+      href="https://www.linkedin.com/in/tnt-techies-guide-74a07229b"
+      className="me-5 mt-3 flex items-center text-white"
+    >
+      <span className="mr-2">{linkedIn}</span>
+      <span>LinkedIn page</span>
+    </a>
+  </div>
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.instagram.com/tttechiesguide/" className=" me-5 mt-3 lg:ml-6 text-yellow-400">
-                    <img className="w-4 h-4" src={Instagram.src} alt="instagram-icon" />
-                    <span className="sr-only">Instagram page</span>
-                  </a>
+  <a
+    target="_blank"
+    href="https://www.tiktok.com/@tttechiesguide"
+    className="me-5 mt-3  flex items-center text-white"
+  >
+    <img
+      className="w-4 h-5 filter invert mr-2"
+      src={tiktok.src}
+      alt="tiktok-icon"
+    />
+    <span>TikTok page</span>
+  </a>
+</div>
 
-                </div>
+
+
+                <div className="flex flex-row items-center">
+  <a
+    target="_blank"
+    href="https://www.threads.net/@tttechiesguide"
+    className="me-5 mt-3  flex items-center text-white"
+  >
+    <span className="mr-2">{threads}</span>
+    <span>Threads page</span>
+  </a>
+</div>
+
+
+
+<div className="flex items-center">
+  <a
+    target="_blank"
+    href="https://www.instagram.com/tttechiesguide/"
+    className="me-5 mt-3 flex items-center"
+  >
+    <img
+      className="w-4 h-5 filter invert mr-2"
+      src={Instagram.src}
+      alt="instagram-icon"
+    />
+    <span className="text-white">Instagram page</span>
+  </a>
+</div>
+
+
 
 
 

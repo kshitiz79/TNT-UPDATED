@@ -61,7 +61,7 @@ const NavBar = () => {
   ];
 
   const desktopLinkClassName =
-    "block py-2 px-3 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
+    "block py-2 px-3 text-gray-100 rounded hover:bg-gray-100  md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white ";
 
   const renderToogleBtn = () => {
     return (
@@ -96,7 +96,7 @@ const NavBar = () => {
   return (
     <nav
       className={`page-navigation text-black border-gray-200 sticky w-full top-0 z-50 transition-all duration-300  ${
-        isScrolled ? "bg-gray-100 shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-gray-100 shadow-lg" : "bg-grey-100"
       }`}
     >
       <div className="container mx-auto flex flex-wrap items-center justify-between">
