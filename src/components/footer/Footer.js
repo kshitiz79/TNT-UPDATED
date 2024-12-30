@@ -89,7 +89,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.facebook.com/tttechiesguide/" className="me-5 mt-3 ml-6 text-white">
+                  <a target="_blank" href="https://www.facebook.com/tttechiesguide/" className="me-5 mt-3 lg:ml-6 text-white">
                     {facebook}
                     <span className="sr-only">Facebook page</span>
                   </a>
@@ -98,14 +98,14 @@ const Footer = () => {
 
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.youtube.com/@ttcloudtechies3267" className="me-5 mt-3 ml-6 text-white">
+                  <a target="_blank" href="https://www.youtube.com/@ttcloudtechies3267" className="me-5 mt-3 lg:ml-6 text-white">
                     {youtube}
                     <span className="sr-only">Youtube</span>
                   </a>
                 </div>
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.linkedin.com/in/tnt-techies-guide-74a07229b" className=" me-5 mt-3 ml-6 text-white">
+                  <a target="_blank" href="https://www.linkedin.com/in/tnt-techies-guide-74a07229b" className=" me-5 mt-3 lg:ml-6 text-white">
                     {linkedIn}
                     <span className="sr-only">linkedIn page</span>
                   </a>
@@ -114,7 +114,7 @@ const Footer = () => {
 
                 <div className="flex items-center">
 
-                  <a target="_blank" href="https://www.tiktok.com/@tttechiesguide" className=" me-5 mt-3 ml-6 text-white">
+                  <a target="_blank" href="https://www.tiktok.com/@tttechiesguide" className=" me-5 mt-3 lg:ml-6 text-white">
                     <img className="w-4 h-4" src={TikTok.src} alt="tiktok-icon" />
                     <span className="sr-only">TikTok page</span>
                   </a>
@@ -122,7 +122,7 @@ const Footer = () => {
 
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.threads.net/@tttechiesguide" className=" me-5 mt-3 ml-6 text-white">
+                  <a target="_blank" href="https://www.threads.net/@tttechiesguide" className=" me-5 mt-3 lg:ml-6 text-white">
                     <img className="w-4 h-4" src={Threads.src} alt="threads-icon" />
                     <span className="sr-only">Threads page</span>
                   </a>
@@ -130,7 +130,7 @@ const Footer = () => {
 
 
                 <div className="flex items-center">
-                  <a target="_blank" href="https://www.instagram.com/tttechiesguide/" className=" me-5 mt-3 ml-6 text-yellow-400">
+                  <a target="_blank" href="https://www.instagram.com/tttechiesguide/" className=" me-5 mt-3 lg:ml-6 text-yellow-400">
                     <img className="w-4 h-4" src={Instagram.src} alt="instagram-icon" />
                     <span className="sr-only">Instagram page</span>
                   </a>
