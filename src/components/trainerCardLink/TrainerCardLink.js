@@ -1,34 +1,57 @@
-import "./trainercardlink.scss"
 import React from 'react';
 import HTMLReactParser from "html-react-parser";
+import "./trainercardlink.scss";
 
-const TrainerCardLink = ({trainerInfo}) => {
-    if(!trainerInfo) return <></>
-    return (
-        <div className='container mx-auto mb-5 flex items-center flex-col lg:flex-row trainer-card'>
-            <div className='w-full lg:w-1/2'>
-                {/* <iframe width="100%" height="400" src="https://www.youtube.com/embed/r4YIdn2eTm4?si=whPqxJ8-Jzqo0Mqw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-                <iframe src={`https://www.youtube.com/embed/${trainerInfo.youtubeVideoId}`}
-                    // frameBorder='0'
-                    allow='autoplay; encrypted-media'
-                    allowFullScreen
-                    title='video'
-                    width="100%"
-                    height="400"
-                />
-            </div>
-            <div className='w-full lg:w-1/2 p-4'>
-                <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <div className="flex flex-col items-center p-4">
-                        <img className="mb-3 rounded-full shadow-lg trainer-card__img" src={trainerInfo.imgUrl} alt={trainerInfo.name} />
-                        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{trainerInfo.name}</h5>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">{trainerInfo.designation}</span>
-                        <p className='text-center mt-3'>{HTMLReactParser(trainerInfo.description)}</p>
-                    </div>
-                </div>
-            </div>
+const TrainerCardLink = ({ trainerInfo }) => {
+  // Ensure trainerInfo is valid before rendering
+  if (!trainerInfo) return null;
+
+  return (
+    <div className="container mx-auto mb-5 flex items-center flex-col lg:flex-row trainer-card">
+      {/* Video Section */}
+      <div className="w-full lg:w-1/2">
+        <iframe
+          src={`https://www.youtube.com/embed/${trainerInfo.youtubeVideoId || ""}`}
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title={trainerInfo.youtubeVideoId ? "Trainer Video" : "No Video Available"}
+          width="100%"
+          height="400"
+        />
+      </div>
+
+      {/* Trainer Info Section */}
+      <div className="w-full lg:w-1/2 p-4">
+        <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex flex-col items-center p-4">
+            {/* Trainer Image */}
+            <img
+              className="mb-3 rounded-full shadow-lg trainer-card__img"
+              src={trainerInfo.imgUrl || "/assets/default-avatar.png"}
+              alt={trainerInfo.name || "Trainer Image"}
+            />
+
+            {/* Trainer Name */}
+            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+              {trainerInfo.name || "Trainer Name Not Available"}
+            </h5>
+
+            {/* Trainer Designation */}
+            <span className="text-sm text-gray-500 dark:text-gray-400">
+              {trainerInfo.designation || "No Designation Provided"}
+            </span>
+
+            {/* Trainer Description */}
+            <p className="text-center mt-3">
+              {trainerInfo.description
+                ? HTMLReactParser(trainerInfo.description)
+                : "No description available."}
+            </p>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default TrainerCardLink;

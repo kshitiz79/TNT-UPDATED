@@ -70,7 +70,7 @@ const Page = () => {
         {/* Right Content: Image */}
         <div className="w-full md:w-[45%] -mt-6 md:mt-0">
           <Image
-            src={aboutUsImageUrl}
+            src={missionImageUrl}
             alt="Educational Graphics"
             width={500}
             height={500}
